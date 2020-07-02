@@ -16,5 +16,26 @@ download_filename='gdc_download.tar.gz'
 api_data='https://api.gdc.cancer.gov/data/'
 curl --output "${folder_working}${download_filename}" --request POST --header 'Content-Type: application/json' --data @"${folder_working}download_payload_bulk.json" "${api_data}"
 
+folder_data='03clinicalData/'
+download_filename='gdc_download.tar.gz'
+tar --extract --file="${folder_working}${download_filename}" --directory="${folder_data}"
+
+```
+
+## Get CDE Dictionary
+
+```bash
+folder_data='03clinicalData/'
+folder_processed='05datalist/'
+
+ls ${folder_data}*/*.xml |
+  python3 "${folder_processed}/script_extract_table.py" > "${folder_processed}list_extract.tsv"
+
+cat "${folder_processed}list_extract.tsv" | 
+  sed '1d' |
+  awk 'BEGIN{FS=OFS="\t"} {second=sub(/.*:/,"",$2);print $1,$2,$3}' |
+  sort --ignore-leading-blanks --ignore-nonprinting --field-separator=$'\t' --key=3,3 --key=1,2 | 
+  uniq > "${folder_processed}list_cde_id.tsv"
+
 ```
 
