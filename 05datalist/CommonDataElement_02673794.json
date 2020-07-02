@@ -1,0 +1,779 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 2673794,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Patient Identifier java.lang.String",
+      "shortName": "2012398v3.0:2178533v1.0",
+      "preferredQuestionText": null,
+      "definition": "Identifier to uniquely specify a patient on a protocol/clinical trial._Generic value domain for a java datatype that is a class that represents character strings.",
+      "valueDomain": "java.lang.String",
+      "dataElementConcept": "Patient Identifier",
+      "context": "NCIP",
+      "workflowStatus": "RETIRED ARCHIVED",
+      "origin": null,
+      "registrationStatus": "Superceded",
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "38222D17-D6DA-32BE-E044-0003BA3F9857"
+    },
+    "questionTextReferenceDocuments": [],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [],
+      "alternateNames": [
+        {
+          "name": "Bcr Patient Barcode",
+          "type": "TCGA_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "bcr_patient_barcode",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "org.tgen.BCR.Patient.id",
+          "type": "UML Qualified Attr",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": [
+            "BiospecimenCoreResource/org.tgen.BCR"
+          ]
+        },
+        {
+          "name": "Patient:id",
+          "type": "UML Class:UML Attr",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": [
+            "BiospecimenCoreResource/org.tgen.BCR"
+          ]
+        }
+      ],
+      "alternateDefinitions": [
+        {
+          "name": "The unique identifier for an individual patient",
+          "type": "UML Class:UML Attr",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": [
+            "BiospecimenCoreResource/org.tgen.BCR"
+          ]
+        }
+      ]
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 2673794,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Patient Identifier java.lang.String",
+      "shortName": "2012398v3.0:2178533v1.0",
+      "preferredQuestionText": null,
+      "definition": "Identifier to uniquely specify a patient on a protocol/clinical trial._Generic value domain for a java datatype that is a class that represents character strings.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 2012398,
+      "version": 3.0,
+      "formattedVersion": "3.0",
+      "longName": "Patient Identifier",
+      "shortName": "PT_ID",
+      "definition": "Identifier to uniquely specify a patient on a protocol/clinical trial.",
+      "context": "CCR",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008532,
+      "conceptualDomainShortName": "INDS",
+      "conceptualDomainLongName": "Individuals",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 2177068,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Patient",
+      "shortName": "Patient",
+      "context": "CTEP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Patient",
+        "conceptCode": "C16960",
+        "publicId": "2202778",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2222848,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Identifier",
+      "shortName": "C25364",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Identifier",
+        "conceptCode": "C25364",
+        "publicId": "2202473",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [
+      {
+        "name": "caBIG",
+        "type": "USED_BY",
+        "context": "NCIP",
+        "language": "ENGLISH",
+        "csCsi": null
+      },
+      {
+        "name": "CIP",
+        "type": "USED_BY",
+        "context": "CIP",
+        "language": null,
+        "csCsi": null
+      },
+      {
+        "name": "Patient:id",
+        "type": "UML Class:UML Attr",
+        "context": "CIP",
+        "language": "ENGLISH",
+        "csCsi": [
+          "AIM/edu.northwestern.radiology.AIM",
+          "BiospecimenCoreResource/org.tgen.BCR",
+          "NCIA (National Cancer Imaging Archive)2.0/gov.nih.nci.ncia.domain",
+          "NCIA_Model/gov.nih.nci.ncia.domain",
+          "TCGAPortal/gov.nih.nci.ncicb.tcga.dcc.grid"
+        ]
+      },
+      {
+        "name": "Patient:patientId",
+        "type": "UML Class:UML Attr",
+        "context": "CIP",
+        "language": null,
+        "csCsi": [
+          "NCIA (National Cancer Imaging Archive)2.0/gov.nih.nci.ncia.domain"
+        ]
+      }
+    ],
+    "alternateDefinitions": [
+      {
+        "name": "Internal identifier for the patient",
+        "type": "UML Class:UML Attr",
+        "context": "NCIP",
+        "language": "ENGLISH",
+        "csCsi": [
+          "TCGAPortal/gov.nih.nci.ncicb.tcga.dcc.grid"
+        ]
+      },
+      {
+        "name": "One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.",
+        "type": "UML Class:UML Attr",
+        "context": "CIP",
+        "language": "ENGLISH",
+        "csCsi": [
+          "AIM/edu.northwestern.radiology.AIM",
+          "NCIA (National Cancer Imaging Archive)2.0/gov.nih.nci.ncia.domain",
+          "NCIA_Model/gov.nih.nci.ncia.domain"
+        ]
+      },
+      {
+        "name": "The unique identifier for an individual patient",
+        "type": "UML Class:UML Attr",
+        "context": "NCIP",
+        "language": "ENGLISH",
+        "csCsi": [
+          "BiospecimenCoreResource/org.tgen.BCR"
+        ]
+      },
+      {
+        "name": "The unique number assigned to identify a patient/participant on a protocol.",
+        "type": "UML Class:UML Attr",
+        "context": "CIP",
+        "language": "ENGLISH",
+        "csCsi": [
+          "NCIA (National Cancer Imaging Archive)2.0/gov.nih.nci.ncia.domain"
+        ]
+      }
+    ]
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 2673794,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Patient Identifier java.lang.String",
+      "shortName": "2012398v3.0:2178533v1.0",
+      "preferredQuestionText": null,
+      "definition": "Identifier to uniquely specify a patient on a protocol/clinical trial._Generic value domain for a java datatype that is a class that represents character strings.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "valueDomainDetails": {
+      "publicId": 2178533,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "java.lang.String",
+      "shortName": "java.lang.String",
+      "context": "caCORE",
+      "definition": "Generic value domain for a java datatype that is a class that represents character strings.",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": "Superceded",
+      "dataType": "java.lang.String",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": null,
+      "minimumLength": null,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "N",
+      "conceptualDomainPublicId": 2178532,
+      "conceptualDomainShortName": "BIOINFORMATICS",
+      "conceptualDomainContextName": "caCORE",
+      "conceptualDomainLongName": "Bioinformatics",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 2234203,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Text",
+      "shortName": "C25704",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Text",
+        "conceptCode": "C25704",
+        "publicId": "2203863",
+        "definitionSource": "NCI ",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [],
+    "permissibleValueExtList": null,
+    "valueMeaning": [],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 2673794,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Patient Identifier java.lang.String",
+      "shortName": "2012398v3.0:2178533v1.0",
+      "preferredQuestionText": null,
+      "definition": "Identifier to uniquely specify a patient on a protocol/clinical trial._Generic value domain for a java datatype that is a class that represents character strings.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "BiospecimenCoreResource",
+        "csDefinition": "The Biospecimen Core Resource (BCR) model will be used to transmit caBIG compliant data to the data coordination center (DCC) for the Cancer Genome Atlas project.",
+        "csiName": "org.tgen.BCR",
+        "csiType": "UML_PACKAGE_NAME",
+        "csId": "2673170",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 2812932,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "HNSC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787505,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "BLCA",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787499,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "BRCA",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787500,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "CESC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787502,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "COAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787503,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "GBM",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787504,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LUSC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787513,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "KICH",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787506,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "KIRC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787507,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "KIRP",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787508,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "SKCM",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787519,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LGG",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787510,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical shared",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787543,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LIHC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787511,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LUAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787512,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "SARC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787518,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "OV",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787514,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "THCA",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787521,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "PRAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787516,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "READ",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787517,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "UCEC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787522,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "STAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787520,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "PAAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787515,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [
+      {
+        "csLongName": "BiospecimenCoreResource",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "documentName": "Biospecimen Core Resource 1.0 UML Model",
+        "documentType": "XMI File",
+        "documentText": "This zip file contains the biospecimen core resource annotated XMI file used to load this to caDSR.",
+        "url": "https://gforge.nci.nih.gov/frs/download.php/2197/BCR_v1_rv7_load.zip",
+        "attachments": null
+      }
+    ],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 2673794,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Patient Identifier java.lang.String",
+      "shortName": "2012398v3.0:2178533v1.0",
+      "preferredQuestionText": null,
+      "definition": "Identifier to uniquely specify a patient on a protocol/clinical trial._Generic value domain for a java datatype that is a class that represents character strings.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "formUsages": []
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 2673794,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Patient Identifier java.lang.String",
+      "shortName": "2012398v3.0:2178533v1.0",
+      "preferredQuestionText": null,
+      "definition": "Identifier to uniquely specify a patient on a protocol/clinical trial._Generic value domain for a java datatype that is a class that represents character strings.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "UMLLOADER_BCR",
+    "dateCreated": "2007-08-20",
+    "modifiedBy": "DWARZEL",
+    "dateModified": "2013-06-28",
+    "vdCreatedBy": "SBREXT",
+    "vdOwnedBy": "caCORE",
+    "vdDateCreated": "2003-12-02",
+    "vdDateModified": "2006-04-03",
+    "decCreatedBy": "JASUR",
+    "decOwnedBy": "CCR",
+    "decDateCreated": "2002-07-09",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 2673794,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Patient Identifier java.lang.String",
+      "shortName": "2012398v3.0:2178533v1.0",
+      "preferredQuestionText": null,
+      "definition": "Identifier to uniquely specify a patient on a protocol/clinical trial._Generic value domain for a java datatype that is a class that represents character strings.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "changeNote": "9/21/10 - Draft CDE retired; redundant with CDE 2388910.  Found as part of CDE with Retired DEC cleanup activities."
+  }
+}

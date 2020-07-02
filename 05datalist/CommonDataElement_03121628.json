@@ -1,0 +1,3786 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 3121628,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormality Testing Result",
+      "shortName": "3121577v1.0:3121599v1.0",
+      "preferredQuestionText": "Molecular Abnormality Studies",
+      "definition": "Term to describe an abnormal result of molecular analysis.",
+      "valueDomain": "Molecular Analysis Abnormality Testing Result",
+      "dataElementConcept": "Molecular Analysis Abnormal Result",
+      "context": "NCIP",
+      "workflowStatus": "RETIRED ARCHIVED",
+      "origin": null,
+      "registrationStatus": null,
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "8B5DD8D6-2DF0-A834-E040-BB89AD432D73"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Molecular Abnormality Studies",
+        "documentType": "Preferred Question Text",
+        "documentText": "Molecular Abnormality Studies",
+        "context": "NCIP",
+        "url": null
+      },
+      {
+        "documentName": "TCGA Alternate Question",
+        "documentType": "Alternate Question Text",
+        "documentText": "Type of Germline Genotype Testing Performed",
+        "context": "NCIP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [],
+      "alternateNames": [
+        {
+          "name": "molecular_analysis_abnormality_testing_result",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": [
+      {
+        "version": 2.0,
+        "formattedVersion": "2.0",
+        "longName": "Molecular Analysis Abnormality Testing Result",
+        "workFlowStatus": "RETIRED ARCHIVED",
+        "registrationStatus": "Standard",
+        "context": "NCIP",
+        "csCsis": [
+          {
+            "csLongName": "TCGA 2.6 by Namespace",
+            "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+            "csiName": "clinical laml",
+            "csiType": "GROUP_TYPE",
+            "csId": "3787524",
+            "csVersion": 1.0,
+            "formattedCsVersion": "1.0",
+            "csiId": 3787540,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "TCGA 2.6 by Disease",
+            "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+            "csiName": "LAML",
+            "csiType": "DISEASE_TYPE",
+            "csId": "3787498",
+            "csVersion": 1.0,
+            "formattedCsVersion": "1.0",
+            "csiId": 3787509,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          }
+        ]
+      },
+      {
+        "version": 3.0,
+        "formattedVersion": "3.0",
+        "longName": "Molecular Analysis Abnormal Testing Result",
+        "workFlowStatus": "RELEASED",
+        "registrationStatus": "Standard",
+        "context": "NCIP",
+        "csCsis": [
+          {
+            "csLongName": "TCGA (The Cancer Genome Atlas)",
+            "csDefinition": "Collection of CDEs related to TCGA.",
+            "csiName": "Active CDEs as of March 2017",
+            "csiType": "GROUP_TYPE",
+            "csId": "2756809",
+            "csVersion": 1.0,
+            "formattedCsVersion": "1.0",
+            "csiId": 6044923,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "TCGA 2.6 by Namespace",
+            "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+            "csiName": "clinical laml",
+            "csiType": "GROUP_TYPE",
+            "csId": "3787524",
+            "csVersion": 1.0,
+            "formattedCsVersion": "1.0",
+            "csiId": 3787540,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "TCGA 2.6 by Disease",
+            "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+            "csiName": "LAML",
+            "csiType": "DISEASE_TYPE",
+            "csId": "3787498",
+            "csVersion": 1.0,
+            "formattedCsVersion": "1.0",
+            "csiId": 3787509,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          }
+        ]
+      }
+    ]
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 3121628,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormality Testing Result",
+      "shortName": "3121577v1.0:3121599v1.0",
+      "preferredQuestionText": "Molecular Abnormality Studies",
+      "definition": "Term to describe an abnormal result of molecular analysis.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 3121577,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormal Result",
+      "shortName": "2626369v1.0:2207618v1.0",
+      "definition": "Techniques for studying or analyzing the genetic composition and mechanisms of living organisms at the molecular level. May refer to the understanding and manipulation of genes (DNA)._Deviating from the norm._Outcome; a phenomenon that follows and is caused by some previous phenomenon._",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008557,
+      "conceptualDomainShortName": "LAB_RESULTS",
+      "conceptualDomainLongName": "Lab Results",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 2626369,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis",
+      "shortName": "C19770",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Molecular Analysis",
+        "conceptCode": "C19770",
+        "publicId": "2528322",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2207618,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Abnormal Result",
+      "shortName": "C25401:C20200",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Abnormal",
+        "conceptCode": "C25401",
+        "publicId": "2202623",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Outcome",
+        "conceptCode": "C20200",
+        "publicId": "2203785",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 3121628,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormality Testing Result",
+      "shortName": "3121577v1.0:3121599v1.0",
+      "preferredQuestionText": "Molecular Abnormality Studies",
+      "definition": "Term to describe an abnormal result of molecular analysis.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "valueDomainDetails": {
+      "publicId": 3121599,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormality Testing Result",
+      "shortName": "3121599v1.0",
+      "context": "NCIP",
+      "definition": "Techniques for studying or analyzing the genetic composition and mechanisms of living organisms at the molecular level. May refer to the understanding and manipulation of genes (DNA)._A condition that differs from the usual physical or mental state._A procedure for critical evaluation._Outcome; a phenomenon that follows and is caused by some previous phenomenon.",
+      "workflowStatus": "RETIRED ARCHIVED",
+      "registrationStatus": null,
+      "dataType": "ALPHANUMERIC",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 40,
+      "minimumLength": null,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "E",
+      "conceptualDomainPublicId": 2008557,
+      "conceptualDomainShortName": "LAB_RESULTS",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Lab Results",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 3121598,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormality Testing Outcome",
+      "shortName": "C19770:C9440:C15336:C20200",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Molecular Analysis",
+        "conceptCode": "C19770",
+        "publicId": "2528322",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Abnormality",
+        "conceptCode": "C9440",
+        "publicId": "2203567",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Testing",
+        "conceptCode": "C15336",
+        "publicId": "2204718",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Outcome",
+        "conceptCode": "C20200",
+        "publicId": "2203785",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2B43-A834-E040-BB89AD432D73",
+        "value": "Activating RAS Negative",
+        "shortMeaning": "Activating RAS Negative",
+        "meaningDescription": "Activating RAS Negative",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2B34-A834-E040-BB89AD432D73",
+        "conceptCode": "C64382:C25784:C38757",
+        "conceptCodeArray": [
+          "C64382",
+          "C25784",
+          "C38757"
+        ],
+        "vmDescription": "To cause something to start; stimulation of activity.: A family of genes that encode structurally similar small GTPases involved in a variety of signal transduction pathways. Mutation of genes in this family is associated with cancer.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3121607",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2B20-A834-E040-BB89AD432D73",
+        "value": "Activating RAS Not Tested",
+        "shortMeaning": "Activating RAS Not Tested",
+        "meaningDescription": "Activating RAS Not Tested",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2B11-A834-E040-BB89AD432D73",
+        "conceptCode": "C64382:C25784:C101887",
+        "conceptCodeArray": [
+          "C64382",
+          "C25784",
+          "C101887"
+        ],
+        "vmDescription": "To cause something to start; stimulation of activity.: A family of genes that encode structurally similar small GTPases involved in a variety of signal transduction pathways. Mutation of genes in this family is associated with cancer.: Indicates that a test was not performed.",
+        "vmId": "3121606",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2B66-A834-E040-BB89AD432D73",
+        "value": "Activating RAS Positive",
+        "shortMeaning": "Activating RAS Positive",
+        "meaningDescription": "Activating RAS Positive",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2B57-A834-E040-BB89AD432D73",
+        "conceptCode": "C64382:C25784:C38758",
+        "conceptCodeArray": [
+          "C64382",
+          "C25784",
+          "C38758"
+        ],
+        "vmDescription": "To cause something to start; stimulation of activity.: A family of genes that encode structurally similar small GTPases involved in a variety of signal transduction pathways. Mutation of genes in this family is associated with cancer.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3121608",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2DDC-A834-E040-BB89AD432D73",
+        "value": "BCR-ABL Negative",
+        "shortMeaning": "BCR-ABL Negative",
+        "meaningDescription": "BCR-ABL Negative",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2DCD-A834-E040-BB89AD432D73",
+        "conceptCode": "C94600:C38757",
+        "conceptCodeArray": [
+          "C94600",
+          "C38757"
+        ],
+        "vmDescription": "A fusion gene that results from a translocation t(9;22)(q34;q11) that fuses the 5' part of the BCR gene to the 5' side of exon 2 of the ABL1 gene. There are 3 potential products that are formed depending on which BCR exon has the breakpoint. All of the protein products have constitutively active tyrosine kinase activity. This fusion is associated with both chronic myeloid leukemia and acute lymphoblastic leukemia.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3121626",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2D96-A834-E040-BB89AD432D73",
+        "value": "BCR-ABL Not Tested",
+        "shortMeaning": "BCR-ABL Not Tested",
+        "meaningDescription": "BCR-ABL Not Tested",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2D87-A834-E040-BB89AD432D73",
+        "conceptCode": "C94600:C101887",
+        "conceptCodeArray": [
+          "C94600",
+          "C101887"
+        ],
+        "vmDescription": "A fusion gene that results from a translocation t(9;22)(q34;q11) that fuses the 5' part of the BCR gene to the 5' side of exon 2 of the ABL1 gene. There are 3 potential products that are formed depending on which BCR exon has the breakpoint. All of the protein products have constitutively active tyrosine kinase activity. This fusion is associated with both chronic myeloid leukemia and acute lymphoblastic leukemia.: Indicates that a test was not performed.",
+        "vmId": "3121624",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2DB9-A834-E040-BB89AD432D73",
+        "value": "BCR-ABL Positive",
+        "shortMeaning": "BCR-ABL Positive",
+        "meaningDescription": "BCR-ABL Positive",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2DAA-A834-E040-BB89AD432D73",
+        "conceptCode": "C94600:C38758",
+        "conceptCodeArray": [
+          "C94600",
+          "C38758"
+        ],
+        "vmDescription": "A fusion gene that results from a translocation t(9;22)(q34;q11) that fuses the 5' part of the BCR gene to the 5' side of exon 2 of the ABL1 gene. There are 3 potential products that are formed depending on which BCR exon has the breakpoint. All of the protein products have constitutively active tyrosine kinase activity. This fusion is associated with both chronic myeloid leukemia and acute lymphoblastic leukemia.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3121625",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8E8417A4-204F-8F7D-E040-BB89AD431C3C",
+        "value": "CEBPA Negative",
+        "shortMeaning": "CEBPA Negative",
+        "meaningDescription": "CEBPA Negative",
+        "beginDate": 1282536000000,
+        "beginDateString": "2010-08-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8E8417A4-2040-8F7D-E040-BB89AD431C3C",
+        "conceptCode": "C39598:C38757",
+        "conceptCodeArray": [
+          "C39598",
+          "C38757"
+        ],
+        "vmDescription": "This gene plays a role in body weight homeostasis and cellular proliferation. Mutations in the gene are associated with acute myeloid leukemia.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3131746",
+        "vmVersion": "1",
+        "dateCreated": 1282536000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8E8417A4-2009-8F7D-E040-BB89AD431C3C",
+        "value": "CEBPA Not Tested",
+        "shortMeaning": "CEBPA Not Tested",
+        "meaningDescription": "CEBPA Not Tested",
+        "beginDate": 1282536000000,
+        "beginDateString": "2010-08-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8E8417A4-1FFA-8F7D-E040-BB89AD431C3C",
+        "conceptCode": "C39598:C101887",
+        "conceptCodeArray": [
+          "C39598",
+          "C101887"
+        ],
+        "vmDescription": "This gene plays a role in body weight homeostasis and cellular proliferation. Mutations in the gene are associated with acute myeloid leukemia.: Indicates that a test was not performed.",
+        "vmId": "3131744",
+        "vmVersion": "1",
+        "dateCreated": 1282536000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8E8417A4-202C-8F7D-E040-BB89AD431C3C",
+        "value": "CEBPA Positive",
+        "shortMeaning": "CEBPA Positive",
+        "meaningDescription": "CEBPA Positive",
+        "beginDate": 1282536000000,
+        "beginDateString": "2010-08-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8E8417A4-201D-8F7D-E040-BB89AD431C3C",
+        "conceptCode": "C39598:C38758",
+        "conceptCodeArray": [
+          "C39598",
+          "C38758"
+        ],
+        "vmDescription": "This gene plays a role in body weight homeostasis and cellular proliferation. Mutations in the gene are associated with acute myeloid leukemia.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3131745",
+        "vmVersion": "1",
+        "dateCreated": 1282536000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-452C-AA2A-E050-BB89AD431628",
+        "value": "DNA Mismatch Repair Negative",
+        "shortMeaning": "Mismatch Repair Negative Finding",
+        "meaningDescription": "The mismatch repair (MMR) system promotes genomic fidelity by repairing base-base mismatches, insertion-deletion loops and heterologies generated during DNA replication and recombination. This function is critically dependent on the assembly of multimeric complexes involved in mismatch recognition and signal transduction to downstream repair events.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-451D-AA2A-E050-BB89AD431628",
+        "conceptCode": "C20639:C38757",
+        "conceptCodeArray": [
+          "C20639",
+          "C38757"
+        ],
+        "vmDescription": "The mismatch repair (MMR) system promotes genomic fidelity by repairing base-base mismatches, insertion-deletion loops and heterologies generated during DNA replication and recombination. This function is critically dependent on the assembly of multimeric complexes involved in mismatch recognition and signal transduction to downstream repair events.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "4459565",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-4506-AA2A-E050-BB89AD431628",
+        "value": "DNA Mismatch Repair Not Tested",
+        "shortMeaning": "Mismatch Repair Not Tested",
+        "meaningDescription": "The mismatch repair (MMR) system promotes genomic fidelity by repairing base-base mismatches, insertion-deletion loops and heterologies generated during DNA replication and recombination. This function is critically dependent on the assembly of multimeric complexes involved in mismatch recognition and signal transduction to downstream repair events.: Indicates that a test was not performed.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-44F7-AA2A-E050-BB89AD431628",
+        "conceptCode": "C20639:C101887",
+        "conceptCodeArray": [
+          "C20639",
+          "C101887"
+        ],
+        "vmDescription": "The mismatch repair (MMR) system promotes genomic fidelity by repairing base-base mismatches, insertion-deletion loops and heterologies generated during DNA replication and recombination. This function is critically dependent on the assembly of multimeric complexes involved in mismatch recognition and signal transduction to downstream repair events.: Indicates that a test was not performed.",
+        "vmId": "4459564",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-4552-AA2A-E050-BB89AD431628",
+        "value": "DNA Mismatch Repair Positive",
+        "shortMeaning": "Mismatch Repair Positive Finding",
+        "meaningDescription": "The mismatch repair (MMR) system promotes genomic fidelity by repairing base-base mismatches, insertion-deletion loops and heterologies generated during DNA replication and recombination. This function is critically dependent on the assembly of multimeric complexes involved in mismatch recognition and signal transduction to downstream repair events.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-4543-AA2A-E050-BB89AD431628",
+        "conceptCode": "C20639:C38758",
+        "conceptCodeArray": [
+          "C20639",
+          "C38758"
+        ],
+        "vmDescription": "The mismatch repair (MMR) system promotes genomic fidelity by repairing base-base mismatches, insertion-deletion loops and heterologies generated during DNA replication and recombination. This function is critically dependent on the assembly of multimeric complexes involved in mismatch recognition and signal transduction to downstream repair events.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "4459566",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-459E-AA2A-E050-BB89AD431628",
+        "value": "FAP Negative",
+        "shortMeaning": "FAP Gene Negative Finding",
+        "meaningDescription": "This gene is involved in the regulation of fibroblast growth.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-458F-AA2A-E050-BB89AD431628",
+        "conceptCode": "C26582:C38757",
+        "conceptCodeArray": [
+          "C26582",
+          "C38757"
+        ],
+        "vmDescription": "This gene is involved in the regulation of fibroblast growth.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "4459568",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-4578-AA2A-E050-BB89AD431628",
+        "value": "FAP Not Tested",
+        "shortMeaning": "FAP Gene Not Tested",
+        "meaningDescription": "This gene is involved in the regulation of fibroblast growth.: Indicates that a test was not performed.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-4569-AA2A-E050-BB89AD431628",
+        "conceptCode": "C26582:C101887",
+        "conceptCodeArray": [
+          "C26582",
+          "C101887"
+        ],
+        "vmDescription": "This gene is involved in the regulation of fibroblast growth.: Indicates that a test was not performed.",
+        "vmId": "4459567",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-45C4-AA2A-E050-BB89AD431628",
+        "value": "FAP Positive",
+        "shortMeaning": "FAP Gene Positive Finding",
+        "meaningDescription": "This gene is involved in the regulation of fibroblast growth.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-45B5-AA2A-E050-BB89AD431628",
+        "conceptCode": "C26582:C38758",
+        "conceptCodeArray": [
+          "C26582",
+          "C38758"
+        ],
+        "vmDescription": "This gene is involved in the regulation of fibroblast growth.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "4459569",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2D0A-A834-E040-BB89AD432D73",
+        "value": "FLT3 Mutation Negative",
+        "shortMeaning": "FLT3 Mutation Negative",
+        "meaningDescription": "FLT3 Mutation Negative",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2CFB-A834-E040-BB89AD432D73",
+        "conceptCode": "C24399:C45576:C38757",
+        "conceptCodeArray": [
+          "C24399",
+          "C45576",
+          "C38757"
+        ],
+        "vmDescription": "This gene plays a role in hematopoiesis and may function as a growth factor receptor.: A general term referring to single or multiple alterations in the genetic material of an organism that ranges from a single base change in a gene to the loss or addition of complete chromosomes. A mutation abnormality may be heritable or occur somatically.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3121620",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2CC4-A834-E040-BB89AD432D73",
+        "value": "FLT3 Mutation Not Tested",
+        "shortMeaning": "FLT3 Mutation Not Tested",
+        "meaningDescription": "FLT3 Mutation Not Tested",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2CB5-A834-E040-BB89AD432D73",
+        "conceptCode": "C1333568:C45576:C101887",
+        "conceptCodeArray": [
+          "C1333568",
+          "C45576",
+          "C101887"
+        ],
+        "vmDescription": "This gene plays a role in hematopoiesis and may function as a growth factor receptor.: A general term referring to single or multiple alterations in the genetic material of an organism that ranges from a single base change in a gene to the loss or addition of complete chromosomes. A mutation abnormality may be heritable or occur somatically.: Indicates that a test was not performed.",
+        "vmId": "3121618",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2CE7-A834-E040-BB89AD432D73",
+        "value": "FLT3 Mutation Positive",
+        "shortMeaning": "FLT3 Mutation Positive",
+        "meaningDescription": "FLT3 Mutation Positive",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2CD8-A834-E040-BB89AD432D73",
+        "conceptCode": "C1333568:C45576:C38758",
+        "conceptCodeArray": [
+          "C1333568",
+          "C45576",
+          "C38758"
+        ],
+        "vmDescription": "This gene plays a role in hematopoiesis and may function as a growth factor receptor.: A general term referring to single or multiple alterations in the genetic material of an organism that ranges from a single base change in a gene to the loss or addition of complete chromosomes. A mutation abnormality may be heritable or occur somatically.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3121619",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2CA1-A834-E040-BB89AD432D73",
+        "value": "IDH1 R132 Negative",
+        "shortMeaning": "IDH1 R132 Negative",
+        "meaningDescription": "IDH1 R132 Negative",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2C92-A834-E040-BB89AD432D73",
+        "conceptCode": "C117280:C38757",
+        "conceptCodeArray": [
+          "C117280",
+          "C38757"
+        ],
+        "vmDescription": "A change in the amino acid residue at position 132 in the isocitrate dehydrogenase [NADP] cytoplasmic protein where arginine has been replaced by another amino acid. Mutations at this position occur frequently in high-grade gliomas but not in other solid tumors.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3121617",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2C5B-A834-E040-BB89AD432D73",
+        "value": "IDH1 R132 Not Tested",
+        "shortMeaning": "IDH1 R132 Not Tested",
+        "meaningDescription": "IDH1 R132 Not Tested",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2C4C-A834-E040-BB89AD432D73",
+        "conceptCode": "C117280:C101887",
+        "conceptCodeArray": [
+          "C117280",
+          "C101887"
+        ],
+        "vmDescription": "A change in the amino acid residue at position 132 in the isocitrate dehydrogenase [NADP] cytoplasmic protein where arginine has been replaced by another amino acid. Mutations at this position occur frequently in high-grade gliomas but not in other solid tumors.: Indicates that a test was not performed.",
+        "vmId": "3121615",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2C7E-A834-E040-BB89AD432D73",
+        "value": "IDH1 R132 Positive",
+        "shortMeaning": "IDH1 R132 Positive",
+        "meaningDescription": "IDH1 R132 Positive",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2C6F-A834-E040-BB89AD432D73",
+        "conceptCode": "C117280:C38758",
+        "conceptCodeArray": [
+          "C117280",
+          "C38758"
+        ],
+        "vmDescription": "A change in the amino acid residue at position 132 in the isocitrate dehydrogenase [NADP] cytoplasmic protein where arginine has been replaced by another amino acid. Mutations at this position occur frequently in high-grade gliomas but not in other solid tumors.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3121616",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2C38-A834-E040-BB89AD432D73",
+        "value": "IDH1 R140 Negative",
+        "shortMeaning": "IDH1 R140 Negative",
+        "meaningDescription": "IDH1 R140 Negative",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2C29-A834-E040-BB89AD432D73",
+        "conceptCode": null,
+        "conceptCodeArray": null,
+        "vmDescription": "IDH1 R140 Negative",
+        "vmId": "3121614",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2BF2-A834-E040-BB89AD432D73",
+        "value": "IDH1 R140 Not Tested",
+        "shortMeaning": "IDH1 R140 Not Tested",
+        "meaningDescription": "IDH1 R140 Not Tested",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2BE3-A834-E040-BB89AD432D73",
+        "conceptCode": null,
+        "conceptCodeArray": null,
+        "vmDescription": "IDH1 R140 Not Tested",
+        "vmId": "3121612",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2C15-A834-E040-BB89AD432D73",
+        "value": "IDH1 R140 Positive",
+        "shortMeaning": "IDH1 R140 Positive",
+        "meaningDescription": "IDH1 R140 Positive",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2C06-A834-E040-BB89AD432D73",
+        "conceptCode": null,
+        "conceptCodeArray": null,
+        "vmDescription": "IDH1 R140 Positive",
+        "vmId": "3121613",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2BCF-A834-E040-BB89AD432D73",
+        "value": "IDH1 R172 Negative",
+        "shortMeaning": "IDH1 R172 Negative",
+        "meaningDescription": "IDH1 R172 Negative",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2BC0-A834-E040-BB89AD432D73",
+        "conceptCode": null,
+        "conceptCodeArray": null,
+        "vmDescription": "IDH1 R172 Negative",
+        "vmId": "3121611",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2B89-A834-E040-BB89AD432D73",
+        "value": "IDH1 R172 Not Tested",
+        "shortMeaning": "IDH1 R172 Not Tested",
+        "meaningDescription": "IDH1 R172 Not Tested",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2B7A-A834-E040-BB89AD432D73",
+        "conceptCode": null,
+        "conceptCodeArray": null,
+        "vmDescription": "IDH1 R172 Not Tested",
+        "vmId": "3121609",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2BAC-A834-E040-BB89AD432D73",
+        "value": "IDH1 R172 Positive",
+        "shortMeaning": "IDH1 R172 Positive",
+        "meaningDescription": "IDH1 R172 Positive",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2B9D-A834-E040-BB89AD432D73",
+        "conceptCode": null,
+        "conceptCodeArray": null,
+        "vmDescription": "IDH1 R172 Positive",
+        "vmId": "3121610",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "917B00C1-3514-B5C4-E040-BB89AD432482",
+        "value": "JAK2 V617 Negative",
+        "shortMeaning": "JAK2 V617 Negative",
+        "meaningDescription": "JAK2 V617 Negative",
+        "beginDate": 1285819200000,
+        "beginDateString": "2010-09-30",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "917B00C1-3505-B5C4-E040-BB89AD432482",
+        "conceptCode": "C117283:C38757",
+        "conceptCodeArray": [
+          "C117283",
+          "C38757"
+        ],
+        "vmDescription": "A change in the amino acid residue at position 617 in the tyrosine-protein kinase JAK2 protein where valine has been replaced by another amino acid. A change to phenylalanine at this position is associated with polycythemia vera.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3144419",
+        "vmVersion": "1",
+        "dateCreated": 1285819200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "917B00C1-34CE-B5C4-E040-BB89AD432482",
+        "value": "JAK2 V617 Not Tested",
+        "shortMeaning": "JAK2 V617 Not Tested",
+        "meaningDescription": "JAK2 V617 Not Tested",
+        "beginDate": 1285819200000,
+        "beginDateString": "2010-09-30",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "917B00C1-34BF-B5C4-E040-BB89AD432482",
+        "conceptCode": "C117283:C101887",
+        "conceptCodeArray": [
+          "C117283",
+          "C101887"
+        ],
+        "vmDescription": "A change in the amino acid residue at position 617 in the tyrosine-protein kinase JAK2 protein where valine has been replaced by another amino acid. A change to phenylalanine at this position is associated with polycythemia vera.: Indicates that a test was not performed.",
+        "vmId": "3144417",
+        "vmVersion": "1",
+        "dateCreated": 1285819200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "917B00C1-34F1-B5C4-E040-BB89AD432482",
+        "value": "JAK2 V617 Positive",
+        "shortMeaning": "JAK2 V617 Positive",
+        "meaningDescription": "JAK2 V617 Positive",
+        "beginDate": 1285819200000,
+        "beginDateString": "2010-09-30",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "917B00C1-34E2-B5C4-E040-BB89AD432482",
+        "conceptCode": "C117283:C38758",
+        "conceptCodeArray": [
+          "C117283",
+          "C38758"
+        ],
+        "vmDescription": "A change in the amino acid residue at position 617 in the tyrosine-protein kinase JAK2 protein where valine has been replaced by another amino acid. A change to phenylalanine at this position is associated with polycythemia vera.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3144418",
+        "vmVersion": "1",
+        "dateCreated": 1285819200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8E8417A4-20B8-8F7D-E040-BB89AD431C3C",
+        "value": "KIT Negative",
+        "shortMeaning": "KIT Negative",
+        "meaningDescription": "KIT Negative",
+        "beginDate": 1282536000000,
+        "beginDateString": "2010-08-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8E8417A4-20A9-8F7D-E040-BB89AD431C3C",
+        "conceptCode": "C18609:C38757",
+        "conceptCodeArray": [
+          "C18609",
+          "C38757"
+        ],
+        "vmDescription": "This gene plays a role in cellular hematopoiesis and differentiations. Mutations in the gene are associated with several diseases, including acute myelogenous leukemia, gastrointestinal tumors, and mast cell disease.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3131749",
+        "vmVersion": "1",
+        "dateCreated": 1282536000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8E8417A4-2072-8F7D-E040-BB89AD431C3C",
+        "value": "KIT Not Tested",
+        "shortMeaning": "KIT Not Tested",
+        "meaningDescription": "KIT Not Tested",
+        "beginDate": 1282536000000,
+        "beginDateString": "2010-08-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8E8417A4-2063-8F7D-E040-BB89AD431C3C",
+        "conceptCode": "C18609:C101887",
+        "conceptCodeArray": [
+          "C18609",
+          "C101887"
+        ],
+        "vmDescription": "This gene plays a role in cellular hematopoiesis and differentiations. Mutations in the gene are associated with several diseases, including acute myelogenous leukemia, gastrointestinal tumors, and mast cell disease.: Indicates that a test was not performed.",
+        "vmId": "3131747",
+        "vmVersion": "1",
+        "dateCreated": 1282536000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8E8417A4-2095-8F7D-E040-BB89AD431C3C",
+        "value": "KIT Positive",
+        "shortMeaning": "KIT Positive",
+        "meaningDescription": "KIT Positive",
+        "beginDate": 1282536000000,
+        "beginDateString": "2010-08-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8E8417A4-2086-8F7D-E040-BB89AD431C3C",
+        "conceptCode": "C18609:C38758",
+        "conceptCodeArray": [
+          "C18609",
+          "C38758"
+        ],
+        "vmDescription": "This gene plays a role in cellular hematopoiesis and differentiations. Mutations in the gene are associated with several diseases, including acute myelogenous leukemia, gastrointestinal tumors, and mast cell disease.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3131748",
+        "vmVersion": "1",
+        "dateCreated": 1282536000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A830-7855-E040-BB89AD434401",
+        "value": "MAX Negative",
+        "shortMeaning": "MAX Gene Negative Finding",
+        "meaningDescription": "This gene is involved in transcriptional regulation and plays a role in the mediation of DNA-protein interactions.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A821-7855-E040-BB89AD434401",
+        "conceptCode": "C18576:C38757",
+        "conceptCodeArray": [
+          "C18576",
+          "C38757"
+        ],
+        "vmDescription": "This gene is involved in transcriptional regulation and plays a role in the mediation of DNA-protein interactions.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3645829",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A718-7855-E040-BB89AD434401",
+        "value": "MAX Not Tested",
+        "shortMeaning": "MAX Gene Not Tested",
+        "meaningDescription": "This gene is involved in transcriptional regulation and plays a role in the mediation of DNA-protein interactions.: Indicates that a test was not performed.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A709-7855-E040-BB89AD434401",
+        "conceptCode": "C18576:C101887",
+        "conceptCodeArray": [
+          "C18576",
+          "C101887"
+        ],
+        "vmDescription": "This gene is involved in transcriptional regulation and plays a role in the mediation of DNA-protein interactions.: Indicates that a test was not performed.",
+        "vmId": "3645818",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A856-7855-E040-BB89AD434401",
+        "value": "MAX Positive",
+        "shortMeaning": "MAX Gene Positive Finding",
+        "meaningDescription": "This gene is involved in transcriptional regulation and plays a role in the mediation of DNA-protein interactions.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A847-7855-E040-BB89AD434401",
+        "conceptCode": "C18576:C38758",
+        "conceptCodeArray": [
+          "C18576",
+          "C38758"
+        ],
+        "vmDescription": "This gene is involved in transcriptional regulation and plays a role in the mediation of DNA-protein interactions.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3645830",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-464F-AA2A-E050-BB89AD431628",
+        "value": "MEN1 Negative",
+        "shortMeaning": "MEN1 Gene Negative Finding",
+        "meaningDescription": "This gene is involved in transcriptional regulation and has tumor suppressor activity.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-4640-AA2A-E050-BB89AD431628",
+        "conceptCode": "C18254:C38757",
+        "conceptCodeArray": [
+          "C18254",
+          "C38757"
+        ],
+        "vmDescription": "This gene is involved in transcriptional regulation and has tumor suppressor activity.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "4459573",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-4629-AA2A-E050-BB89AD431628",
+        "value": "MEN1 Not Tested",
+        "shortMeaning": "MEN1 Gene Not Tested",
+        "meaningDescription": "This gene is involved in transcriptional regulation and has tumor suppressor activity.: Indicates that a test was not performed.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-461A-AA2A-E050-BB89AD431628",
+        "conceptCode": "C18254:C101887",
+        "conceptCodeArray": [
+          "C18254",
+          "C101887"
+        ],
+        "vmDescription": "This gene is involved in transcriptional regulation and has tumor suppressor activity.: Indicates that a test was not performed.",
+        "vmId": "4459572",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-4675-AA2A-E050-BB89AD431628",
+        "value": "MEN1 Positive",
+        "shortMeaning": "MEN1 Gene Positive Finding",
+        "meaningDescription": "This gene is involved in transcriptional regulation and has tumor suppressor activity.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-4666-AA2A-E050-BB89AD431628",
+        "conceptCode": "C18254:C38758",
+        "conceptCodeArray": [
+          "C18254",
+          "C38758"
+        ],
+        "vmDescription": "This gene is involved in transcriptional regulation and has tumor suppressor activity.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "4459574",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110A16D-2E75-9201-E040-BB89AD436122",
+        "value": "NF1 Clinical Diagnosis Negative",
+        "shortMeaning": "NF1 Gene Clinical Finding Negative",
+        "meaningDescription": "This gene plays a role in signal transduction and cytoskeletal remodeling.: Objective evidence of disease perceptible to the examining practitioner (sign) and subjective evidence of disease perceived by the patient (symptom).: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110A16D-2E66-9201-E040-BB89AD436122",
+        "conceptCode": "C17424:C100104:C38757",
+        "conceptCodeArray": [
+          "C17424",
+          "C100104",
+          "C38757"
+        ],
+        "vmDescription": "This gene plays a role in signal transduction and cytoskeletal remodeling.: Objective evidence of disease perceptible to the examining practitioner (sign) and subjective evidence of disease perceived by the patient (symptom).: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3645814",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A54B-7855-E040-BB89AD434401",
+        "value": "NF1 Clinical Diagnosis Not Tested",
+        "shortMeaning": "NF1 Gene Clinical Finding Not Tested",
+        "meaningDescription": "This gene plays a role in signal transduction and cytoskeletal remodeling.: Objective evidence of disease perceptible to the examining practitioner (sign) and subjective evidence of disease perceived by the patient (symptom).: Indicates that a test was not performed.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A53C-7855-E040-BB89AD434401",
+        "conceptCode": "C17424:C100104:C101887",
+        "conceptCodeArray": [
+          "C17424",
+          "C100104",
+          "C101887"
+        ],
+        "vmDescription": "This gene plays a role in signal transduction and cytoskeletal remodeling.: Objective evidence of disease perceptible to the examining practitioner (sign) and subjective evidence of disease perceived by the patient (symptom).: Indicates that a test was not performed.",
+        "vmId": "3645798",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A6D5-7855-E040-BB89AD434401",
+        "value": "NF1 Clinical Diagnosis Positive",
+        "shortMeaning": "NF1 Gene Clinical Finding Positive",
+        "meaningDescription": "This gene plays a role in signal transduction and cytoskeletal remodeling.: Objective evidence of disease perceptible to the examining practitioner (sign) and subjective evidence of disease perceived by the patient (symptom).: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A6C6-7855-E040-BB89AD434401",
+        "conceptCode": "C17424:C100104:C38758",
+        "conceptCodeArray": [
+          "C17424",
+          "C100104",
+          "C38758"
+        ],
+        "vmDescription": "This gene plays a role in signal transduction and cytoskeletal remodeling.: Objective evidence of disease perceptible to the examining practitioner (sign) and subjective evidence of disease perceived by the patient (symptom).: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3645808",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A59D-7855-E040-BB89AD434401",
+        "value": "NF1 Negative",
+        "shortMeaning": "NF1 Gene Negative Finding",
+        "meaningDescription": "This gene plays a role in signal transduction and cytoskeletal remodeling.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A58E-7855-E040-BB89AD434401",
+        "conceptCode": "C17424:C38757",
+        "conceptCodeArray": [
+          "C17424",
+          "C38757"
+        ],
+        "vmDescription": "This gene plays a role in signal transduction and cytoskeletal remodeling.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3645800",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A577-7855-E040-BB89AD434401",
+        "value": "NF1 Not Tested",
+        "shortMeaning": "NF1 Gene Not Tested",
+        "meaningDescription": "This gene plays a role in signal transduction and cytoskeletal remodeling.: Indicates that a test was not performed.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A568-7855-E040-BB89AD434401",
+        "conceptCode": "C17424:C101887",
+        "conceptCodeArray": [
+          "C17424",
+          "C101887"
+        ],
+        "vmDescription": "This gene plays a role in signal transduction and cytoskeletal remodeling.: Indicates that a test was not performed.",
+        "vmId": "3645799",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A5C3-7855-E040-BB89AD434401",
+        "value": "NF1 Positive",
+        "shortMeaning": "NF1 Gene Positive Finding",
+        "meaningDescription": "This gene plays a role in signal transduction and cytoskeletal remodeling.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A5B4-7855-E040-BB89AD434401",
+        "conceptCode": "C17424:C38758",
+        "conceptCodeArray": [
+          "C17424",
+          "C38758"
+        ],
+        "vmDescription": "This gene plays a role in signal transduction and cytoskeletal remodeling.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3645801",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-4600-AA2A-E050-BB89AD431628",
+        "value": "NFI Negative",
+        "shortMeaning": "NFIC Gene Negative Finding",
+        "meaningDescription": "This gene is involved in transcriptional regulation.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-45F1-AA2A-E050-BB89AD431628",
+        "conceptCode": "C38403:C38757",
+        "conceptCodeArray": [
+          "C38403",
+          "C38757"
+        ],
+        "vmDescription": "This gene is involved in transcriptional regulation.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "4459571",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-473D-AA2A-E050-BB89AD431628",
+        "value": "NFI Not Tested",
+        "shortMeaning": "NFIC Gene Not Tested",
+        "meaningDescription": "This gene is involved in transcriptional regulation.: Indicates that a test was not performed.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-472E-AA2A-E050-BB89AD431628",
+        "conceptCode": "C38403:C101887",
+        "conceptCodeArray": [
+          "C38403",
+          "C101887"
+        ],
+        "vmDescription": "This gene is involved in transcriptional regulation.: Indicates that a test was not performed.",
+        "vmId": "4459745",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-4773-AA2A-E050-BB89AD431628",
+        "value": "NFI Positive",
+        "shortMeaning": "NFIC Gene Positive Finding",
+        "meaningDescription": "This gene is involved in transcriptional regulation.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-4764-AA2A-E050-BB89AD431628",
+        "conceptCode": "C38403:C38758",
+        "conceptCodeArray": [
+          "C38403",
+          "C38758"
+        ],
+        "vmDescription": "This gene is involved in transcriptional regulation.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "4459761",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2AFD-A834-E040-BB89AD432D73",
+        "value": "NPMc Negative",
+        "shortMeaning": "NPMc Negative",
+        "meaningDescription": "NPMc Negative",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2AEE-A834-E040-BB89AD432D73",
+        "conceptCode": "C117284:C38757",
+        "conceptCodeArray": [
+          "C117284",
+          "C38757"
+        ],
+        "vmDescription": "A variant form of nucleophosmin with cytoplasmic expression. These variants have either a 4-base or 9-base insertion in exon 12 of the NPM1 gene. Acute myelogenous leukemia with normal cytogenetics and cytoplasmic nucleophosmin (NPMc+ AML) constitutes about one third of the cases of primary AML in adults.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3121605",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2AB7-A834-E040-BB89AD432D73",
+        "value": "NPMc Not Tested",
+        "shortMeaning": "NPMc Not Tested",
+        "meaningDescription": "NPMc Not Tested",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2AA8-A834-E040-BB89AD432D73",
+        "conceptCode": "C117284:C101887",
+        "conceptCodeArray": [
+          "C117284",
+          "C101887"
+        ],
+        "vmDescription": "A variant form of nucleophosmin with cytoplasmic expression. These variants have either a 4-base or 9-base insertion in exon 12 of the NPM1 gene. Acute myelogenous leukemia with normal cytogenetics and cytoplasmic nucleophosmin (NPMc+ AML) constitutes about one third of the cases of primary AML in adults.: Indicates that a test was not performed.",
+        "vmId": "3121603",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2ADA-A834-E040-BB89AD432D73",
+        "value": "NPMc Positive",
+        "shortMeaning": "NPMc Positive",
+        "meaningDescription": "NPMc Positive",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2ACB-A834-E040-BB89AD432D73",
+        "conceptCode": "C117284:C38758",
+        "conceptCodeArray": [
+          "C117284",
+          "C38758"
+        ],
+        "vmDescription": "A variant form of nucleophosmin with cytoplasmic expression. These variants have either a 4-base or 9-base insertion in exon 12 of the NPM1 gene. Acute myelogenous leukemia with normal cytogenetics and cytoplasmic nucleophosmin (NPMc+ AML) constitutes about one third of the cases of primary AML in adults.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3121604",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2A94-A834-E040-BB89AD432D73",
+        "value": "Other Negative",
+        "shortMeaning": "Other Negative",
+        "meaningDescription": "Other Negative",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2A85-A834-E040-BB89AD432D73",
+        "conceptCode": "C17649:C16612:C38757",
+        "conceptCodeArray": [
+          "C17649",
+          "C16612",
+          "C38757"
+        ],
+        "vmDescription": "Different than the one(s) previously specified or mentioned.: A functional unit of heredity which occupies a specific position (locus) on a particular chromosome, is capable of reproducing itself exactly at each cell division, and directs the formation of an enzyme or other protein. The gene as a functional unit consists of a discrete segment of a giant DNA molecule containing the purine (adenine and guanine) and pyrimidine (cytosine and thymine) bases in the ordered and correct sequence that encodes a specific functional product (i.e., a protein or RNA molecule).: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3121602",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2A4E-A834-E040-BB89AD432D73",
+        "value": "Other Not Tested",
+        "shortMeaning": "Other Not Tested",
+        "meaningDescription": "Other Not Tested",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2A3F-A834-E040-BB89AD432D73",
+        "conceptCode": "C17649:C16612:C101887",
+        "conceptCodeArray": [
+          "C17649",
+          "C16612",
+          "C101887"
+        ],
+        "vmDescription": "Different than the one(s) previously specified or mentioned.: A functional unit of heredity which occupies a specific position (locus) on a particular chromosome, is capable of reproducing itself exactly at each cell division, and directs the formation of an enzyme or other protein. The gene as a functional unit consists of a discrete segment of a giant DNA molecule containing the purine (adenine and guanine) and pyrimidine (cytosine and thymine) bases in the ordered and correct sequence that encodes a specific functional product (i.e., a protein or RNA molecule).: Indicates that a test was not performed.",
+        "vmId": "3121600",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2A71-A834-E040-BB89AD432D73",
+        "value": "Other Positive",
+        "shortMeaning": "Other Positive",
+        "meaningDescription": "Other Positive",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2A62-A834-E040-BB89AD432D73",
+        "conceptCode": "C17649:C16612:C38758",
+        "conceptCodeArray": [
+          "C17649",
+          "C16612",
+          "C38758"
+        ],
+        "vmDescription": "Different than the one(s) previously specified or mentioned.: A functional unit of heredity which occupies a specific position (locus) on a particular chromosome, is capable of reproducing itself exactly at each cell division, and directs the formation of an enzyme or other protein. The gene as a functional unit consists of a discrete segment of a giant DNA molecule containing the purine (adenine and guanine) and pyrimidine (cytosine and thymine) bases in the ordered and correct sequence that encodes a specific functional product (i.e., a protein or RNA molecule).: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3121601",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-46C1-AA2A-E050-BB89AD431628",
+        "value": "P53 Negative",
+        "shortMeaning": "TP53 Gene Negative Finding",
+        "meaningDescription": "This gene plays a critical role in cell cycle regulation and has tumor suppressor activity.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-46B2-AA2A-E050-BB89AD431628",
+        "conceptCode": "C17359:C38757",
+        "conceptCodeArray": [
+          "C17359",
+          "C38757"
+        ],
+        "vmDescription": "This gene plays a critical role in cell cycle regulation and has tumor suppressor activity.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "4459743",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-469B-AA2A-E050-BB89AD431628",
+        "value": "P53 Not Tested",
+        "shortMeaning": "TP53 Gene Not Tested",
+        "meaningDescription": "This gene plays a critical role in cell cycle regulation and has tumor suppressor activity.: Indicates that a test was not performed.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-468C-AA2A-E050-BB89AD431628",
+        "conceptCode": "C17359:C101887",
+        "conceptCodeArray": [
+          "C17359",
+          "C101887"
+        ],
+        "vmDescription": "This gene plays a critical role in cell cycle regulation and has tumor suppressor activity.: Indicates that a test was not performed.",
+        "vmId": "4459625",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0129DD46-46E7-AA2A-E050-BB89AD431628",
+        "value": "P53 Positive",
+        "shortMeaning": "TP53 Gene Positive Finding",
+        "meaningDescription": "This gene plays a critical role in cell cycle regulation and has tumor suppressor activity.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1408593600000,
+        "beginDateString": "2014-08-21",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "0129DD46-46D8-AA2A-E050-BB89AD431628",
+        "conceptCode": "C17359:C38758",
+        "conceptCodeArray": [
+          "C17359",
+          "C38758"
+        ],
+        "vmDescription": "This gene plays a critical role in cell cycle regulation and has tumor suppressor activity.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "4459744",
+        "vmVersion": "1",
+        "dateCreated": 1408593600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2D73-A834-E040-BB89AD432D73",
+        "value": "PML-RAR Negative",
+        "shortMeaning": "PML-RAR Negative",
+        "meaningDescription": "PML-RAR Negative",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2D64-A834-E040-BB89AD432D73",
+        "conceptCode": "C99186:C38757",
+        "conceptCodeArray": [
+          "C99186",
+          "C38757"
+        ],
+        "vmDescription": "A fusion gene that results from a chromosomal translocation t(15;17)(q22;q21) which fuses the first 3 exons of the PML gene with the last 7 exons of the RARA gene. This fusion is associated with acute promyelocytic leukemia. Three transcript variants are possible based on the three breakpoint clusters in the PML gene.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3121623",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2D2D-A834-E040-BB89AD432D73",
+        "value": "PML-RAR Not Tested",
+        "shortMeaning": "PML-RAR Not Tested",
+        "meaningDescription": "PML-RAR Not Tested",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2D1E-A834-E040-BB89AD432D73",
+        "conceptCode": "C99186:C101887",
+        "conceptCodeArray": [
+          "C99186",
+          "C101887"
+        ],
+        "vmDescription": "A fusion gene that results from a chromosomal translocation t(15;17)(q22;q21) which fuses the first 3 exons of the PML gene with the last 7 exons of the RARA gene. This fusion is associated with acute promyelocytic leukemia. Three transcript variants are possible based on the three breakpoint clusters in the PML gene.: Indicates that a test was not performed.",
+        "vmId": "3121621",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5DD8D6-2D50-A834-E040-BB89AD432D73",
+        "value": "PML-RAR Positive",
+        "shortMeaning": "PML-RAR Positive",
+        "meaningDescription": "PML-RAR Positive",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5DD8D6-2D41-A834-E040-BB89AD432D73",
+        "conceptCode": "C99186:C38758",
+        "conceptCodeArray": [
+          "C99186",
+          "C38758"
+        ],
+        "vmDescription": "A fusion gene that results from a chromosomal translocation t(15;17)(q22;q21) which fuses the first 3 exons of the PML gene with the last 7 exons of the RARA gene. This fusion is associated with acute promyelocytic leukemia. Three transcript variants are possible based on the three breakpoint clusters in the PML gene.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3121622",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A681-7855-E040-BB89AD434401",
+        "value": "RET Negative",
+        "shortMeaning": "RET Gene Negative Finding",
+        "meaningDescription": "This gene plays an essential role in neural crest development, cellular growth and differentiation. Mutations in the gene are associated with a variety of neoplasias and carcinomas.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A672-7855-E040-BB89AD434401",
+        "conceptCode": "C18257:C38757",
+        "conceptCodeArray": [
+          "C18257",
+          "C38757"
+        ],
+        "vmDescription": "This gene plays an essential role in neural crest development, cellular growth and differentiation. Mutations in the gene are associated with a variety of neoplasias and carcinomas.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3645806",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A65B-7855-E040-BB89AD434401",
+        "value": "RET Not Tested",
+        "shortMeaning": "RET Gene Not Tested",
+        "meaningDescription": "This gene plays an essential role in neural crest development, cellular growth and differentiation. Mutations in the gene are associated with a variety of neoplasias and carcinomas.: Indicates that a test was not performed.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A64C-7855-E040-BB89AD434401",
+        "conceptCode": "C18257:C101887",
+        "conceptCodeArray": [
+          "C18257",
+          "C101887"
+        ],
+        "vmDescription": "This gene plays an essential role in neural crest development, cellular growth and differentiation. Mutations in the gene are associated with a variety of neoplasias and carcinomas.: Indicates that a test was not performed.",
+        "vmId": "3645805",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A6A7-7855-E040-BB89AD434401",
+        "value": "RET Positive",
+        "shortMeaning": "RET Gene Positive Finding",
+        "meaningDescription": "This gene plays an essential role in neural crest development, cellular growth and differentiation. Mutations in the gene are associated with a variety of neoplasias and carcinomas.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A698-7855-E040-BB89AD434401",
+        "conceptCode": "C18257:C38758",
+        "conceptCodeArray": [
+          "C18257",
+          "C38758"
+        ],
+        "vmDescription": "This gene plays an essential role in neural crest development, cellular growth and differentiation. Mutations in the gene are associated with a variety of neoplasias and carcinomas.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3645807",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D1139AD0-C989-2F5A-E040-BB89AD435866",
+        "value": "SDHA Negative",
+        "shortMeaning": "SDHA Gene Negative Finding",
+        "meaningDescription": "SDHA Gene Negative Finding",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D1139AD0-C97A-2F5A-E040-BB89AD435866",
+        "conceptCode": "C103873:C38757",
+        "conceptCodeArray": [
+          "C103873",
+          "C38757"
+        ],
+        "vmDescription": "This gene is involved in the mitochondrial respiratory chain.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3645874",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D1139AD0-C966-2F5A-E040-BB89AD435866",
+        "value": "SDHA Not Tested",
+        "shortMeaning": "SDHA Gene Not Tested",
+        "meaningDescription": "SDHA Gene Not Tested",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D1139AD0-C957-2F5A-E040-BB89AD435866",
+        "conceptCode": "C103873:C101887",
+        "conceptCodeArray": [
+          "C103873",
+          "C101887"
+        ],
+        "vmDescription": "This gene is involved in the mitochondrial respiratory chain.: Indicates that a test was not performed.",
+        "vmId": "3645873",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D1139AD0-C9AC-2F5A-E040-BB89AD435866",
+        "value": "SDHA Positive",
+        "shortMeaning": "SDHA Gene Positive Finding",
+        "meaningDescription": "SDHA Gene Positive Finding",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D1139AD0-C99D-2F5A-E040-BB89AD435866",
+        "conceptCode": "C103873:C38758",
+        "conceptCodeArray": [
+          "C103873",
+          "C38758"
+        ],
+        "vmDescription": "This gene is involved in the mitochondrial respiratory chain.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3645875",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D11146FB-1B74-BF9D-E040-BB89AD434378",
+        "value": "SDHAF2 (SDH5) Negative",
+        "shortMeaning": "SDHAF2 Gene Negative Finding",
+        "meaningDescription": "This gene is involved in the electron transport chain.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D11146FB-1B65-BF9D-E040-BB89AD434378",
+        "conceptCode": "C97770:C38757",
+        "conceptCodeArray": [
+          "C97770",
+          "C38757"
+        ],
+        "vmDescription": "This gene is involved in the electron transport chain.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3645831",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A772-7855-E040-BB89AD434401",
+        "value": "SDHAF2 (SDH5) Not Tested",
+        "shortMeaning": "SDHAF2 Gene Not Tested",
+        "meaningDescription": "This gene is involved in the electron transport chain.: Indicates that a test was not performed.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A763-7855-E040-BB89AD434401",
+        "conceptCode": "C97770:C101887",
+        "conceptCodeArray": [
+          "C97770",
+          "C101887"
+        ],
+        "vmDescription": "This gene is involved in the electron transport chain.: Indicates that a test was not performed.",
+        "vmId": "3645822",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D11146FB-1B9A-BF9D-E040-BB89AD434378",
+        "value": "SDHAF2 (SDH5) Positive",
+        "shortMeaning": "SDHAF2 Gene Positive Finding",
+        "meaningDescription": "This gene is involved in the electron transport chain.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D11146FB-1B8B-BF9D-E040-BB89AD434378",
+        "conceptCode": "C97770:C38758",
+        "conceptCodeArray": [
+          "C97770",
+          "C38758"
+        ],
+        "vmDescription": "This gene is involved in the electron transport chain.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3645832",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D11146FB-1BC1-BF9D-E040-BB89AD434378",
+        "value": "SDHB Negative",
+        "shortMeaning": "SDHB Gene Negative Finding",
+        "meaningDescription": "This gene plays a role in electron transport in the mitochondria.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D11146FB-1BB2-BF9D-E040-BB89AD434378",
+        "conceptCode": "C97773:C38757",
+        "conceptCodeArray": [
+          "C97773",
+          "C38757"
+        ],
+        "vmDescription": "This gene plays a role in electron transport in the mitochondria.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3645833",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A7F9-7855-E040-BB89AD434401",
+        "value": "SDHB Not Tested",
+        "shortMeaning": "SDHB Gene Not Tested",
+        "meaningDescription": "This gene plays a role in electron transport in the mitochondria.: Indicates that a test was not performed.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A7EA-7855-E040-BB89AD434401",
+        "conceptCode": "C97773:C101887",
+        "conceptCodeArray": [
+          "C97773",
+          "C101887"
+        ],
+        "vmDescription": "This gene plays a role in electron transport in the mitochondria.: Indicates that a test was not performed.",
+        "vmId": "3645828",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D11146FB-1BE7-BF9D-E040-BB89AD434378",
+        "value": "SDHB Positive",
+        "shortMeaning": "SDHB Gene Positive Finding",
+        "meaningDescription": "This gene plays a role in electron transport in the mitochondria.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D11146FB-1BD8-BF9D-E040-BB89AD434378",
+        "conceptCode": "C97773:C38758",
+        "conceptCodeArray": [
+          "C97773",
+          "C38758"
+        ],
+        "vmDescription": "This gene plays a role in electron transport in the mitochondria.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3645834",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D11153AB-7AD8-0FEC-E040-BB89AD430C3D",
+        "value": "SDHC Negative",
+        "shortMeaning": "SDHC Gene Negative Finding",
+        "meaningDescription": "This gene is involved in mitochondrial electron transport.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D11153AB-7AC9-0FEC-E040-BB89AD430C3D",
+        "conceptCode": "C97776:C38757",
+        "conceptCodeArray": [
+          "C97776",
+          "C38757"
+        ],
+        "vmDescription": "This gene is involved in mitochondrial electron transport.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3645835",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A7CC-7855-E040-BB89AD434401",
+        "value": "SDHC Not Tested",
+        "shortMeaning": "SDHC Gene Not Tested",
+        "meaningDescription": "This gene is involved in mitochondrial electron transport.: Indicates that a test was not performed.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A7BD-7855-E040-BB89AD434401",
+        "conceptCode": "C97776:C101887",
+        "conceptCodeArray": [
+          "C97776",
+          "C101887"
+        ],
+        "vmDescription": "This gene is involved in mitochondrial electron transport.: Indicates that a test was not performed.",
+        "vmId": "3645826",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D11153AB-7AFE-0FEC-E040-BB89AD430C3D",
+        "value": "SDHC Positive",
+        "shortMeaning": "SDHC Gene Positive Finding",
+        "meaningDescription": "This gene is involved in mitochondrial electron transport.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D11153AB-7AEF-0FEC-E040-BB89AD430C3D",
+        "conceptCode": "C97776:C38758",
+        "conceptCodeArray": [
+          "C97776",
+          "C38758"
+        ],
+        "vmDescription": "This gene is involved in mitochondrial electron transport.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3645836",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D11153AB-7B25-0FEC-E040-BB89AD430C3D",
+        "value": "SDHD Negative",
+        "shortMeaning": "SDHD Gene Negative Finding",
+        "meaningDescription": "This gene plays a role in the localization of succinate dehydrogenase activity.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D11153AB-7B16-0FEC-E040-BB89AD430C3D",
+        "conceptCode": "C97779:C38757",
+        "conceptCodeArray": [
+          "C97779",
+          "C38757"
+        ],
+        "vmDescription": "This gene plays a role in the localization of succinate dehydrogenase activity.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3645837",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A79F-7855-E040-BB89AD434401",
+        "value": "SDHD Not Tested",
+        "shortMeaning": "SDHD Gene Not Tested",
+        "meaningDescription": "This gene plays a role in the localization of succinate dehydrogenase activity.: Indicates that a test was not performed.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A790-7855-E040-BB89AD434401",
+        "conceptCode": "C97779:C101887",
+        "conceptCodeArray": [
+          "C97779",
+          "C101887"
+        ],
+        "vmDescription": "This gene plays a role in the localization of succinate dehydrogenase activity.: Indicates that a test was not performed.",
+        "vmId": "3645824",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D11153AB-7B4B-0FEC-E040-BB89AD430C3D",
+        "value": "SDHD Positive",
+        "shortMeaning": "SDHD Gene Positive Finding",
+        "meaningDescription": "This gene plays a role in the localization of succinate dehydrogenase activity.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D11153AB-7B3C-0FEC-E040-BB89AD430C3D",
+        "conceptCode": "C97779:C38758",
+        "conceptCodeArray": [
+          "C97779",
+          "C38758"
+        ],
+        "vmDescription": "This gene plays a role in the localization of succinate dehydrogenase activity.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3645838",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D11153AB-7BBB-0FEC-E040-BB89AD430C3D",
+        "value": "TMEM 127 Negative",
+        "shortMeaning": "TMEM127 Gene Negative Finding",
+        "meaningDescription": "This gene may play a role in signaling and protein trafficking.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D11153AB-7BAC-0FEC-E040-BB89AD430C3D",
+        "conceptCode": "C95303:C38757",
+        "conceptCodeArray": [
+          "C95303",
+          "C38757"
+        ],
+        "vmDescription": "This gene may play a role in signaling and protein trafficking.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3645841",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A745-7855-E040-BB89AD434401",
+        "value": "TMEM 127 Not Tested",
+        "shortMeaning": "TMEM127 Gene Not Tested",
+        "meaningDescription": "This gene may play a role in signaling and protein trafficking.: Indicates that a test was not performed.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A736-7855-E040-BB89AD434401",
+        "conceptCode": "C95303:C101887",
+        "conceptCodeArray": [
+          "C95303",
+          "C101887"
+        ],
+        "vmDescription": "This gene may play a role in signaling and protein trafficking.: Indicates that a test was not performed.",
+        "vmId": "3645820",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D11153AB-7BE1-0FEC-E040-BB89AD430C3D",
+        "value": "TMEM 127 Positive",
+        "shortMeaning": "TMEM127 Gene Positive Finding",
+        "meaningDescription": "This gene may play a role in signaling and protein trafficking.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D11153AB-7BD2-0FEC-E040-BB89AD430C3D",
+        "conceptCode": "C95303:C38758",
+        "conceptCodeArray": [
+          "C95303",
+          "C38758"
+        ],
+        "vmDescription": "This gene may play a role in signaling and protein trafficking.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3645842",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A60F-7855-E040-BB89AD434401",
+        "value": "VHL Negative",
+        "shortMeaning": "VHL Gene Negative Finding",
+        "meaningDescription": "This gene is involved in transcriptional repression and protein degradation.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A600-7855-E040-BB89AD434401",
+        "conceptCode": "C18261:C38757",
+        "conceptCodeArray": [
+          "C18261",
+          "C38757"
+        ],
+        "vmDescription": "This gene is involved in transcriptional repression and protein degradation.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3645803",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A5E9-7855-E040-BB89AD434401",
+        "value": "VHL Not Tested",
+        "shortMeaning": "VHL Gene Not Tested",
+        "meaningDescription": "This gene is involved in transcriptional repression and protein degradation.: Indicates that a test was not performed.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A5DA-7855-E040-BB89AD434401",
+        "conceptCode": "C18261:C101887",
+        "conceptCodeArray": [
+          "C18261",
+          "C101887"
+        ],
+        "vmDescription": "This gene is involved in transcriptional repression and protein degradation.: Indicates that a test was not performed.",
+        "vmId": "3645802",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "D110377B-A635-7855-E040-BB89AD434401",
+        "value": "VHL Positive",
+        "shortMeaning": "VHL Gene Positive Finding",
+        "meaningDescription": "This gene is involved in transcriptional repression and protein degradation.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "beginDate": 1355720400000,
+        "beginDateString": "2012-12-17",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "D110377B-A626-7855-E040-BB89AD434401",
+        "conceptCode": "C18261:C38758",
+        "conceptCodeArray": [
+          "C18261",
+          "C38758"
+        ],
+        "vmDescription": "This gene is involved in transcriptional repression and protein degradation.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3645804",
+        "vmVersion": "1",
+        "dateCreated": 1355720400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8E8417A4-1FE6-8F7D-E040-BB89AD431C3C",
+        "value": "WT1 Negative",
+        "shortMeaning": "WT1 Negative",
+        "meaningDescription": "WT1 Negative",
+        "beginDate": 1282536000000,
+        "beginDateString": "2010-08-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8E8417A4-1FD7-8F7D-E040-BB89AD431C3C",
+        "conceptCode": "C18262:C38757",
+        "conceptCodeArray": [
+          "C18262",
+          "C38757"
+        ],
+        "vmDescription": "This gene plays a role in regulation of transcription. It is involved in the control of both cell differentiation and proliferation.: A finding of normality following an examination or investigation looking for the presence of a microorganism, disease, or condition.",
+        "vmId": "3131743",
+        "vmVersion": "1",
+        "dateCreated": 1282536000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8E8417A4-1FA0-8F7D-E040-BB89AD431C3C",
+        "value": "WT1 Not Tested",
+        "shortMeaning": "WT1 Not Tested",
+        "meaningDescription": "WT1 Not Tested",
+        "beginDate": 1282536000000,
+        "beginDateString": "2010-08-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8E8417A4-1F91-8F7D-E040-BB89AD431C3C",
+        "conceptCode": "C18262:C101887",
+        "conceptCodeArray": [
+          "C18262",
+          "C101887"
+        ],
+        "vmDescription": "This gene plays a role in regulation of transcription. It is involved in the control of both cell differentiation and proliferation.: Indicates that a test was not performed.",
+        "vmId": "3131741",
+        "vmVersion": "1",
+        "dateCreated": 1282536000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8E8417A4-1FC3-8F7D-E040-BB89AD431C3C",
+        "value": "WT1 Positive",
+        "shortMeaning": "WT1 Positive",
+        "meaningDescription": "WT1 Positive",
+        "beginDate": 1282536000000,
+        "beginDateString": "2010-08-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8E8417A4-1FB4-8F7D-E040-BB89AD431C3C",
+        "conceptCode": "C18262:C38758",
+        "conceptCodeArray": [
+          "C18262",
+          "C38758"
+        ],
+        "vmDescription": "This gene plays a role in regulation of transcription. It is involved in the control of both cell differentiation and proliferation.: An observation confirming something, such as the presence of a disease, condition, or microorganism.",
+        "vmId": "3131742",
+        "vmVersion": "1",
+        "dateCreated": 1282536000000,
+        "dateModified": null
+      }
+    ],
+    "permissibleValueExtList": null,
+    "valueMeaning": [
+      {
+        "pvIdseq": "8B5DD8D6-2B43-A834-E040-BB89AD432D73",
+        "pvMeaning": "Activating RAS Negative",
+        "vmPublicId": "3121607",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2B34-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Activating RAS Negative",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2B20-A834-E040-BB89AD432D73",
+        "pvMeaning": "Activating RAS Not Tested",
+        "vmPublicId": "3121606",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2B11-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Activating RAS Not Tested",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2B66-A834-E040-BB89AD432D73",
+        "pvMeaning": "Activating RAS Positive",
+        "vmPublicId": "3121608",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2B57-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Activating RAS Positive",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2DDC-A834-E040-BB89AD432D73",
+        "pvMeaning": "BCR-ABL Negative",
+        "vmPublicId": "3121626",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2DCD-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "BCR-ABL Negative",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2D96-A834-E040-BB89AD432D73",
+        "pvMeaning": "BCR-ABL Not Tested",
+        "vmPublicId": "3121624",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2D87-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "BCR-ABL Not Tested",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2DB9-A834-E040-BB89AD432D73",
+        "pvMeaning": "BCR-ABL Positive",
+        "vmPublicId": "3121625",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2DAA-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "BCR-ABL Positive",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8E8417A4-204F-8F7D-E040-BB89AD431C3C",
+        "pvMeaning": "CEBPA Negative",
+        "vmPublicId": "3131746",
+        "vmVersion": "1",
+        "vmIdseq": "8E8417A4-2040-8F7D-E040-BB89AD431C3C",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "CEBPA Negative",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8E8417A4-2009-8F7D-E040-BB89AD431C3C",
+        "pvMeaning": "CEBPA Not Tested",
+        "vmPublicId": "3131744",
+        "vmVersion": "1",
+        "vmIdseq": "8E8417A4-1FFA-8F7D-E040-BB89AD431C3C",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "CEBPA Not Tested",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8E8417A4-202C-8F7D-E040-BB89AD431C3C",
+        "pvMeaning": "CEBPA Positive",
+        "vmPublicId": "3131745",
+        "vmVersion": "1",
+        "vmIdseq": "8E8417A4-201D-8F7D-E040-BB89AD431C3C",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "CEBPA Positive",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "0129DD46-452C-AA2A-E050-BB89AD431628",
+        "pvMeaning": "Mismatch Repair Negative Finding",
+        "vmPublicId": "4459565",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-451D-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-4506-AA2A-E050-BB89AD431628",
+        "pvMeaning": "Mismatch Repair Not Tested",
+        "vmPublicId": "4459564",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-44F7-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-4552-AA2A-E050-BB89AD431628",
+        "pvMeaning": "Mismatch Repair Positive Finding",
+        "vmPublicId": "4459566",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-4543-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-459E-AA2A-E050-BB89AD431628",
+        "pvMeaning": "FAP Gene Negative Finding",
+        "vmPublicId": "4459568",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-458F-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-4578-AA2A-E050-BB89AD431628",
+        "pvMeaning": "FAP Gene Not Tested",
+        "vmPublicId": "4459567",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-4569-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-45C4-AA2A-E050-BB89AD431628",
+        "pvMeaning": "FAP Gene Positive Finding",
+        "vmPublicId": "4459569",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-45B5-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2D0A-A834-E040-BB89AD432D73",
+        "pvMeaning": "FLT3 Mutation Negative",
+        "vmPublicId": "3121620",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2CFB-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "FLT3 Mutation Negative",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2CC4-A834-E040-BB89AD432D73",
+        "pvMeaning": "FLT3 Mutation Not Tested",
+        "vmPublicId": "3121618",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2CB5-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "FLT3 Mutation Not Tested",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2CE7-A834-E040-BB89AD432D73",
+        "pvMeaning": "FLT3 Mutation Positive",
+        "vmPublicId": "3121619",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2CD8-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "FLT3 Mutation Positive",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2CA1-A834-E040-BB89AD432D73",
+        "pvMeaning": "IDH1 R132 Negative",
+        "vmPublicId": "3121617",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2C92-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "IDH1 R132 Negative",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2C5B-A834-E040-BB89AD432D73",
+        "pvMeaning": "IDH1 R132 Not Tested",
+        "vmPublicId": "3121615",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2C4C-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "IDH1 R132 Not Tested",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2C7E-A834-E040-BB89AD432D73",
+        "pvMeaning": "IDH1 R132 Positive",
+        "vmPublicId": "3121616",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2C6F-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "IDH1 R132 Positive",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2C38-A834-E040-BB89AD432D73",
+        "pvMeaning": "IDH1 R140 Negative",
+        "vmPublicId": "3121614",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2C29-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2BF2-A834-E040-BB89AD432D73",
+        "pvMeaning": "IDH1 R140 Not Tested",
+        "vmPublicId": "3121612",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2BE3-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2C15-A834-E040-BB89AD432D73",
+        "pvMeaning": "IDH1 R140 Positive",
+        "vmPublicId": "3121613",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2C06-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2BCF-A834-E040-BB89AD432D73",
+        "pvMeaning": "IDH1 R172 Negative",
+        "vmPublicId": "3121611",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2BC0-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2B89-A834-E040-BB89AD432D73",
+        "pvMeaning": "IDH1 R172 Not Tested",
+        "vmPublicId": "3121609",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2B7A-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2BAC-A834-E040-BB89AD432D73",
+        "pvMeaning": "IDH1 R172 Positive",
+        "vmPublicId": "3121610",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2B9D-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "917B00C1-3514-B5C4-E040-BB89AD432482",
+        "pvMeaning": "JAK2 V617 Negative",
+        "vmPublicId": "3144419",
+        "vmVersion": "1",
+        "vmIdseq": "917B00C1-3505-B5C4-E040-BB89AD432482",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "JAK2 V617 Negative",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "917B00C1-34CE-B5C4-E040-BB89AD432482",
+        "pvMeaning": "JAK2 V617 Not Tested",
+        "vmPublicId": "3144417",
+        "vmVersion": "1",
+        "vmIdseq": "917B00C1-34BF-B5C4-E040-BB89AD432482",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "JAK2 V617 Not Tested",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "917B00C1-34F1-B5C4-E040-BB89AD432482",
+        "pvMeaning": "JAK2 V617 Positive",
+        "vmPublicId": "3144418",
+        "vmVersion": "1",
+        "vmIdseq": "917B00C1-34E2-B5C4-E040-BB89AD432482",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "JAK2 V617 Positive",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8E8417A4-20B8-8F7D-E040-BB89AD431C3C",
+        "pvMeaning": "KIT Negative",
+        "vmPublicId": "3131749",
+        "vmVersion": "1",
+        "vmIdseq": "8E8417A4-20A9-8F7D-E040-BB89AD431C3C",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "KIT Negative",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8E8417A4-2072-8F7D-E040-BB89AD431C3C",
+        "pvMeaning": "KIT Not Tested",
+        "vmPublicId": "3131747",
+        "vmVersion": "1",
+        "vmIdseq": "8E8417A4-2063-8F7D-E040-BB89AD431C3C",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "KIT Not Tested",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8E8417A4-2095-8F7D-E040-BB89AD431C3C",
+        "pvMeaning": "KIT Positive",
+        "vmPublicId": "3131748",
+        "vmVersion": "1",
+        "vmIdseq": "8E8417A4-2086-8F7D-E040-BB89AD431C3C",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "KIT Positive",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "D110377B-A830-7855-E040-BB89AD434401",
+        "pvMeaning": "MAX Gene Negative Finding",
+        "vmPublicId": "3645829",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A821-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A718-7855-E040-BB89AD434401",
+        "pvMeaning": "MAX Gene Not Tested",
+        "vmPublicId": "3645818",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A709-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A856-7855-E040-BB89AD434401",
+        "pvMeaning": "MAX Gene Positive Finding",
+        "vmPublicId": "3645830",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A847-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-464F-AA2A-E050-BB89AD431628",
+        "pvMeaning": "MEN1 Gene Negative Finding",
+        "vmPublicId": "4459573",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-4640-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-4629-AA2A-E050-BB89AD431628",
+        "pvMeaning": "MEN1 Gene Not Tested",
+        "vmPublicId": "4459572",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-461A-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-4675-AA2A-E050-BB89AD431628",
+        "pvMeaning": "MEN1 Gene Positive Finding",
+        "vmPublicId": "4459574",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-4666-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110A16D-2E75-9201-E040-BB89AD436122",
+        "pvMeaning": "NF1 Gene Clinical Finding Negative",
+        "vmPublicId": "3645814",
+        "vmVersion": "1",
+        "vmIdseq": "D110A16D-2E66-9201-E040-BB89AD436122",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A54B-7855-E040-BB89AD434401",
+        "pvMeaning": "NF1 Gene Clinical Finding Not Tested",
+        "vmPublicId": "3645798",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A53C-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A6D5-7855-E040-BB89AD434401",
+        "pvMeaning": "NF1 Gene Clinical Finding Positive",
+        "vmPublicId": "3645808",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A6C6-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A59D-7855-E040-BB89AD434401",
+        "pvMeaning": "NF1 Gene Negative Finding",
+        "vmPublicId": "3645800",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A58E-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A577-7855-E040-BB89AD434401",
+        "pvMeaning": "NF1 Gene Not Tested",
+        "vmPublicId": "3645799",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A568-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A5C3-7855-E040-BB89AD434401",
+        "pvMeaning": "NF1 Gene Positive Finding",
+        "vmPublicId": "3645801",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A5B4-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-4600-AA2A-E050-BB89AD431628",
+        "pvMeaning": "NFIC Gene Negative Finding",
+        "vmPublicId": "4459571",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-45F1-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-473D-AA2A-E050-BB89AD431628",
+        "pvMeaning": "NFIC Gene Not Tested",
+        "vmPublicId": "4459745",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-472E-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-4773-AA2A-E050-BB89AD431628",
+        "pvMeaning": "NFIC Gene Positive Finding",
+        "vmPublicId": "4459761",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-4764-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2AFD-A834-E040-BB89AD432D73",
+        "pvMeaning": "NPMc Negative",
+        "vmPublicId": "3121605",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2AEE-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "NPMc Negative",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2AB7-A834-E040-BB89AD432D73",
+        "pvMeaning": "NPMc Not Tested",
+        "vmPublicId": "3121603",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2AA8-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "NPMc Not Tested",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2ADA-A834-E040-BB89AD432D73",
+        "pvMeaning": "NPMc Positive",
+        "vmPublicId": "3121604",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2ACB-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "NPMc Positive",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2A94-A834-E040-BB89AD432D73",
+        "pvMeaning": "Other Negative",
+        "vmPublicId": "3121602",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2A85-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Other Negative",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2A4E-A834-E040-BB89AD432D73",
+        "pvMeaning": "Other Not Tested",
+        "vmPublicId": "3121600",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2A3F-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Other Not Tested",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2A71-A834-E040-BB89AD432D73",
+        "pvMeaning": "Other Positive",
+        "vmPublicId": "3121601",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2A62-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Other Positive",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "0129DD46-46C1-AA2A-E050-BB89AD431628",
+        "pvMeaning": "TP53 Gene Negative Finding",
+        "vmPublicId": "4459743",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-46B2-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-469B-AA2A-E050-BB89AD431628",
+        "pvMeaning": "TP53 Gene Not Tested",
+        "vmPublicId": "4459625",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-468C-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "0129DD46-46E7-AA2A-E050-BB89AD431628",
+        "pvMeaning": "TP53 Gene Positive Finding",
+        "vmPublicId": "4459744",
+        "vmVersion": "1",
+        "vmIdseq": "0129DD46-46D8-AA2A-E050-BB89AD431628",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2D73-A834-E040-BB89AD432D73",
+        "pvMeaning": "PML-RAR Negative",
+        "vmPublicId": "3121623",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2D64-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "PML-RAR Negative",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2D2D-A834-E040-BB89AD432D73",
+        "pvMeaning": "PML-RAR Not Tested",
+        "vmPublicId": "3121621",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2D1E-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "PML-RAR Not Tested",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5DD8D6-2D50-A834-E040-BB89AD432D73",
+        "pvMeaning": "PML-RAR Positive",
+        "vmPublicId": "3121622",
+        "vmVersion": "1",
+        "vmIdseq": "8B5DD8D6-2D41-A834-E040-BB89AD432D73",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "PML-RAR Positive",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "D110377B-A681-7855-E040-BB89AD434401",
+        "pvMeaning": "RET Gene Negative Finding",
+        "vmPublicId": "3645806",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A672-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A65B-7855-E040-BB89AD434401",
+        "pvMeaning": "RET Gene Not Tested",
+        "vmPublicId": "3645805",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A64C-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A6A7-7855-E040-BB89AD434401",
+        "pvMeaning": "RET Gene Positive Finding",
+        "vmPublicId": "3645807",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A698-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D1139AD0-C989-2F5A-E040-BB89AD435866",
+        "pvMeaning": "SDHA Gene Negative Finding",
+        "vmPublicId": "3645874",
+        "vmVersion": "1",
+        "vmIdseq": "D1139AD0-C97A-2F5A-E040-BB89AD435866",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "SDHA Gene Negative Finding",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "D1139AD0-C966-2F5A-E040-BB89AD435866",
+        "pvMeaning": "SDHA Gene Not Tested",
+        "vmPublicId": "3645873",
+        "vmVersion": "1",
+        "vmIdseq": "D1139AD0-C957-2F5A-E040-BB89AD435866",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "SDHA Gene Not Tested",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "D1139AD0-C9AC-2F5A-E040-BB89AD435866",
+        "pvMeaning": "SDHA Gene Positive Finding",
+        "vmPublicId": "3645875",
+        "vmVersion": "1",
+        "vmIdseq": "D1139AD0-C99D-2F5A-E040-BB89AD435866",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "SDHA Gene Positive Finding",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "D11146FB-1B74-BF9D-E040-BB89AD434378",
+        "pvMeaning": "SDHAF2 Gene Negative Finding",
+        "vmPublicId": "3645831",
+        "vmVersion": "1",
+        "vmIdseq": "D11146FB-1B65-BF9D-E040-BB89AD434378",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A772-7855-E040-BB89AD434401",
+        "pvMeaning": "SDHAF2 Gene Not Tested",
+        "vmPublicId": "3645822",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A763-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D11146FB-1B9A-BF9D-E040-BB89AD434378",
+        "pvMeaning": "SDHAF2 Gene Positive Finding",
+        "vmPublicId": "3645832",
+        "vmVersion": "1",
+        "vmIdseq": "D11146FB-1B8B-BF9D-E040-BB89AD434378",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D11146FB-1BC1-BF9D-E040-BB89AD434378",
+        "pvMeaning": "SDHB Gene Negative Finding",
+        "vmPublicId": "3645833",
+        "vmVersion": "1",
+        "vmIdseq": "D11146FB-1BB2-BF9D-E040-BB89AD434378",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A7F9-7855-E040-BB89AD434401",
+        "pvMeaning": "SDHB Gene Not Tested",
+        "vmPublicId": "3645828",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A7EA-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D11146FB-1BE7-BF9D-E040-BB89AD434378",
+        "pvMeaning": "SDHB Gene Positive Finding",
+        "vmPublicId": "3645834",
+        "vmVersion": "1",
+        "vmIdseq": "D11146FB-1BD8-BF9D-E040-BB89AD434378",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D11153AB-7AD8-0FEC-E040-BB89AD430C3D",
+        "pvMeaning": "SDHC Gene Negative Finding",
+        "vmPublicId": "3645835",
+        "vmVersion": "1",
+        "vmIdseq": "D11153AB-7AC9-0FEC-E040-BB89AD430C3D",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A7CC-7855-E040-BB89AD434401",
+        "pvMeaning": "SDHC Gene Not Tested",
+        "vmPublicId": "3645826",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A7BD-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D11153AB-7AFE-0FEC-E040-BB89AD430C3D",
+        "pvMeaning": "SDHC Gene Positive Finding",
+        "vmPublicId": "3645836",
+        "vmVersion": "1",
+        "vmIdseq": "D11153AB-7AEF-0FEC-E040-BB89AD430C3D",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D11153AB-7B25-0FEC-E040-BB89AD430C3D",
+        "pvMeaning": "SDHD Gene Negative Finding",
+        "vmPublicId": "3645837",
+        "vmVersion": "1",
+        "vmIdseq": "D11153AB-7B16-0FEC-E040-BB89AD430C3D",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A79F-7855-E040-BB89AD434401",
+        "pvMeaning": "SDHD Gene Not Tested",
+        "vmPublicId": "3645824",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A790-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D11153AB-7B4B-0FEC-E040-BB89AD430C3D",
+        "pvMeaning": "SDHD Gene Positive Finding",
+        "vmPublicId": "3645838",
+        "vmVersion": "1",
+        "vmIdseq": "D11153AB-7B3C-0FEC-E040-BB89AD430C3D",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D11153AB-7BBB-0FEC-E040-BB89AD430C3D",
+        "pvMeaning": "TMEM127 Gene Negative Finding",
+        "vmPublicId": "3645841",
+        "vmVersion": "1",
+        "vmIdseq": "D11153AB-7BAC-0FEC-E040-BB89AD430C3D",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A745-7855-E040-BB89AD434401",
+        "pvMeaning": "TMEM127 Gene Not Tested",
+        "vmPublicId": "3645820",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A736-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D11153AB-7BE1-0FEC-E040-BB89AD430C3D",
+        "pvMeaning": "TMEM127 Gene Positive Finding",
+        "vmPublicId": "3645842",
+        "vmVersion": "1",
+        "vmIdseq": "D11153AB-7BD2-0FEC-E040-BB89AD430C3D",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A60F-7855-E040-BB89AD434401",
+        "pvMeaning": "VHL Gene Negative Finding",
+        "vmPublicId": "3645803",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A600-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A5E9-7855-E040-BB89AD434401",
+        "pvMeaning": "VHL Gene Not Tested",
+        "vmPublicId": "3645802",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A5DA-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "D110377B-A635-7855-E040-BB89AD434401",
+        "pvMeaning": "VHL Gene Positive Finding",
+        "vmPublicId": "3645804",
+        "vmVersion": "1",
+        "vmIdseq": "D110377B-A626-7855-E040-BB89AD434401",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "8E8417A4-1FE6-8F7D-E040-BB89AD431C3C",
+        "pvMeaning": "WT1 Negative",
+        "vmPublicId": "3131743",
+        "vmVersion": "1",
+        "vmIdseq": "8E8417A4-1FD7-8F7D-E040-BB89AD431C3C",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "WT1 Negative",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8E8417A4-1FA0-8F7D-E040-BB89AD431C3C",
+        "pvMeaning": "WT1 Not Tested",
+        "vmPublicId": "3131741",
+        "vmVersion": "1",
+        "vmIdseq": "8E8417A4-1F91-8F7D-E040-BB89AD431C3C",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "WT1 Not Tested",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8E8417A4-1FC3-8F7D-E040-BB89AD431C3C",
+        "pvMeaning": "WT1 Positive",
+        "vmPublicId": "3131742",
+        "vmVersion": "1",
+        "vmIdseq": "8E8417A4-1FB4-8F7D-E040-BB89AD431C3C",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "WT1 Positive",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      }
+    ],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 3121628,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormality Testing Result",
+      "shortName": "3121577v1.0:3121599v1.0",
+      "preferredQuestionText": "Molecular Abnormality Studies",
+      "definition": "Term to describe an abnormal result of molecular analysis.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 3121628,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormality Testing Result",
+      "shortName": "3121577v1.0:3121599v1.0",
+      "preferredQuestionText": "Molecular Abnormality Studies",
+      "definition": "Term to describe an abnormal result of molecular analysis.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "formUsages": []
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 3121628,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormality Testing Result",
+      "shortName": "3121577v1.0:3121599v1.0",
+      "preferredQuestionText": "Molecular Abnormality Studies",
+      "definition": "Term to describe an abnormal result of molecular analysis.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "REEVESD",
+    "dateCreated": "2010-07-14",
+    "modifiedBy": "COOPERM",
+    "dateModified": "2014-09-03",
+    "vdCreatedBy": "REEVESD",
+    "vdOwnedBy": "NCIP",
+    "vdDateCreated": "2010-07-14",
+    "vdDateModified": "2014-09-03",
+    "decCreatedBy": "REEVESD",
+    "decOwnedBy": "NCIP",
+    "decDateCreated": "2010-07-14",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 3121628,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormality Testing Result",
+      "shortName": "3121577v1.0:3121599v1.0",
+      "preferredQuestionText": "Molecular Abnormality Studies",
+      "definition": "Term to describe an abnormal result of molecular analysis.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "changeNote": "Reuse latest version.  Versioned to correct error with 6 PVs using IDH1 instead of IDH2.  Deleted incorrect PVs and added correct PVs with annotated VMs. mc 9/3/2014"
+  }
+}

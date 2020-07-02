@@ -1,0 +1,790 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 3121309,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person History NonMedical Leukemia Causing Agent Type",
+      "shortName": "3121283v1.0:3121304v1.0",
+      "preferredQuestionText": "Previous Exposure to Non-medical, Potentially Leukemogenic Agent",
+      "definition": "Text description of a potentially leukemogenic nonmedical agent to which a person has been exposed.",
+      "valueDomain": "NonMedical Leukemia Causing Agent Type",
+      "dataElementConcept": "Person History Leukemogenic Agent Exposure",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "origin": "TCGA:The Cancer Genome Atlas",
+      "registrationStatus": null,
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "8B49DAD3-393C-C671-E040-BB89AD436E8C"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Previous Exposure to Non-medi",
+        "documentType": "Preferred Question Text",
+        "documentText": "Previous Exposure to Non-medical, Potentially Leukemogenic Agent",
+        "context": "NCIP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [],
+      "alternateNames": [
+        {
+          "name": "person_history_nonmedical_leukemia_causing_agent_type",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 3121309,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person History NonMedical Leukemia Causing Agent Type",
+      "shortName": "3121283v1.0:3121304v1.0",
+      "preferredQuestionText": "Previous Exposure to Non-medical, Potentially Leukemogenic Agent",
+      "definition": "Text description of a potentially leukemogenic nonmedical agent to which a person has been exposed.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 3121283,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person History Leukemogenic Agent Exposure",
+      "shortName": "3123157v1.0:2413363v1.0",
+      "definition": "Person; a human being._The aggregate of past events; the continuum of events occurring in succession leading from the past to the present; a record or narrative description of past events._Leading to or causing leukemia._An active power or cause (as principle, substance, physical or biological factor, etc.) that produces a specific effect. (NCI)_Contact with infectious agents (bacteria or viruses) in a manner that promotes transmission and increases the likelihood of disease. (CDC)",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008556,
+      "conceptualDomainShortName": "ASSESS_RESULTS",
+      "conceptualDomainLongName": "Assessment Results",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 3123157,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person History Leukemogenic Agent",
+      "shortName": "C25190:C54625:C90605:C1708",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Person",
+        "conceptCode": "C25190",
+        "publicId": "2202486",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "History",
+        "conceptCode": "C54625",
+        "publicId": "2519676",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Leukemogenic",
+        "conceptCode": "C90605",
+        "publicId": "3121507",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Agent",
+        "conceptCode": "C1708",
+        "publicId": "2202316",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2413363,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Exposure",
+      "shortName": "C17941",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Exposure",
+        "conceptCode": "C17941",
+        "publicId": "2203924",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 3121309,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person History NonMedical Leukemia Causing Agent Type",
+      "shortName": "3121283v1.0:3121304v1.0",
+      "preferredQuestionText": "Previous Exposure to Non-medical, Potentially Leukemogenic Agent",
+      "definition": "Text description of a potentially leukemogenic nonmedical agent to which a person has been exposed.",
+      "workflowStatus": "RELEASED"
+    },
+    "valueDomainDetails": {
+      "publicId": 3121304,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "NonMedical Leukemia Causing Agent Type",
+      "shortName": "3121304v1.0",
+      "context": "NCIP",
+      "definition": "An operation in which a term denies or inverts the meaning of another term or construction._Medical; relating to the study or practice of medicine._A malignant (clonal) hematologic disorder, involving hematopoietic stem cells and characterized by the presence of primitive or atypical myeloid or lymphoid cells in the bone marrow and the blood.  Leukemias are classified as acute or chronic based on the degree of cellular differentiation and the predominant cell type present.  Leukemia is usually associated with anemia, fever, hemorrhagic episodes and splenomegaly.  Common leukemias include acute myeloid leukemia, chronic myelogenous leukemia, acute lymphoblastic or precursor lymphoblastic leukemia, and chronic lymphocytic leukemia.  Treatment is vital to patient survival; untreated, the natural course of acute leukemias is normally measured in weeks or months, while that of chronic leukemias is more often measured in months or years. -- 2004_Existing in such a way that some specific thing happens as a result._An active power or cause (as principle, substance, physical or biological factor, etc.) that produces a specific effect. (NCI)_Type; a subdivision of a particular kind of thing.",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": null,
+      "dataType": "CHARACTER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 25,
+      "minimumLength": null,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "E",
+      "conceptualDomainPublicId": 2008556,
+      "conceptualDomainShortName": "ASSESS_RESULTS",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Assessment Results",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 3121303,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Negation Medical Leukemia Causing Agent Type",
+      "shortName": "C25594:C25261:C3161:C86056:C17",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Negation",
+        "conceptCode": "C25594",
+        "publicId": "2204956",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Medical",
+        "conceptCode": "C25261",
+        "publicId": "2202452",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Leukemia",
+        "conceptCode": "C3161",
+        "publicId": "2202669",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Causing",
+        "conceptCode": "C86056",
+        "publicId": "3121302",
+        "definitionSource": "NCI",
+        "evsSource": "CTCAE_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Agent",
+        "conceptCode": "C1708",
+        "publicId": "2202316",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Type",
+        "conceptCode": "C25284",
+        "publicId": "2202431",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B49DAD3-391D-C671-E040-BB89AD436E8C",
+        "value": "Benzene",
+        "shortMeaning": "Benzene",
+        "meaningDescription": "Toxic, volatile, flammable liquid hydrocarbon byproduct of coal distillation. It is used as an industrial solvent in paints, varnishes, lacquer thinners, gasoline, etc. Benzene causes central nervous system damage acutely and bone marrow damage chronically and is carcinogenic. It was formerly used as parasiticide.",
+        "beginDate": 1278993600000,
+        "beginDateString": "2010-07-13",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B49DAD3-390E-C671-E040-BB89AD436E8C",
+        "conceptCode": "C302",
+        "conceptCodeArray": [
+          "C302"
+        ],
+        "vmDescription": "Toxic, volatile, flammable liquid hydrocarbon byproduct of coal distillation. It is used as an industrial solvent in paints, varnishes, lacquer thinners, gasoline, etc. Benzene causes central nervous system damage acutely and bone marrow damage chronically and is carcinogenic. It was formerly used as parasiticide.",
+        "vmId": "3121307",
+        "vmVersion": "1",
+        "dateCreated": 1278993600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "062AA8FB-F077-0D39-E044-0003BA3F9857",
+        "value": "None",
+        "shortMeaning": "None",
+        "meaningDescription": "No person or thing, nobody, not any.",
+        "beginDate": 1278993600000,
+        "beginDateString": "2010-07-13",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-FA15-5C23-E044-0003BA3F9857",
+        "conceptCode": "C41132",
+        "conceptCodeArray": [
+          "C41132"
+        ],
+        "vmDescription": "No person or thing, nobody, not any.",
+        "vmId": "2577064",
+        "vmVersion": "1",
+        "dateCreated": 1425960000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B49DAD3-38CC-C671-E040-BB89AD436E8C",
+        "value": "Other Chemicals, specify",
+        "shortMeaning": "Other Chemical",
+        "meaningDescription": "Different than the one(s) previously specified or mentioned.: A substance with a defined atomic or molecular structure that results from, or takes part in, reactions involving changes in its structure, composition, or properties.",
+        "beginDate": 1278993600000,
+        "beginDateString": "2010-07-13",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B49DAD3-38BD-C671-E040-BB89AD436E8C",
+        "conceptCode": "C17649:C48807",
+        "conceptCodeArray": [
+          "C17649",
+          "C48807"
+        ],
+        "vmDescription": "Different than the one(s) previously specified or mentioned.: A substance with a defined atomic or molecular structure that results from, or takes part in, reactions involving changes in its structure, composition, or properties.",
+        "vmId": "3121305",
+        "vmVersion": "1",
+        "dateCreated": 1278993600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "10F5DBD3-710B-5B8C-E050-BB89AD433D2A",
+        "value": "Pesticide",
+        "shortMeaning": "Pesticide",
+        "meaningDescription": "Any agent used to control, repel, or kill unwanted organisms.",
+        "beginDate": 1278993600000,
+        "beginDateString": "2010-07-13",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "10F5DBD3-70FD-5B8C-E050-BB89AD433D2A",
+        "conceptCode": "C737",
+        "conceptCodeArray": [
+          "C737"
+        ],
+        "vmDescription": "Any agent used to control, repel, or kill unwanted organisms.",
+        "vmId": "4743014",
+        "vmVersion": "1",
+        "dateCreated": 1425960000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B49DAD3-38E0-C671-E040-BB89AD436E8C",
+        "value": "Radiation",
+        "shortMeaning": "Electromagnetic Radiation",
+        "meaningDescription": "The radiation of energy as transverse waves that is produced by moving charges.",
+        "beginDate": 1278993600000,
+        "beginDateString": "2010-07-13",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2BA5CF47-2B53-2767-E044-0003BA3F9857",
+        "conceptCode": "C17050",
+        "conceptCodeArray": [
+          "C17050"
+        ],
+        "vmDescription": "The radiation of energy as transverse waves that is produced by moving charges.",
+        "vmId": "2612941",
+        "vmVersion": "1",
+        "dateCreated": 1278993600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "BB0D9544-E139-6978-E034-0003BA12F5E7",
+        "value": "Unknown",
+        "shortMeaning": "Unknown",
+        "meaningDescription": null,
+        "beginDate": 1278993600000,
+        "beginDateString": "2010-07-13",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-CDAC-5C23-E044-0003BA3F9857",
+        "conceptCode": "C17998",
+        "conceptCodeArray": [
+          "C17998"
+        ],
+        "vmDescription": "Not known, not observed, not recorded, or refused.",
+        "vmId": "2565695",
+        "vmVersion": "1",
+        "dateCreated": 1425960000000,
+        "dateModified": null
+      }
+    ],
+    "permissibleValueExtList": null,
+    "valueMeaning": [
+      {
+        "pvIdseq": "8B49DAD3-391D-C671-E040-BB89AD436E8C",
+        "pvMeaning": "Benzene",
+        "vmPublicId": "3121307",
+        "vmVersion": "1",
+        "vmIdseq": "8B49DAD3-390E-C671-E040-BB89AD436E8C",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "062AA8FB-F077-0D39-E044-0003BA3F9857",
+        "pvMeaning": "None",
+        "vmPublicId": "2577064",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-FA15-5C23-E044-0003BA3F9857",
+        "alternateNames": [
+          {
+            "name": "not at all",
+            "type": "VM Alt Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "None at all",
+            "type": "VM Alt Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Ninguna",
+            "type": "VM Alt Name",
+            "context": "NCIP",
+            "language": "Spanish",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "None; no distant lymph node metastases",
+            "type": "VM Alt Name",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "None; no liver metastases",
+            "type": "VM Alt Name",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "None; no lung metastases",
+            "type": "VM Alt Name",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "None; no other metastases",
+            "type": "VM Alt Name",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "None; no bone metastases",
+            "type": "VM Alt Name",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "None; no brain metastases",
+            "type": "VM Alt Name",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "1",
+            "type": "VM Alt Name",
+            "context": "DCP",
+            "language": "ENGLISH",
+            "conteIdseq": "A932C6E7-82EE-67C2-E034-0003BA12F5E7"
+          }
+        ],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "8B49DAD3-38CC-C671-E040-BB89AD436E8C",
+        "pvMeaning": "Other Chemical",
+        "vmPublicId": "3121305",
+        "vmVersion": "1",
+        "vmIdseq": "8B49DAD3-38BD-C671-E040-BB89AD436E8C",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "10F5DBD3-710B-5B8C-E050-BB89AD433D2A",
+        "pvMeaning": "Pesticide",
+        "vmPublicId": "4743014",
+        "vmVersion": "1",
+        "vmIdseq": "10F5DBD3-70FD-5B8C-E050-BB89AD433D2A",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "8B49DAD3-38E0-C671-E040-BB89AD436E8C",
+        "pvMeaning": "Electromagnetic Radiation",
+        "vmPublicId": "2612941",
+        "vmVersion": "1",
+        "vmIdseq": "2BA5CF47-2B53-2767-E044-0003BA3F9857",
+        "alternateNames": [
+          {
+            "name": "electromagnetic radiation",
+            "type": "UML Value Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ],
+        "alternateDefinitions": [
+          {
+            "name": "The radiation of energy as transverse waves produced by moving charges.",
+            "type": "UML Value Definition",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "BB0D9544-E139-6978-E034-0003BA12F5E7",
+        "pvMeaning": "Unknown",
+        "vmPublicId": "2565695",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-CDAC-5C23-E044-0003BA3F9857",
+        "alternateNames": [
+          {
+            "name": "Unknown derivation sequence feature",
+            "type": "UML Value Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "UNK",
+            "type": "NAACCR Alt Name",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Unknown",
+            "type": "UML Value Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Unknown Date",
+            "type": "VM Alt Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "LA4489-6",
+            "type": "LOINC_CODE",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "Unknown",
+            "type": "LOINC_NAME",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "Unknown/Unable to be determined",
+            "type": "VM Alt Name",
+            "context": "COG",
+            "language": "ENGLISH",
+            "conteIdseq": "EB011825-878C-E0E9-E040-BB89AD437FDD"
+          }
+        ],
+        "alternateDefinitions": [
+          {
+            "name": "Sequence feature whose derivation is unknown.",
+            "type": "UML Value Definition",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Not known, not observed, not recorded, or refused.:C17998",
+            "type": "3.1 VM Definition",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Family income to poverty threshold ratio is unknown",
+            "type": "UML Value Definition",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Could not be determined or unsure.",
+            "type": "UML Value Definition",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      }
+    ],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 3121309,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person History NonMedical Leukemia Causing Agent Type",
+      "shortName": "3121283v1.0:3121304v1.0",
+      "preferredQuestionText": "Previous Exposure to Non-medical, Potentially Leukemogenic Agent",
+      "definition": "Text description of a potentially leukemogenic nonmedical agent to which a person has been exposed.",
+      "workflowStatus": "RELEASED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 3121309,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person History NonMedical Leukemia Causing Agent Type",
+      "shortName": "3121283v1.0:3121304v1.0",
+      "preferredQuestionText": "Previous Exposure to Non-medical, Potentially Leukemogenic Agent",
+      "definition": "Text description of a potentially leukemogenic nonmedical agent to which a person has been exposed.",
+      "workflowStatus": "RELEASED"
+    },
+    "formUsages": []
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 3121309,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person History NonMedical Leukemia Causing Agent Type",
+      "shortName": "3121283v1.0:3121304v1.0",
+      "preferredQuestionText": "Previous Exposure to Non-medical, Potentially Leukemogenic Agent",
+      "definition": "Text description of a potentially leukemogenic nonmedical agent to which a person has been exposed.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "REEVESD",
+    "dateCreated": "2010-07-13",
+    "modifiedBy": "TSESU",
+    "dateModified": "2018-07-10",
+    "vdCreatedBy": "REEVESD",
+    "vdOwnedBy": "NCIP",
+    "vdDateCreated": "2010-07-13",
+    "vdDateModified": "2015-03-10",
+    "decCreatedBy": "REEVESD",
+    "decOwnedBy": "NCIP",
+    "decDateCreated": "2010-07-13",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 3121309,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person History NonMedical Leukemia Causing Agent Type",
+      "shortName": "3121283v1.0:3121304v1.0",
+      "preferredQuestionText": "Previous Exposure to Non-medical, Potentially Leukemogenic Agent",
+      "definition": "Text description of a potentially leukemogenic nonmedical agent to which a person has been exposed.",
+      "workflowStatus": "RELEASED"
+    },
+    "changeNote": "Curated for The Cancer Genome Atlas (TCGA) by request of T. Lichtenberg 6/2010"
+  }
+}

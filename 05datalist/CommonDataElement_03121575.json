@@ -1,0 +1,730 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 3121575,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Disease Detection Molecular Analysis Method Type",
+      "shortName": "2770350v1.0:3121569v1.0",
+      "preferredQuestionText": "Type of analysis",
+      "definition": "Text descriptor of a molecular analysis method used for an individual.",
+      "valueDomain": "Molecular Analysis Type",
+      "dataElementConcept": "Disease Detection Molecular Analysis Method",
+      "context": "NCIP",
+      "workflowStatus": "RETIRED ARCHIVED",
+      "origin": null,
+      "registrationStatus": null,
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "8B5C8518-EA0F-522C-E040-BB89AD43153D"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Type of analysis",
+        "documentType": "Preferred Question Text",
+        "documentText": "Type of analysis",
+        "context": "NCIP",
+        "url": null
+      },
+      {
+        "documentName": "Method",
+        "documentType": "Alternate Question Text",
+        "documentText": "Method",
+        "context": "DCP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [
+        {
+          "name": "DCP",
+          "type": "USED_BY",
+          "context": "DCP",
+          "language": "ENGLISH"
+        }
+      ],
+      "alternateNames": [],
+      "alternateDefinitions": []
+    },
+    "otherVersions": [
+      {
+        "version": 2.0,
+        "formattedVersion": "2.0",
+        "longName": "Disease Detection Molecular Analysis Method Type",
+        "workFlowStatus": "RELEASED",
+        "registrationStatus": "Qualified",
+        "context": "NCIP",
+        "csCsis": [
+          {
+            "csLongName": "Consortia 2012 Studies",
+            "csDefinition": "CDEs for the new consortia 2012-2013 studies.",
+            "csiName": "MDA2014-04-02",
+            "csiType": "TRIAL_TYPE_USAGE",
+            "csId": "3896529",
+            "csVersion": 1.0,
+            "formattedCsVersion": "1.0",
+            "csiId": 5441476,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "Consortia 2012 Studies",
+            "csDefinition": "CDEs for the new consortia 2012-2013 studies.",
+            "csiName": "MDA2014-04-01",
+            "csiType": "TRIAL_TYPE_USAGE",
+            "csId": "3896529",
+            "csVersion": 1.0,
+            "formattedCsVersion": "1.0",
+            "csiId": 5598962,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "TCGA (The Cancer Genome Atlas)",
+            "csDefinition": "Collection of CDEs related to TCGA.",
+            "csiName": "Active CDEs as of March 2017",
+            "csiType": "GROUP_TYPE",
+            "csId": "2756809",
+            "csVersion": 1.0,
+            "formattedCsVersion": "1.0",
+            "csiId": 6044923,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "Type of Condition",
+            "csDefinition": "Type of Condition",
+            "csiName": "Docosahexaenoic Acid",
+            "csiType": "TRIAL_TYPE_USAGE",
+            "csId": "2194255",
+            "csVersion": 1.0,
+            "formattedCsVersion": "1.0",
+            "csiId": 3528035,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "TCGA 2.6 by Namespace",
+            "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+            "csiName": "clinical laml",
+            "csiType": "GROUP_TYPE",
+            "csId": "3787524",
+            "csVersion": 1.0,
+            "formattedCsVersion": "1.0",
+            "csiId": 3787540,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "TCGA 2.6 by Disease",
+            "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+            "csiName": "LAML",
+            "csiType": "DISEASE_TYPE",
+            "csId": "3787498",
+            "csVersion": 1.0,
+            "formattedCsVersion": "1.0",
+            "csiId": 3787509,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          }
+        ]
+      }
+    ]
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 3121575,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Disease Detection Molecular Analysis Method Type",
+      "shortName": "2770350v1.0:3121569v1.0",
+      "preferredQuestionText": "Type of analysis",
+      "definition": "Text descriptor of a molecular analysis method used for an individual.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 2770350,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Disease Detection Molecular Analysis Method",
+      "shortName": "DIS_DET_MOL_ANA_MTH",
+      "definition": "Any abnormal condition of the body or mind that causes discomfort, dysfunction, or distress to the person affected or those in contact with the person. The term is often used broadly to include injuries, disabilities, syndromes, symptoms, deviant behaviors, and atypical variations of structure and function._The activity of perceiving, discerning, discovering or identifying._Techniques for studying or analyzing the genetic composition and mechanisms of living organisms at the molecular level. May refer to the understanding and manipulation of genes (DNA)._A means, manner of procedure, or systematic course of actions that have to be performed in order to accomplish a particular goal.",
+      "context": "NHLBI",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008557,
+      "conceptualDomainShortName": "LAB_RESULTS",
+      "conceptualDomainLongName": "Lab Results",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": "NMDP:National Marrow Donor Program"
+    },
+    "objectClass": {
+      "publicId": 2770347,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Disease or Disorder Detection",
+      "shortName": "C2991:C16210",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Disease or Disorder",
+        "conceptCode": "C2991",
+        "publicId": "2202471",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Detection",
+        "conceptCode": "C16210",
+        "publicId": "2203866",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2770348,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Method",
+      "shortName": "C19770:C71460",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Molecular Analysis",
+        "conceptCode": "C19770",
+        "publicId": "2528322",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Method",
+        "conceptCode": "C71460",
+        "publicId": "2730350",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": [
+      {
+        "name": "A piece of DNA that has been labeled, usually radioactively or with a fluorescent dye, which is used in hybridization studies.  Applications include Northern and Southern blots, in situ hybridization techniques, and diagnostic tests.  DNA probes can be highly specific or degenerate.",
+        "type": "System-generated",
+        "context": "Theradex",
+        "language": "ENGLISH",
+        "csCsi": null
+      }
+    ]
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 3121575,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Disease Detection Molecular Analysis Method Type",
+      "shortName": "2770350v1.0:3121569v1.0",
+      "preferredQuestionText": "Type of analysis",
+      "definition": "Text descriptor of a molecular analysis method used for an individual.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "valueDomainDetails": {
+      "publicId": 3121569,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Type",
+      "shortName": "3121569v1.0",
+      "context": "NCIP",
+      "definition": "A laboratory procedure that involves the study of tissues, cells, and fluids using DNA/RNA analysis techniques for the identification of characteristics and abnormalities at the molecular level._Type; a subdivision of a particular kind of thing.",
+      "workflowStatus": "RETIRED ARCHIVED",
+      "registrationStatus": null,
+      "dataType": "CHARACTER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 8,
+      "minimumLength": null,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "E",
+      "conceptualDomainPublicId": 2008557,
+      "conceptualDomainShortName": "LAB_RESULTS",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Lab Results",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 3121568,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Type",
+      "shortName": "C19770:C25284",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Molecular Analysis",
+        "conceptCode": "C19770",
+        "publicId": "2528322",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Type",
+        "conceptCode": "C25284",
+        "publicId": "2202431",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [
+      {
+        "createdBy": "WHITES",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "21206903-D754-5F67-E044-0003BA3F9857",
+        "value": "FISH",
+        "shortMeaning": "Fluorescence in situ Hybridization",
+        "meaningDescription": null,
+        "beginDate": 1284955200000,
+        "beginDateString": "2010-09-20",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE88-0AC6-5C23-E044-0003BA3F9857",
+        "conceptCode": "C17563",
+        "conceptCodeArray": [
+          "C17563"
+        ],
+        "vmDescription": "A type of IN SITU HYBRIDIZATION in which target sequences are stained with fluorescent dye so their location and size can be determined using fluorescence microscopy. This staining is sufficiently distinct that the hybridization signal can be seen both in metaphase spreads and in interphase nuclei.",
+        "vmId": "2581337",
+        "vmVersion": "1",
+        "dateCreated": 1284955200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "WHITES",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "82F6B5AD-39A3-79F8-E040-BB89AD430E7D",
+        "value": "IHC",
+        "shortMeaning": "Immunohistochemistry Staining Method",
+        "meaningDescription": "Immunohistochemical staining techniques allow for the visualization of antigens via the sequential application of a specific antibody to the antigen (primary antibody), a secondary antibody to the primary antibody and an enzyme complex with a chromogenic substrate. The enzymatic activation of the chromogen results in a visible reaction product at the antigen site. The specimen may then be counterstained and coverslipped. Results are interpreted using a light microscope and aid in the differential diagnosis of pathophysiological processes, which may or may not be associated with a particular antigen.",
+        "beginDate": 1284955200000,
+        "beginDateString": "2010-09-20",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "82F6B5AD-3994-79F8-E040-BB89AD430E7D",
+        "conceptCode": "C23020",
+        "conceptCodeArray": [
+          "C23020"
+        ],
+        "vmDescription": "Immunohistochemical staining techniques allow for the visualization of antigens via the sequential application of a specific antibody to the antigen (primary antibody), a secondary antibody to the primary antibody and an enzyme complex with a chromogenic substrate. The enzymatic activation of the chromogen results in a visible reaction product at the antigen site. The specimen may then be counterstained and coverslipped. Results are interpreted using a light microscope and aid in the differential diagnosis of pathophysiological processes, which may or may not be associated with a particular antigen.",
+        "vmId": "3031358",
+        "vmVersion": "1",
+        "dateCreated": 1284955200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "74E311D7-C274-4B60-E040-BB89AD434A57",
+        "value": "Other",
+        "shortMeaning": "Other",
+        "meaningDescription": "Different than the one(s) previously specified or mentioned.",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "746A8063-D650-3C9D-E040-BB89AD437A9B",
+        "conceptCode": "C17649",
+        "conceptCodeArray": [
+          "C17649"
+        ],
+        "vmDescription": "Different than the one(s) previously specified or mentioned.",
+        "vmId": "2946060",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5C8518-E9C2-522C-E040-BB89AD43153D",
+        "value": "RT-PCR",
+        "shortMeaning": "RT-PCR",
+        "meaningDescription": "RT-PCR is short for reverse transcriptase-polymerase chain reaction. It is a technique in which an RNA strand is first transcribed into a DNA complement and then subjected to PCR amplification. Transcribing an RNA strand into a DNA complement is termed reverse transcription and is done by the enzyme reverse transcriptase. (from Wikipedia)",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5C8518-E9B3-522C-E040-BB89AD43153D",
+        "conceptCode": "C18136",
+        "conceptCodeArray": [
+          "C18136"
+        ],
+        "vmDescription": "RT-PCR is short for reverse transcriptase-polymerase chain reaction. It is a technique in which an RNA strand is first transcribed into a DNA complement and then subjected to PCR amplification. Transcribing an RNA strand into a DNA complement is termed reverse transcription and is done by the enzyme reverse transcriptase. (from Wikipedia)",
+        "vmId": "3121570",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5C8518-E9E8-522C-E040-BB89AD43153D",
+        "value": "Southern",
+        "shortMeaning": "Southern Blotting",
+        "meaningDescription": "A technique for the detection of specific DNA fragments that have been separated by polyacrylamide-gel electrophoresis, transferred to a nitrocellulose or other type of paper or nylon membrane, and detected by hybridization and visualization with a labeled probe.",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5C8518-E9D9-522C-E040-BB89AD43153D",
+        "conceptCode": "C16356",
+        "conceptCodeArray": [
+          "C16356"
+        ],
+        "vmDescription": "A technique for the detection of specific DNA fragments that have been separated by polyacrylamide-gel electrophoresis, transferred to a nitrocellulose or other type of paper or nylon membrane, and detected by hybridization and visualization with a labeled probe.",
+        "vmId": "3121572",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      }
+    ],
+    "permissibleValueExtList": null,
+    "valueMeaning": [
+      {
+        "pvIdseq": "21206903-D754-5F67-E044-0003BA3F9857",
+        "pvMeaning": "Fluorescence in situ Hybridization",
+        "vmPublicId": "2581337",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE88-0AC6-5C23-E044-0003BA3F9857",
+        "alternateNames": [
+          {
+            "name": "FISH",
+            "type": "VM Alt Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "82F6B5AD-39A3-79F8-E040-BB89AD430E7D",
+        "pvMeaning": "Immunohistochemistry Staining Method",
+        "vmPublicId": "3031358",
+        "vmVersion": "1",
+        "vmIdseq": "82F6B5AD-3994-79F8-E040-BB89AD430E7D",
+        "alternateNames": [
+          {
+            "name": "IHC",
+            "type": "VM Alt Name",
+            "context": "COG",
+            "language": "ENGLISH",
+            "conteIdseq": "EB011825-878C-E0E9-E040-BB89AD437FDD"
+          },
+          {
+            "name": "IHC (nuclear staining)",
+            "type": "HCMI Name",
+            "context": "OCG",
+            "language": "ENGLISH",
+            "conteIdseq": "46CABA5D-DAFF-6D24-E053-F662850A8A74"
+          }
+        ],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "74E311D7-C274-4B60-E040-BB89AD434A57",
+        "pvMeaning": "Other",
+        "vmPublicId": "2946060",
+        "vmVersion": "1",
+        "vmIdseq": "746A8063-D650-3C9D-E040-BB89AD437A9B",
+        "alternateNames": [
+          {
+            "name": "OTH",
+            "type": "HL7 Code",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "other",
+            "type": "NAACCR VM Name",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Other, Specify",
+            "type": "VM Alt Name",
+            "context": "DCP",
+            "language": "ENGLISH",
+            "conteIdseq": "A932C6E7-82EE-67C2-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Other, specify in notes",
+            "type": "TCGA_Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Other (specify)",
+            "type": "VM Alt Name",
+            "context": "ECOG-ACRIN",
+            "language": "ENGLISH",
+            "conteIdseq": "A7CF3B35-74D1-8852-E040-BB89AD435FAB"
+          },
+          {
+            "name": "OTHER",
+            "type": "OMOP Name",
+            "context": "PCORTF CDM",
+            "language": "ENGLISH",
+            "conteIdseq": "6CB969CC-DD4B-1016-E053-F662850A40C7"
+          },
+          {
+            "name": "8521",
+            "type": "OMOP Concept Id",
+            "context": "PCORTF CDM",
+            "language": "ENGLISH",
+            "conteIdseq": "6CB969CC-DD4B-1016-E053-F662850A40C7"
+          },
+          {
+            "name": "Other",
+            "type": "Sentinel Name",
+            "context": "PCORTF CDM",
+            "language": "ENGLISH",
+            "conteIdseq": "6CB969CC-DD4B-1016-E053-F662850A40C7"
+          },
+          {
+            "name": "Other",
+            "type": "PCORNet Name",
+            "context": "PCORTF CDM",
+            "language": "ENGLISH",
+            "conteIdseq": "6CB969CC-DD4B-1016-E053-F662850A40C7"
+          },
+          {
+            "name": "Other body system/site",
+            "type": "DCP Alt Name",
+            "context": "DCP",
+            "language": "ENGLISH",
+            "conteIdseq": "A932C6E7-82EE-67C2-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Specify other body system/site",
+            "type": "VM Alt Name",
+            "context": "DCP",
+            "language": "ENGLISH",
+            "conteIdseq": "A932C6E7-82EE-67C2-E034-0003BA12F5E7"
+          }
+        ],
+        "alternateDefinitions": [
+          {
+            "name": "The actual value is not an element in the value domain of a variable (e.g., concept not provided by required code system).",
+            "type": "NAACCR",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5C8518-E9C2-522C-E040-BB89AD43153D",
+        "pvMeaning": "RT-PCR",
+        "vmPublicId": "3121570",
+        "vmVersion": "1",
+        "vmIdseq": "8B5C8518-E9B3-522C-E040-BB89AD43153D",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "8B5C8518-E9E8-522C-E040-BB89AD43153D",
+        "pvMeaning": "Southern Blotting",
+        "vmPublicId": "3121572",
+        "vmVersion": "1",
+        "vmIdseq": "8B5C8518-E9D9-522C-E040-BB89AD43153D",
+        "alternateNames": [
+          {
+            "name": "Southern",
+            "type": "VM Alt Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ],
+        "alternateDefinitions": []
+      }
+    ],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 3121575,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Disease Detection Molecular Analysis Method Type",
+      "shortName": "2770350v1.0:3121569v1.0",
+      "preferredQuestionText": "Type of analysis",
+      "definition": "Text descriptor of a molecular analysis method used for an individual.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "Type of Condition",
+        "csDefinition": "Type of Condition",
+        "csiName": "Docosahexaenoic Acid",
+        "csiType": "TRIAL_TYPE_USAGE",
+        "csId": "2194255",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3528035,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 3121575,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Disease Detection Molecular Analysis Method Type",
+      "shortName": "2770350v1.0:3121569v1.0",
+      "preferredQuestionText": "Type of analysis",
+      "definition": "Text descriptor of a molecular analysis method used for an individual.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "formUsages": []
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 3121575,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Disease Detection Molecular Analysis Method Type",
+      "shortName": "2770350v1.0:3121569v1.0",
+      "preferredQuestionText": "Type of analysis",
+      "definition": "Text descriptor of a molecular analysis method used for an individual.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "REEVESD",
+    "dateCreated": "2010-07-14",
+    "modifiedBy": "REEVESD",
+    "dateModified": "2012-11-19",
+    "vdCreatedBy": "REEVESD",
+    "vdOwnedBy": "NCIP",
+    "vdDateCreated": "2010-07-14",
+    "vdDateModified": "2012-11-19",
+    "decCreatedBy": "COOPERM",
+    "decOwnedBy": "NHLBI",
+    "decDateCreated": "2008-08-06",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 3121575,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Disease Detection Molecular Analysis Method Type",
+      "shortName": "2770350v1.0:3121569v1.0",
+      "preferredQuestionText": "Type of analysis",
+      "definition": "Text descriptor of a molecular analysis method used for an individual.",
+      "workflowStatus": "RETIRED ARCHIVED"
+    },
+    "changeNote": "Curated for The Cancer Genome Atlas (TCGA) by request of T. Lichtenberg 7/2010. Retired and replaced by v2.0 that uses a versioned VD to increase the maximum field length from 8 to 20 characters."
+  }
+}

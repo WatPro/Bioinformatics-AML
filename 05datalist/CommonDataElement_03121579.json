@@ -1,0 +1,667 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 3121579,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormal Result Indicator",
+      "shortName": "3121577v1.0:2018691v1.0",
+      "preferredQuestionText": "Were molecular abnormalities detected?",
+      "definition": "Text indicator to signify whether any molecular analysis abnormalities were detected.",
+      "valueDomain": "Yes No Unknown Indicator",
+      "dataElementConcept": "Molecular Analysis Abnormal Result",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "origin": "TCGA:The Cancer Genome Atlas",
+      "registrationStatus": null,
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "8B5C8518-EA4C-522C-E040-BB89AD43153D"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Were molecular abnormalities",
+        "documentType": "Preferred Question Text",
+        "documentText": "Were molecular abnormalities detected?",
+        "context": "NCIP",
+        "url": null
+      },
+      {
+        "documentName": "Princess Marg-1",
+        "documentType": "Alternate Question Text",
+        "documentText": "Molecular Analysis Abnormal Result Indicator",
+        "context": "NCIP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [
+        {
+          "name": "NCIP",
+          "type": "USED_BY",
+          "context": "NCIP",
+          "language": "ENGLISH"
+        }
+      ],
+      "alternateNames": [
+        {
+          "name": "MOL_AN_ABN_RSLT",
+          "type": "OID, NCIP",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "molecular_analysis_abnormal_result_indicator",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 3121579,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormal Result Indicator",
+      "shortName": "3121577v1.0:2018691v1.0",
+      "preferredQuestionText": "Were molecular abnormalities detected?",
+      "definition": "Text indicator to signify whether any molecular analysis abnormalities were detected.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 3121577,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormal Result",
+      "shortName": "2626369v1.0:2207618v1.0",
+      "definition": "Techniques for studying or analyzing the genetic composition and mechanisms of living organisms at the molecular level. May refer to the understanding and manipulation of genes (DNA)._Deviating from the norm._Outcome; a phenomenon that follows and is caused by some previous phenomenon._",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008557,
+      "conceptualDomainShortName": "LAB_RESULTS",
+      "conceptualDomainLongName": "Lab Results",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 2626369,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis",
+      "shortName": "C19770",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Molecular Analysis",
+        "conceptCode": "C19770",
+        "publicId": "2528322",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2207618,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Abnormal Result",
+      "shortName": "C25401:C20200",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Abnormal",
+        "conceptCode": "C25401",
+        "publicId": "2202623",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Outcome",
+        "conceptCode": "C20200",
+        "publicId": "2203785",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 3121579,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormal Result Indicator",
+      "shortName": "3121577v1.0:2018691v1.0",
+      "preferredQuestionText": "Were molecular abnormalities detected?",
+      "definition": "Text indicator to signify whether any molecular analysis abnormalities were detected.",
+      "workflowStatus": "RELEASED"
+    },
+    "valueDomainDetails": {
+      "publicId": 2018691,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Yes No Unknown Indicator",
+      "shortName": "YES_NO_U_IND",
+      "context": "SPOREs",
+      "definition": "Text terms to determine or aid in determining whether or not certain stated circumstances exist or criteria are satisfied. (On-line Medical Dictionary)",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": null,
+      "dataType": "CHARACTER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 10,
+      "minimumLength": null,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "E",
+      "conceptualDomainPublicId": 2008556,
+      "conceptualDomainShortName": "ASSESS_RESULTS",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Assessment Results",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 2320047,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Indicator",
+      "shortName": "C25180",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Indicator",
+        "conceptCode": "C25180",
+        "publicId": "2202683",
+        "definitionSource": "Source => Name: NCI, ",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [
+      {
+        "createdBy": "MEDVEDOH",
+        "modifiedBy": "SBR",
+        "formattedVersion": "1.0",
+        "pvIdseq": "99BA9DC8-54CF-4E69-E034-080020C9C0E0",
+        "value": "No",
+        "shortMeaning": "No",
+        "meaningDescription": "No",
+        "beginDate": 1029988800000,
+        "beginDateString": "2002-08-22",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-B588-5C23-E044-0003BA3F9857",
+        "conceptCode": "C49487",
+        "conceptCodeArray": [
+          "C49487"
+        ],
+        "vmDescription": "The non-affirmative response to a question.",
+        "vmId": "2559515",
+        "vmVersion": "1",
+        "dateCreated": 1046361340000,
+        "dateModified": 1112150179000
+      },
+      {
+        "createdBy": "MEDVEDOH",
+        "modifiedBy": "SBR",
+        "formattedVersion": "1.0",
+        "pvIdseq": "99BA9DC8-58C4-4E69-E034-080020C9C0E0",
+        "value": "Unknown",
+        "shortMeaning": "Unknown",
+        "meaningDescription": "unknown",
+        "beginDate": 1013458734000,
+        "beginDateString": "2002-02-11",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-F372-5C23-E044-0003BA3F9857",
+        "conceptCode": "C17998",
+        "conceptCodeArray": [
+          "C17998"
+        ],
+        "vmDescription": "Not known, not observed, not recorded, or refused.",
+        "vmId": "2575365",
+        "vmVersion": "1",
+        "dateCreated": 1046361340000,
+        "dateModified": 1112150305000
+      },
+      {
+        "createdBy": "MEDVEDOH",
+        "modifiedBy": "SBR",
+        "formattedVersion": "1.0",
+        "pvIdseq": "99BA9DC8-5952-4E69-E034-080020C9C0E0",
+        "value": "Yes",
+        "shortMeaning": "Yes",
+        "meaningDescription": "Yes",
+        "beginDate": 1029988800000,
+        "beginDateString": "2002-08-22",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-B932-5C23-E044-0003BA3F9857",
+        "conceptCode": "C49488",
+        "conceptCodeArray": [
+          "C49488"
+        ],
+        "vmDescription": "The affirmative response to a question or activity.",
+        "vmId": "2560453",
+        "vmVersion": "1",
+        "dateCreated": 1046361340000,
+        "dateModified": 1112150354000
+      }
+    ],
+    "permissibleValueExtList": null,
+    "valueMeaning": [
+      {
+        "pvIdseq": "99BA9DC8-54CF-4E69-E034-080020C9C0E0",
+        "pvMeaning": "No",
+        "vmPublicId": "2559515",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-B588-5C23-E044-0003BA3F9857",
+        "alternateNames": [
+          {
+            "name": "No",
+            "type": "VM Alt Name",
+            "context": "CTEP",
+            "language": "ENGLISH",
+            "conteIdseq": "99BA9DC8-2095-4E69-E034-080020C9C0E0"
+          },
+          {
+            "name": "Not a Serious Adverse Event",
+            "type": "C3D Name",
+            "context": "CCR",
+            "language": "ENGLISH",
+            "conteIdseq": "A5599257-A08F-41D1-E034-080020C9C0E0"
+          },
+          {
+            "name": "LA32-8",
+            "type": "LOINC_CODE",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "No",
+            "type": "LOINC_NAME",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "Exception",
+            "type": "VM Alt Name",
+            "context": "Theradex",
+            "language": "ENGLISH",
+            "conteIdseq": "E593F10C-3186-508C-E040-BB89AD4324A0"
+          },
+          {
+            "name": "No",
+            "type": "VM Alt Name",
+            "context": "NCIP",
+            "language": "Spanish",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "1 - No",
+            "type": "VM Alt Name",
+            "context": "ECOG-ACRIN",
+            "language": "ENGLISH",
+            "conteIdseq": "A7CF3B35-74D1-8852-E040-BB89AD435FAB"
+          }
+        ],
+        "alternateDefinitions": [
+          {
+            "name": "No occurrence of a Serious Adverse Event (SAE)",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "99BA9DC8-58C4-4E69-E034-080020C9C0E0",
+        "pvMeaning": "Unknown",
+        "vmPublicId": "2575365",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-F372-5C23-E044-0003BA3F9857",
+        "alternateNames": [
+          {
+            "name": "Grade/differentiation unknown, not stated, or not applicable",
+            "type": "NAACCR Alt Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Unknown",
+            "type": "UML Value Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "unknown",
+            "type": "NAACCR VM Name",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "UNK",
+            "type": "HL7 Code",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "LA4489-6",
+            "type": "LOINC_CODE",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "LA4489-6",
+            "type": "LOINC_CODE",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "Unknown",
+            "type": "LOINC_NAME",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "Unknown",
+            "type": "LOINC_NAME",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Unknown cause of death",
+            "type": "VM Alt Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "I don't know",
+            "type": "VM Alt Name",
+            "context": "CTEP",
+            "language": "ENGLISH",
+            "conteIdseq": "99BA9DC8-2095-4E69-E034-080020C9C0E0"
+          },
+          {
+            "name": "Unknown primary site",
+            "type": "HCMI Name",
+            "context": "OCG",
+            "language": "ENGLISH",
+            "conteIdseq": "46CABA5D-DAFF-6D24-E053-F662850A8A74"
+          }
+        ],
+        "alternateDefinitions": [
+          {
+            "name": "Unknown whether Spanish or not\r\n",
+            "type": "NAACCR",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Patient's address is unknown",
+            "type": "NAACCR",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          },
+          {
+            "name": "A response indicating that the respondent does not know what the correct answer is.",
+            "type": "UML Value Definition",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Could not be determined or unsure.",
+            "type": "UML Value Definition",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Not known, not observed, not recorded, or refused.",
+            "type": "UML Value Definition",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Not known, not observed, or not recorded.",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "a proper value is applicable but not known.  this event occurred, but the date is unknown (e.g., birth date).",
+            "type": "NAACCR",
+            "context": "PS-CC",
+            "language": "ENGLISH",
+            "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "99BA9DC8-5952-4E69-E034-080020C9C0E0",
+        "pvMeaning": "Yes",
+        "vmPublicId": "2560453",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-B932-5C23-E044-0003BA3F9857",
+        "alternateNames": [
+          {
+            "name": "LA33-6",
+            "type": "LOINC_CODE",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "Yes",
+            "type": "LOINC_NAME",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          }
+        ],
+        "alternateDefinitions": [
+          {
+            "name": "YES",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "The affirmative response to a question.",
+            "type": "NCI",
+            "context": "NHLBI",
+            "language": "ENGLISH",
+            "conteIdseq": "EDA90DE9-80D9-1E28-E034-0003BA3F9857"
+          }
+        ]
+      }
+    ],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 3121579,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormal Result Indicator",
+      "shortName": "3121577v1.0:2018691v1.0",
+      "preferredQuestionText": "Were molecular abnormalities detected?",
+      "definition": "Text indicator to signify whether any molecular analysis abnormalities were detected.",
+      "workflowStatus": "RELEASED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 3121579,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormal Result Indicator",
+      "shortName": "3121577v1.0:2018691v1.0",
+      "preferredQuestionText": "Were molecular abnormalities detected?",
+      "definition": "Text indicator to signify whether any molecular analysis abnormalities were detected.",
+      "workflowStatus": "RELEASED"
+    },
+    "formUsages": []
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 3121579,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormal Result Indicator",
+      "shortName": "3121577v1.0:2018691v1.0",
+      "preferredQuestionText": "Were molecular abnormalities detected?",
+      "definition": "Text indicator to signify whether any molecular analysis abnormalities were detected.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "REEVESD",
+    "dateCreated": "2010-07-14",
+    "modifiedBy": "SOKKERL",
+    "dateModified": "2020-04-28",
+    "vdCreatedBy": "MEDVEDOH",
+    "vdOwnedBy": "SPOREs",
+    "vdDateCreated": "2003-02-27",
+    "vdDateModified": "2012-04-26",
+    "decCreatedBy": "REEVESD",
+    "decOwnedBy": "NCIP",
+    "decDateCreated": "2010-07-14",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 3121579,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Molecular Analysis Abnormal Result Indicator",
+      "shortName": "3121577v1.0:2018691v1.0",
+      "preferredQuestionText": "Were molecular abnormalities detected?",
+      "definition": "Text indicator to signify whether any molecular analysis abnormalities were detected.",
+      "workflowStatus": "RELEASED"
+    },
+    "changeNote": "Curated for The Cancer Genome Atlas (TCGA) by request of T. Lichtenberg 7/2010"
+  }
+}

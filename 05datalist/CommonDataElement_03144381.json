@@ -1,0 +1,339 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 3144381,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Laboratory Procedure Abnormal Lymphocyte Result Percentage Value",
+      "shortName": "3144338v1.0:2178409v1.0",
+      "preferredQuestionText": "Abnormal Lymphocytes",
+      "definition": "Numeric value to represent the percentage of infiltration by abnormal lymphocytes in a tissue sample or specimen.",
+      "valueDomain": "Numbers 3 Characters No Decimal",
+      "dataElementConcept": "Laboratory Procedure Abnormal Lymphocyte Outcome",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "origin": "TCGA:The Cancer Genome Atlas",
+      "registrationStatus": null,
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "917BA328-3E31-AB13-E040-BB89AD437797"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Abnormal Lymphocytes",
+        "documentType": "Preferred Question Text",
+        "documentText": "Abnormal Lymphocytes",
+        "context": "NCIP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [],
+      "alternateNames": [
+        {
+          "name": "lab_procedure_abnormal_lymphocyte_result_percent_value",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 3144381,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Laboratory Procedure Abnormal Lymphocyte Result Percentage Value",
+      "shortName": "3144338v1.0:2178409v1.0",
+      "preferredQuestionText": "Abnormal Lymphocytes",
+      "definition": "Numeric value to represent the percentage of infiltration by abnormal lymphocytes in a tissue sample or specimen.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 3144338,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Laboratory Procedure Abnormal Lymphocyte Outcome",
+      "shortName": "2543047v1.0:3144336v1.0",
+      "definition": "information related to the result of a medical procedure that involves testing a sample of blood from the body for an atypical or abnormal lymphocyte, a type of white blood cell that fights infection and diseases._Deviating in any way from the state, position, structure, condition, behavior, or rule which is considered a norm._White blood cells formed in the body's lymphoid tissue. The nucleus is round or ovoid with coarse, irregularly clumped chromatin while the cytoplasm is typically pale blue with azurophilic (if any) granules. Most lymphocytes can be classified as either T or B (with subpopulations of each); those with characteristics of neither major class are called null cells.",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008557,
+      "conceptualDomainShortName": "LAB_RESULTS",
+      "conceptualDomainLongName": "Lab Results",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 2543047,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Test",
+      "shortName": "C25294",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Laboratory Procedure",
+        "conceptCode": "C25294",
+        "publicId": "2202340",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 3144336,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Abnormal Lymphocyte Outcome",
+      "shortName": "C25401:C12535:C20200",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Abnormal",
+        "conceptCode": "C25401",
+        "publicId": "2202623",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Lymphocyte",
+        "conceptCode": "C12535",
+        "publicId": "2211956",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Outcome",
+        "conceptCode": "C20200",
+        "publicId": "2203785",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 3144381,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Laboratory Procedure Abnormal Lymphocyte Result Percentage Value",
+      "shortName": "3144338v1.0:2178409v1.0",
+      "preferredQuestionText": "Abnormal Lymphocytes",
+      "definition": "Numeric value to represent the percentage of infiltration by abnormal lymphocytes in a tissue sample or specimen.",
+      "workflowStatus": "RELEASED"
+    },
+    "valueDomainDetails": {
+      "publicId": 2178409,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Numbers 3 Characters No Decimal",
+      "shortName": "NUM_3_0",
+      "context": "CCR",
+      "definition": "Integer value expressed as numbers up to 3 characters with no decimal place.",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": null,
+      "dataType": "NUMBER",
+      "unitOfMeasure": "%",
+      "displayFormat": null,
+      "maximumLength": 3,
+      "minimumLength": 1,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "N",
+      "conceptualDomainPublicId": 2008541,
+      "conceptualDomainShortName": "NUMS",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Numbers",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 2233101,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Number",
+      "shortName": "C25337",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Number",
+        "conceptCode": "C25337",
+        "publicId": "2202701",
+        "definitionSource": "NCI ",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [],
+    "permissibleValueExtList": null,
+    "valueMeaning": [],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 3144381,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Laboratory Procedure Abnormal Lymphocyte Result Percentage Value",
+      "shortName": "3144338v1.0:2178409v1.0",
+      "preferredQuestionText": "Abnormal Lymphocytes",
+      "definition": "Numeric value to represent the percentage of infiltration by abnormal lymphocytes in a tissue sample or specimen.",
+      "workflowStatus": "RELEASED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 3144381,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Laboratory Procedure Abnormal Lymphocyte Result Percentage Value",
+      "shortName": "3144338v1.0:2178409v1.0",
+      "preferredQuestionText": "Abnormal Lymphocytes",
+      "definition": "Numeric value to represent the percentage of infiltration by abnormal lymphocytes in a tissue sample or specimen.",
+      "workflowStatus": "RELEASED"
+    },
+    "formUsages": []
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 3144381,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Laboratory Procedure Abnormal Lymphocyte Result Percentage Value",
+      "shortName": "3144338v1.0:2178409v1.0",
+      "preferredQuestionText": "Abnormal Lymphocytes",
+      "definition": "Numeric value to represent the percentage of infiltration by abnormal lymphocytes in a tissue sample or specimen.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "REEVESD",
+    "dateCreated": "2010-09-30",
+    "modifiedBy": "TSESU",
+    "dateModified": "2018-07-12",
+    "vdCreatedBy": "REEVESD",
+    "vdOwnedBy": "CCR",
+    "vdDateCreated": "2003-11-18",
+    "vdDateModified": "2007-01-22",
+    "decCreatedBy": "REEVESD",
+    "decOwnedBy": "NCIP",
+    "decDateCreated": "2010-09-30",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 3144381,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Laboratory Procedure Abnormal Lymphocyte Result Percentage Value",
+      "shortName": "3144338v1.0:2178409v1.0",
+      "preferredQuestionText": "Abnormal Lymphocytes",
+      "definition": "Numeric value to represent the percentage of infiltration by abnormal lymphocytes in a tissue sample or specimen.",
+      "workflowStatus": "RELEASED"
+    },
+    "changeNote": "Curated for The Cancer Genome Atlas (TCGA) by request of T. Lichtenberg 9/2010"
+  }
+}

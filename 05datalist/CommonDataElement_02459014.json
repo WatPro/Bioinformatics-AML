@@ -1,0 +1,576 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 2459014,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Steroid Therapy Administered Indicator",
+      "shortName": "STEROIDTX_ADM_IND",
+      "preferredQuestionText": "Were steroids given",
+      "definition": "the indicator for steroid therapy administered.",
+      "valueDomain": "Steroid Therapy Administered Indicator",
+      "dataElementConcept": "Steroid Therapy Administered",
+      "context": "CTEP",
+      "workflowStatus": "RELEASED",
+      "origin": "ECOG CRF:Eastern Cooperative Oncology Group Case Report Form",
+      "registrationStatus": null,
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "0F0AEBD7-924A-60D5-E044-0003BA3F9857"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Were steroids given",
+        "documentType": "Preferred Question Text",
+        "documentText": "Were steroids given",
+        "context": "CTEP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [],
+      "alternateNames": [
+        {
+          "name": "caBIG",
+          "type": "USED_BY",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "Steroid Therapy Administered",
+          "type": "TCGA_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "steroid_therapy_administered",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 2459014,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Steroid Therapy Administered Indicator",
+      "shortName": "STEROIDTX_ADM_IND",
+      "preferredQuestionText": "Were steroids given",
+      "definition": "the indicator for steroid therapy administered.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 2014632,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Steroid Therapy Administered",
+      "shortName": "STEROIDTX_ADM",
+      "definition": "the administration of steroids as therapy to the patient.",
+      "context": "CTEP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008538,
+      "conceptualDomainShortName": "TX",
+      "conceptualDomainLongName": "Therapies",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 2193051,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Steroid Therapy",
+      "shortName": "C0149783",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Steroid Therapy",
+        "conceptCode": "C0149783",
+        "publicId": "2203289",
+        "definitionSource": "NCI-GLOSS",
+        "evsSource": "UMLS_CUI",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2177665,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Administered",
+      "shortName": "Administered",
+      "context": "CTEP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Administered",
+        "conceptCode": "C25382",
+        "publicId": "2204029",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 2459014,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Steroid Therapy Administered Indicator",
+      "shortName": "STEROIDTX_ADM_IND",
+      "preferredQuestionText": "Were steroids given",
+      "definition": "the indicator for steroid therapy administered.",
+      "workflowStatus": "RELEASED"
+    },
+    "valueDomainDetails": {
+      "publicId": 2459012,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Steroid Therapy Administered Indicator",
+      "shortName": "STER_TX_ADMIN_IND",
+      "context": "CTEP",
+      "definition": "the indicator for steroid therapy administered.",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": null,
+      "dataType": "CHARACTER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": null,
+      "minimumLength": null,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "E",
+      "conceptualDomainPublicId": 2008538,
+      "conceptualDomainShortName": "TX",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Therapies",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 2320047,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Indicator",
+      "shortName": "C25180",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Indicator",
+        "conceptCode": "C25180",
+        "publicId": "2202683",
+        "definitionSource": "Source => Name: NCI, ",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [
+      {
+        "createdBy": "ALAIS",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "99BA9DC8-54CF-4E69-E034-080020C9C0E0",
+        "value": "No",
+        "shortMeaning": "No",
+        "meaningDescription": "No",
+        "beginDate": 1142457363000,
+        "beginDateString": "2006-03-15",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-B588-5C23-E044-0003BA3F9857",
+        "conceptCode": "C49487",
+        "conceptCodeArray": [
+          "C49487"
+        ],
+        "vmDescription": "The non-affirmative response to a question.",
+        "vmId": "2559515",
+        "vmVersion": "1",
+        "dateCreated": 1142457363000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "ALAIS",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0F0F6381-C890-20B2-E044-0003BA3F9857",
+        "value": "Yes, steroids given, but not continuing use",
+        "shortMeaning": "Yes, steroids given, but not continuing use",
+        "meaningDescription": null,
+        "beginDate": 1142457349000,
+        "beginDateString": "2006-03-15",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-FF01-5C23-E044-0003BA3F9857",
+        "conceptCode": "C49488:C25484:C25340",
+        "conceptCodeArray": [
+          "C49488",
+          "C25484",
+          "C25340"
+        ],
+        "vmDescription": "The affirmative response to a question.: To stop or end, permanently or temporarily.: A manner, or usual, or accepted practice of using something.",
+        "vmId": "2578324",
+        "vmVersion": "1",
+        "dateCreated": 1142457349000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "ALAIS",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "0F0F6381-C894-20B2-E044-0003BA3F9857",
+        "value": "Yes, steroids given, continuing use",
+        "shortMeaning": "Yes, steroids given, continuing use",
+        "meaningDescription": null,
+        "beginDate": 1142457349000,
+        "beginDateString": "2006-03-15",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-FF02-5C23-E044-0003BA3F9857",
+        "conceptCode": "C49488:C53279:C25340",
+        "conceptCodeArray": [
+          "C49488",
+          "C53279",
+          "C25340"
+        ],
+        "vmDescription": "The affirmative response to a question.: Remain in force or carry on without letup; keep or maintain in unaltered condition; exist in time or space without stop or interruption.: A manner, or usual, or accepted practice of using something.",
+        "vmId": "2578325",
+        "vmVersion": "1",
+        "dateCreated": 1142457349000,
+        "dateModified": null
+      }
+    ],
+    "permissibleValueExtList": null,
+    "valueMeaning": [
+      {
+        "pvIdseq": "99BA9DC8-54CF-4E69-E034-080020C9C0E0",
+        "pvMeaning": "No",
+        "vmPublicId": "2559515",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-B588-5C23-E044-0003BA3F9857",
+        "alternateNames": [
+          {
+            "name": "No",
+            "type": "VM Alt Name",
+            "context": "CTEP",
+            "language": "ENGLISH",
+            "conteIdseq": "99BA9DC8-2095-4E69-E034-080020C9C0E0"
+          },
+          {
+            "name": "Not a Serious Adverse Event",
+            "type": "C3D Name",
+            "context": "CCR",
+            "language": "ENGLISH",
+            "conteIdseq": "A5599257-A08F-41D1-E034-080020C9C0E0"
+          },
+          {
+            "name": "LA32-8",
+            "type": "LOINC_CODE",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "No",
+            "type": "LOINC_NAME",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "Exception",
+            "type": "VM Alt Name",
+            "context": "Theradex",
+            "language": "ENGLISH",
+            "conteIdseq": "E593F10C-3186-508C-E040-BB89AD4324A0"
+          },
+          {
+            "name": "No",
+            "type": "VM Alt Name",
+            "context": "NCIP",
+            "language": "Spanish",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "1 - No",
+            "type": "VM Alt Name",
+            "context": "ECOG-ACRIN",
+            "language": "ENGLISH",
+            "conteIdseq": "A7CF3B35-74D1-8852-E040-BB89AD435FAB"
+          }
+        ],
+        "alternateDefinitions": [
+          {
+            "name": "No occurrence of a Serious Adverse Event (SAE)",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "0F0F6381-C890-20B2-E044-0003BA3F9857",
+        "pvMeaning": "Yes, steroids given, but not continuing use",
+        "vmPublicId": "2578324",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-FF01-5C23-E044-0003BA3F9857",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Yes, steroids given, but not continuing use",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "0F0F6381-C894-20B2-E044-0003BA3F9857",
+        "pvMeaning": "Yes, steroids given, continuing use",
+        "vmPublicId": "2578325",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-FF02-5C23-E044-0003BA3F9857",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Yes, steroids given, continuing use",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      }
+    ],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 2459014,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Steroid Therapy Administered Indicator",
+      "shortName": "STEROIDTX_ADM_IND",
+      "preferredQuestionText": "Were steroids given",
+      "definition": "the indicator for steroid therapy administered.",
+      "workflowStatus": "RELEASED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "CRF Disease",
+        "csDefinition": "this scheme is used to classify by disease case report forms and their associated data elements.  Assignments to this scheme should not be made manually but occur through use of the CRF Loader and the CRT.",
+        "csiName": "Leukemia",
+        "csiType": "DISEASE_TYPE",
+        "csId": "2857165",
+        "csVersion": 2.31,
+        "formattedCsVersion": "2.31",
+        "csiId": 2811909,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 2459014,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Steroid Therapy Administered Indicator",
+      "shortName": "STEROIDTX_ADM_IND",
+      "preferredQuestionText": "Were steroids given",
+      "definition": "the indicator for steroid therapy administered.",
+      "workflowStatus": "RELEASED"
+    },
+    "formUsages": [
+      {
+        "protocolNumber": "AECC/Montefiore Standard CRFs",
+        "leadOrg": "N/A",
+        "formName": "TREATMENT with SPECIFIC ELEMENTS FORM",
+        "questionName": "Were steroids given",
+        "formUsageType": "CRF",
+        "publicId": 4197455,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=F3F304AD-DE9A-6B32-E040-BB89AD4340C4",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "E2905",
+        "leadOrg": "ECOG",
+        "formName": "E2905 Treatment Form",
+        "questionName": "Were steroids given",
+        "formUsageType": "CRF",
+        "publicId": 2455187,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=0EAAA60E-08F3-6970-E044-0003BA3F9857",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      }
+    ]
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 2459014,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Steroid Therapy Administered Indicator",
+      "shortName": "STEROIDTX_ADM_IND",
+      "preferredQuestionText": "Were steroids given",
+      "definition": "the indicator for steroid therapy administered.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "ALAIS",
+    "dateCreated": "2006-03-15",
+    "modifiedBy": "TSESU",
+    "dateModified": "2018-07-02",
+    "vdCreatedBy": "ALAIS",
+    "vdOwnedBy": "CTEP",
+    "vdDateCreated": "2006-03-15",
+    "vdDateModified": "2012-04-26",
+    "decCreatedBy": "MSUPLEY",
+    "decOwnedBy": "CTEP",
+    "decDateCreated": "2003-04-28",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 2459014,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Steroid Therapy Administered Indicator",
+      "shortName": "STEROIDTX_ADM_IND",
+      "preferredQuestionText": "Were steroids given",
+      "definition": "the indicator for steroid therapy administered.",
+      "workflowStatus": "RELEASED"
+    },
+    "changeNote": null
+  }
+}

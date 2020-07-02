@@ -1,0 +1,1369 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 3124352,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Leukemia French American British Morphology Code",
+      "shortName": "3124331v1.0:3124340v1.0",
+      "preferredQuestionText": "FAB Category",
+      "definition": "Alphanumeric code to represent the French American British (FAB) morphologic classification of leukemia.",
+      "valueDomain": "Leukemia Morphology Code",
+      "dataElementConcept": "Leukemia French American British Morphology Classification",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "origin": "FAB Classification",
+      "registrationStatus": null,
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "8C14A4CF-1A71-B224-E040-BB89AD432422"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "FAB Category",
+        "documentType": "Preferred Question Text",
+        "documentText": "FAB Category",
+        "context": "NCIP",
+        "url": null
+      },
+      {
+        "documentName": "COG CRF TEXT 1",
+        "documentType": "Alternate Question Text",
+        "documentText": "Primary morphology of the patient's AML",
+        "context": "COG",
+        "url": null
+      },
+      {
+        "documentName": "French American British AML Classification",
+        "documentType": "Alternate Question Text",
+        "documentText": "French American British AML Classification",
+        "context": "NCIP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [
+        {
+          "name": "COG",
+          "type": "USED_BY",
+          "context": "COG",
+          "language": "ENGLISH"
+        },
+        {
+          "name": "OCG",
+          "type": "USED_BY",
+          "context": "OCG",
+          "language": "ENGLISH"
+        }
+      ],
+      "alternateNames": [
+        {
+          "name": "fab_category",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "leukemia_french_american_british_morphology_code",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 3124352,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Leukemia French American British Morphology Code",
+      "shortName": "3124331v1.0:3124340v1.0",
+      "preferredQuestionText": "FAB Category",
+      "definition": "Alphanumeric code to represent the French American British (FAB) morphologic classification of leukemia.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 3124331,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Leukemia French American British Morphology Classification",
+      "shortName": "2456829v1.0:3144329v1.0",
+      "definition": "related to the grouping of hematologic malignancy (e.g., leukemia) based on criteria for morphologic and cytochemical appearance describe by the French-American-British international system._The science of the form and structure of organisms (plants, animals, and other forms of life), or of their parts, and the study or science of the same.  In pathology, the specific appearance of cells and tissues (normal and abnormal) under the light or electron microscope._A classification system for acute myeloid leukemias, acute lymphoblastic leukemias, and myelodysplastic syndromes.  It is based on the morphologic and cytochemical evaluation of bone marrow and peripheral blood smears.",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008537,
+      "conceptualDomainShortName": "DX",
+      "conceptualDomainLongName": "Diagnosis",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 2456829,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Leukemia",
+      "shortName": "C3161",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Leukemia",
+        "conceptCode": "C3161",
+        "publicId": "2202669",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 3144329,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Morphology French-American-British Classification Classification",
+      "shortName": "C17943:C91220:C25161",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Morphology",
+        "conceptCode": "C17943",
+        "publicId": "2202748",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "French-American-British Classification",
+        "conceptCode": "C91220",
+        "publicId": "3124351",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Classification",
+        "conceptCode": "C25161",
+        "publicId": "2203879",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 3124352,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Leukemia French American British Morphology Code",
+      "shortName": "3124331v1.0:3124340v1.0",
+      "preferredQuestionText": "FAB Category",
+      "definition": "Alphanumeric code to represent the French American British (FAB) morphologic classification of leukemia.",
+      "workflowStatus": "RELEASED"
+    },
+    "valueDomainDetails": {
+      "publicId": 3124340,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Leukemia Morphology Code",
+      "shortName": "3124340v1.0",
+      "context": "NCIP",
+      "definition": "Text code terms to represent the marrow diagnostic category for a patient with acute leukemia._The science of the form and structure of organisms (plants, animals, and other forms of life), or of their parts, and the study or science of the same.  In pathology, the specific appearance of cells and tissues (normal and abnormal) under the light or electron microscope.",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": null,
+      "dataType": "CHARACTER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 20,
+      "minimumLength": null,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "E",
+      "conceptualDomainPublicId": 2008537,
+      "conceptualDomainShortName": "DX",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Diagnosis",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 3124339,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Morphology Code",
+      "shortName": "C17943:C25162",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Morphology",
+        "conceptCode": "C17943",
+        "publicId": "2202748",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Code",
+        "conceptCode": "C25162",
+        "publicId": "2203865",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8C142120-3920-8731-E040-BB89AD437683",
+        "value": "Biphenotypic",
+        "shortMeaning": "Acute biphenotypic leukaemia is a form of leukaemia where the lineage is of both lymphoid and myeloid origin; It is a subtype of ",
+        "meaningDescription": "Acute biphenotypic leukaemia is a form of leukaemia where the lineage is of both lymphoid and myeloid origin; It is a subtype of \"leukemia of ambiguous lineage\".",
+        "beginDate": 1279857600000,
+        "beginDateString": "2010-07-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8C142120-3911-8731-E040-BB89AD437683",
+        "conceptCode": "C4673",
+        "conceptCodeArray": [
+          "C4673"
+        ],
+        "vmDescription": "An acute leukemia of ambiguous lineage characterized by blasts which coexpress myeloid and T or B lineage antigens or concurrent B and T lineage antigens.  (WHO, 2001)",
+        "vmId": "3124341",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8C142120-3943-8731-E040-BB89AD437683",
+        "value": "M0 Undifferentiated",
+        "shortMeaning": "Minimally differentiated acute myeloblastic leukemia",
+        "meaningDescription": "Minimally differentiated acute myeloblastic leukemia",
+        "beginDate": 1279857600000,
+        "beginDateString": "2010-07-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8C142120-3934-8731-E040-BB89AD437683",
+        "conceptCode": "C8460",
+        "conceptCodeArray": [
+          "C8460"
+        ],
+        "vmDescription": "An acute myeloid leukemia (AML) in which the blasts do not show evidence of myeloid differentiation by morphology and conventional cytochemistry.  The myeloid origin of the blasts is demonstrated by immunohistochemistry and/or electron microscopic studies.  The patients present with anemia, neutropenia, and thrombocytopenia.  The prognosis is usually poor.  (WHO, 2001)",
+        "vmId": "3124342",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8C142120-3A15-8731-E040-BB89AD437683",
+        "value": "M1",
+        "shortMeaning": "Acute myeloblastic leukemia, without maturation",
+        "meaningDescription": "Acute myeloblastic leukemia, without maturation",
+        "beginDate": 1279857600000,
+        "beginDateString": "2010-07-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8C142120-3A06-8731-E040-BB89AD437683",
+        "conceptCode": "C3249",
+        "conceptCodeArray": [
+          "C3249"
+        ],
+        "vmDescription": "An acute myeloid leukemia (AML) characterized by blasts without evidence of maturation to more mature neutrophils.  The patients present with anemia, neutropenia, and thrombocytopenia.  This type of AML usually follows an aggressive clinical course.  (WHO, 2001)",
+        "vmId": "3124348",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8C142120-39F2-8731-E040-BB89AD437683",
+        "value": "M2",
+        "shortMeaning": "Acute myeloblastic leukemia, with granulocytic maturation",
+        "meaningDescription": "Acute myeloblastic leukemia, with granulocytic maturation",
+        "beginDate": 1279857600000,
+        "beginDateString": "2010-07-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8C142120-39E3-8731-E040-BB89AD437683",
+        "conceptCode": "C3250",
+        "conceptCodeArray": [
+          "C3250"
+        ],
+        "vmDescription": "An acute myeloid leukemia (AML) characterized by blasts with evidence of maturation to more mature neutrophils. Patients often present with anemia, neutropenia, and thrombocytopenia. AML with the t(8;21) is usually AML with maturation. This type of AML frequently responds to aggressive therapy. (WHO, 2001)",
+        "vmId": "3124347",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8C142120-39CF-8731-E040-BB89AD437683",
+        "value": "M3",
+        "shortMeaning": "Promyelocytic, or acute promyelocytic leukemia (APL)",
+        "meaningDescription": "Promyelocytic, or acute promyelocytic leukemia (APL)",
+        "beginDate": 1279857600000,
+        "beginDateString": "2010-07-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8C142120-39C0-8731-E040-BB89AD437683",
+        "conceptCode": "C27756",
+        "conceptCodeArray": [
+          "C27756"
+        ],
+        "vmDescription": "Acute Promyelocytic leukemia characterized by the presence of hypergranular promyelocytes and characteristic cells that contain bundles of Auer rods.",
+        "vmId": "3124346",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "WHITES",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "96EC6B62-CDB8-7D7A-E040-BB89AD436C04",
+        "value": "M3v",
+        "shortMeaning": "Microgranular Acute Promyelocytic Leukemia",
+        "meaningDescription": "No Value Exists",
+        "beginDate": 1291784400000,
+        "beginDateString": "2010-12-08",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "96EC6B62-CDA9-7D7A-E040-BB89AD436C04",
+        "conceptCode": "C27757",
+        "conceptCodeArray": [
+          "C27757"
+        ],
+        "vmDescription": "No Value Exists",
+        "vmId": "3165501",
+        "vmVersion": "1",
+        "dateCreated": 1291784400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "1027738F-059C-6F38-E044-0003BA3F9857",
+        "value": "M4",
+        "shortMeaning": "Acute myelomonocytic leukemia (AMML)",
+        "meaningDescription": "Acute myelomonocytic leukemia (AMML)",
+        "beginDate": 1143608400000,
+        "beginDateString": "2006-03-29",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-FF5C-5C23-E044-0003BA3F9857",
+        "conceptCode": "C3249",
+        "conceptCodeArray": [
+          "C3249"
+        ],
+        "vmDescription": "An acute myeloid leukemia (AML) characterized by blasts without evidence of maturation to more mature neutrophils.  The patients present with anemia, neutropenia, and thrombocytopenia.  This type of AML usually follows an aggressive clinical course.  (WHO, 2001)",
+        "vmId": "2578415",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8C142120-39AC-8731-E040-BB89AD437683",
+        "value": "M4EOS",
+        "shortMeaning": "Myelomonocytic together with bone marrow eosinophilia",
+        "meaningDescription": "Myelomonocytic together with bone marrow eosinophilia",
+        "beginDate": 1279857600000,
+        "beginDateString": "2010-07-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8C142120-399D-8731-E040-BB89AD437683",
+        "conceptCode": "C9020",
+        "conceptCodeArray": [
+          "C9020"
+        ],
+        "vmDescription": "No Value Exists",
+        "vmId": "3124345",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8C142120-3989-8731-E040-BB89AD437683",
+        "value": "M5",
+        "shortMeaning": "Acute monoblastic leukemia (M5a) or acute monocytic leukemia (M5b)",
+        "meaningDescription": "Acute monoblastic leukemia (M5a) or acute monocytic leukemia (M5b)",
+        "beginDate": 1279857600000,
+        "beginDateString": "2010-07-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8C142120-397A-8731-E040-BB89AD437683",
+        "conceptCode": "C7318",
+        "conceptCodeArray": [
+          "C7318"
+        ],
+        "vmDescription": "Acute myeloid leukemia in which 80% or more of the leukemic cells are of monocytic lineage, including monoblasts, promonocytes, and monocytes. Bleeding disorders are common presenting features. It usually follows an aggressive clinical course.",
+        "vmId": "3124344",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8C142120-3966-8731-E040-BB89AD437683",
+        "value": "M6",
+        "shortMeaning": "Acute erythroid leukemias, including erythroleukemia (M6a) and very rare pure erythroid leukemia (M6b)",
+        "meaningDescription": "Acute erythroid leukemias, including erythroleukemia (M6a) and very rare pure erythroid leukemia (M6b)",
+        "beginDate": 1279857600000,
+        "beginDateString": "2010-07-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8C142120-3957-8731-E040-BB89AD437683",
+        "conceptCode": "C8923",
+        "conceptCodeArray": [
+          "C8923"
+        ],
+        "vmDescription": "An acute myeloid leukemia characterized by a predominant immature erythroid population.  There are two subtypes recognized: erythroleukemia and pure erythroid leukemia.  Severe anemia is a common symptom.  This leukemia usually follows an aggressive clinical course.  (WHO, 2001)",
+        "vmId": "3124343",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "1027738F-05B7-6F38-E044-0003BA3F9857",
+        "value": "M7",
+        "shortMeaning": "Acute megakaryocytic leukemia",
+        "meaningDescription": "Acute megakaryocytic leukemia",
+        "beginDate": 1143608400000,
+        "beginDateString": "2006-03-29",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-FF5F-5C23-E044-0003BA3F9857",
+        "conceptCode": "C3170",
+        "conceptCodeArray": [
+          "C3170"
+        ],
+        "vmDescription": "An acute myeloid leukemia in which at least 50% of the blasts are of megakaryocytic lineage.  The prognosis is usually poor.  (WHO, 2001)",
+        "vmId": "2578418",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8C142120-3A38-8731-E040-BB89AD437683",
+        "value": "Not classified",
+        "shortMeaning": "Not classified",
+        "meaningDescription": "Not classified",
+        "beginDate": 1279857600000,
+        "beginDateString": "2010-07-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8C142120-3A29-8731-E040-BB89AD437683",
+        "conceptCode": "C64486",
+        "conceptCodeArray": [
+          "C64486"
+        ],
+        "vmDescription": "Not arranged or included in any specific grouping.",
+        "vmId": "3124349",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8C142120-3A4C-8731-E040-BB89AD437683",
+        "value": "Unchanged",
+        "shortMeaning": "No Change",
+        "meaningDescription": "No Change",
+        "beginDate": 1279857600000,
+        "beginDateString": "2010-07-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-E057-5C23-E044-0003BA3F9857",
+        "conceptCode": "C25594:C25446",
+        "conceptCodeArray": [
+          "C25594",
+          "C25446"
+        ],
+        "vmDescription": "An operation in which a term denies or inverts the meaning of another term or construction.: The act of alteration or modification; changed or altered in form or character.",
+        "vmId": "2570474",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8C142120-3A70-8731-E040-BB89AD437683",
+        "value": "Unknown",
+        "shortMeaning": "Not known or not well known",
+        "meaningDescription": "Not known or not well known",
+        "beginDate": 1279857600000,
+        "beginDateString": "2010-07-23",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8C142120-3A61-8731-E040-BB89AD437683",
+        "conceptCode": "C17998",
+        "conceptCodeArray": [
+          "C17998"
+        ],
+        "vmDescription": "Not known, not observed, not recorded, or refused.",
+        "vmId": "3124350",
+        "vmVersion": "1",
+        "dateCreated": 1279857600000,
+        "dateModified": null
+      }
+    ],
+    "permissibleValueExtList": null,
+    "valueMeaning": [
+      {
+        "pvIdseq": "8C142120-3920-8731-E040-BB89AD437683",
+        "pvMeaning": "Acute biphenotypic leukaemia is a form of leukaemia where the lineage is of both lymphoid and myeloid origin; It is a subtype of ",
+        "vmPublicId": "3124341",
+        "vmVersion": "1",
+        "vmIdseq": "8C142120-3911-8731-E040-BB89AD437683",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Acute biphenotypic leukaemia is a form of leukaemia where the lineage is of both lymphoid and myeloid origin; It is a subtype of \"leukemia of ambiguous lineage\".",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8C142120-3943-8731-E040-BB89AD437683",
+        "pvMeaning": "Minimally differentiated acute myeloblastic leukemia",
+        "vmPublicId": "3124342",
+        "vmVersion": "1",
+        "vmIdseq": "8C142120-3934-8731-E040-BB89AD437683",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Minimally differentiated acute myeloblastic leukemia",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8C142120-3A15-8731-E040-BB89AD437683",
+        "pvMeaning": "Acute myeloblastic leukemia, without maturation",
+        "vmPublicId": "3124348",
+        "vmVersion": "1",
+        "vmIdseq": "8C142120-3A06-8731-E040-BB89AD437683",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Acute myeloblastic leukemia, without maturation",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8C142120-39F2-8731-E040-BB89AD437683",
+        "pvMeaning": "Acute myeloblastic leukemia, with granulocytic maturation",
+        "vmPublicId": "3124347",
+        "vmVersion": "1",
+        "vmIdseq": "8C142120-39E3-8731-E040-BB89AD437683",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Acute myeloblastic leukemia, with granulocytic maturation",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8C142120-39CF-8731-E040-BB89AD437683",
+        "pvMeaning": "Promyelocytic, or acute promyelocytic leukemia (APL)",
+        "vmPublicId": "3124346",
+        "vmVersion": "1",
+        "vmIdseq": "8C142120-39C0-8731-E040-BB89AD437683",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Promyelocytic, or acute promyelocytic leukemia (APL)",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "96EC6B62-CDB8-7D7A-E040-BB89AD436C04",
+        "pvMeaning": "Microgranular Acute Promyelocytic Leukemia",
+        "vmPublicId": "3165501",
+        "vmVersion": "1",
+        "vmIdseq": "96EC6B62-CDA9-7D7A-E040-BB89AD436C04",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "1027738F-059C-6F38-E044-0003BA3F9857",
+        "pvMeaning": "Acute myelomonocytic leukemia (AMML)",
+        "vmPublicId": "2578415",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-FF5C-5C23-E044-0003BA3F9857",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Acute myelomonocytic leukemia (AMML)",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8C142120-39AC-8731-E040-BB89AD437683",
+        "pvMeaning": "Myelomonocytic together with bone marrow eosinophilia",
+        "vmPublicId": "3124345",
+        "vmVersion": "1",
+        "vmIdseq": "8C142120-399D-8731-E040-BB89AD437683",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Myelomonocytic together with bone marrow eosinophilia",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8C142120-3989-8731-E040-BB89AD437683",
+        "pvMeaning": "Acute monoblastic leukemia (M5a) or acute monocytic leukemia (M5b)",
+        "vmPublicId": "3124344",
+        "vmVersion": "1",
+        "vmIdseq": "8C142120-397A-8731-E040-BB89AD437683",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Acute monoblastic leukemia (M5a) or acute monocytic leukemia (M5b)",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8C142120-3966-8731-E040-BB89AD437683",
+        "pvMeaning": "Acute erythroid leukemias, including erythroleukemia (M6a) and very rare pure erythroid leukemia (M6b)",
+        "vmPublicId": "3124343",
+        "vmVersion": "1",
+        "vmIdseq": "8C142120-3957-8731-E040-BB89AD437683",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Acute erythroid leukemias, including erythroleukemia (M6a) and very rare pure erythroid leukemia (M6b)",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "1027738F-05B7-6F38-E044-0003BA3F9857",
+        "pvMeaning": "Acute megakaryocytic leukemia",
+        "vmPublicId": "2578418",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-FF5F-5C23-E044-0003BA3F9857",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Acute megakaryocytic leukemia",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8C142120-3A38-8731-E040-BB89AD437683",
+        "pvMeaning": "Not classified",
+        "vmPublicId": "3124349",
+        "vmVersion": "1",
+        "vmIdseq": "8C142120-3A29-8731-E040-BB89AD437683",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Not classified",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8C142120-3A4C-8731-E040-BB89AD437683",
+        "pvMeaning": "No Change",
+        "vmPublicId": "2570474",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-E057-5C23-E044-0003BA3F9857",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "No Change",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8C142120-3A70-8731-E040-BB89AD437683",
+        "pvMeaning": "Not known or not well known",
+        "vmPublicId": "3124350",
+        "vmVersion": "1",
+        "vmIdseq": "8C142120-3A61-8731-E040-BB89AD437683",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Not known or not well known",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      }
+    ],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 3124352,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Leukemia French American British Morphology Code",
+      "shortName": "3124331v1.0:3124340v1.0",
+      "preferredQuestionText": "FAB Category",
+      "definition": "Alphanumeric code to represent the French American British (FAB) morphologic classification of leukemia.",
+      "workflowStatus": "RELEASED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "TARGET",
+        "csDefinition": "Therapeutically Applicable Research to Generate Effective Treatments",
+        "csiName": "AML",
+        "csiType": "GROUP_TYPE",
+        "csId": "5650570",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 5650572,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Children's Oncology Group (COG)",
+        "csDefinition": "Children's Oncology ",
+        "csiName": "Statistics and Data Center",
+        "csiType": "GROUP_TYPE",
+        "csId": "2961451",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 2961452,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TARGET/CGCI",
+        "csDefinition": "TARGET/CGCI CDEs",
+        "csiName": "TARGET",
+        "csiType": "GROUP_TYPE",
+        "csId": "3070837",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3179562,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TARGET/CGCI",
+        "csDefinition": "TARGET/CGCI CDEs",
+        "csiName": "TARGET AML",
+        "csiType": "GROUP_TYPE",
+        "csId": "3070837",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3219642,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "HNSC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787505,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical cqcf",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787533,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "BLCA",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787499,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "BRCA",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787500,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "CESC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787502,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "COAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787503,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LUSC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787513,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "KICH",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787506,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "KIRC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787507,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "KIRP",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787508,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "SKCM",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787519,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LGG",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787510,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LIHC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787511,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LUAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787512,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "SARC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787518,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "THCA",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787521,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "PRAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787516,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "READ",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787517,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "UCEC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787522,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "STAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787520,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "PAAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787515,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 3124352,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Leukemia French American British Morphology Code",
+      "shortName": "3124331v1.0:3124340v1.0",
+      "preferredQuestionText": "FAB Category",
+      "definition": "Alphanumeric code to represent the French American British (FAB) morphologic classification of leukemia.",
+      "workflowStatus": "RELEASED"
+    },
+    "formUsages": []
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 3124352,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Leukemia French American British Morphology Code",
+      "shortName": "3124331v1.0:3124340v1.0",
+      "preferredQuestionText": "FAB Category",
+      "definition": "Alphanumeric code to represent the French American British (FAB) morphologic classification of leukemia.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "REEVESD",
+    "dateCreated": "2010-07-23",
+    "modifiedBy": "TSESU",
+    "dateModified": "2018-07-11",
+    "vdCreatedBy": "REEVESD",
+    "vdOwnedBy": "NCIP",
+    "vdDateCreated": "2010-07-23",
+    "vdDateModified": "2015-02-03",
+    "decCreatedBy": "REEVESD",
+    "decOwnedBy": "NCIP",
+    "decDateCreated": "2010-07-23",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 3124352,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Leukemia French American British Morphology Code",
+      "shortName": "3124331v1.0:3124340v1.0",
+      "preferredQuestionText": "FAB Category",
+      "definition": "Alphanumeric code to represent the French American British (FAB) morphologic classification of leukemia.",
+      "workflowStatus": "RELEASED"
+    },
+    "changeNote": "Released per approval from T.Davidsen. mc 4/18/11"
+  }
+}

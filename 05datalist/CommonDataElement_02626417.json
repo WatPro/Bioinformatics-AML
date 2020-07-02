@@ -1,0 +1,739 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 2626417,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Performed Ind-2",
+      "shortName": "CYTAN_PERF_IND2",
+      "preferredQuestionText": "Cytogenetics Test",
+      "definition": "the yes/no indicator related to techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities being performed.",
+      "valueDomain": "Diagnosis Ind-2",
+      "dataElementConcept": "Cytogenetic Analysis Performed",
+      "context": "NHLBI",
+      "workflowStatus": "APPRVD FOR TRIAL USE",
+      "origin": null,
+      "registrationStatus": null,
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "2E024E2E-C46B-31F0-E044-0003BA3F9857"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Cytogenetics Test",
+        "documentType": "Preferred Question Text",
+        "documentText": "Cytogenetics Test",
+        "context": "NHLBI",
+        "url": null
+      },
+      {
+        "documentName": "Were Routine Cytogenetics Done?",
+        "documentType": "Alternate Question Text",
+        "documentText": "Were Routine Cytogenetics Done?",
+        "context": "NCIP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [],
+      "alternateNames": [
+        {
+          "name": "caBIG",
+          "type": "USED_BY",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "Cytogenetic Analysis Performed Ind",
+          "type": "TCGA_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "cytogenetic_analysis_performed_ind",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 2626417,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Performed Ind-2",
+      "shortName": "CYTAN_PERF_IND2",
+      "preferredQuestionText": "Cytogenetics Test",
+      "definition": "the yes/no indicator related to techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities being performed.",
+      "workflowStatus": "APPRVD FOR TRIAL USE"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 2626355,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Performed",
+      "shortName": "CYTOANA_PERF",
+      "definition": "information related to techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities being performed.",
+      "context": "NHLBI",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008551,
+      "conceptualDomainShortName": "ASSESS",
+      "conceptualDomainLongName": "Assessments",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 2626353,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis",
+      "shortName": "C18280",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Cytogenetic Analysis",
+        "conceptCode": "C18280",
+        "publicId": "2528326",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2241241,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Performed",
+      "shortName": "C38000",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Performed",
+        "conceptCode": "C38000",
+        "publicId": "2203950",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 2626417,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Performed Ind-2",
+      "shortName": "CYTAN_PERF_IND2",
+      "preferredQuestionText": "Cytogenetics Test",
+      "definition": "the yes/no indicator related to techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities being performed.",
+      "workflowStatus": "APPRVD FOR TRIAL USE"
+    },
+    "valueDomainDetails": {
+      "publicId": 2404918,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Diagnosis Ind-2",
+      "shortName": "DX_IND-2",
+      "context": "CTEP",
+      "definition": "the yes/no indicator related to a patient's diagnosis.",
+      "workflowStatus": "RETIRED ARCHIVED",
+      "registrationStatus": null,
+      "dataType": "CHARACTER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 3,
+      "minimumLength": 2,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "E",
+      "conceptualDomainPublicId": 2008537,
+      "conceptualDomainShortName": "DX",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Diagnosis",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 2421125,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Ind-2",
+      "shortName": "C38147",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Yes or No Response",
+        "conceptCode": "C38147",
+        "publicId": "2204645",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [
+      {
+        "createdBy": "PWEST",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "99BA9DC8-54CF-4E69-E034-080020C9C0E0",
+        "value": "No",
+        "shortMeaning": "No",
+        "meaningDescription": "No",
+        "beginDate": 1029988800000,
+        "beginDateString": "2002-08-22",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-B588-5C23-E044-0003BA3F9857",
+        "conceptCode": "C49487",
+        "conceptCodeArray": [
+          "C49487"
+        ],
+        "vmDescription": "The non-affirmative response to a question.",
+        "vmId": "2559515",
+        "vmVersion": "1",
+        "dateCreated": 1126629875000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "PWEST",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "99BA9DC8-5952-4E69-E034-080020C9C0E0",
+        "value": "Yes",
+        "shortMeaning": "Yes",
+        "meaningDescription": "Yes",
+        "beginDate": 1029988800000,
+        "beginDateString": "2002-08-22",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-B932-5C23-E044-0003BA3F9857",
+        "conceptCode": "C49488",
+        "conceptCodeArray": [
+          "C49488"
+        ],
+        "vmDescription": "The affirmative response to a question or activity.",
+        "vmId": "2560453",
+        "vmVersion": "1",
+        "dateCreated": 1126629875000,
+        "dateModified": null
+      }
+    ],
+    "permissibleValueExtList": null,
+    "valueMeaning": [
+      {
+        "pvIdseq": "99BA9DC8-54CF-4E69-E034-080020C9C0E0",
+        "pvMeaning": "No",
+        "vmPublicId": "2559515",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-B588-5C23-E044-0003BA3F9857",
+        "alternateNames": [
+          {
+            "name": "No",
+            "type": "VM Alt Name",
+            "context": "CTEP",
+            "language": "ENGLISH",
+            "conteIdseq": "99BA9DC8-2095-4E69-E034-080020C9C0E0"
+          },
+          {
+            "name": "Not a Serious Adverse Event",
+            "type": "C3D Name",
+            "context": "CCR",
+            "language": "ENGLISH",
+            "conteIdseq": "A5599257-A08F-41D1-E034-080020C9C0E0"
+          },
+          {
+            "name": "LA32-8",
+            "type": "LOINC_CODE",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "No",
+            "type": "LOINC_NAME",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "Exception",
+            "type": "VM Alt Name",
+            "context": "Theradex",
+            "language": "ENGLISH",
+            "conteIdseq": "E593F10C-3186-508C-E040-BB89AD4324A0"
+          },
+          {
+            "name": "No",
+            "type": "VM Alt Name",
+            "context": "NCIP",
+            "language": "Spanish",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "1 - No",
+            "type": "VM Alt Name",
+            "context": "ECOG-ACRIN",
+            "language": "ENGLISH",
+            "conteIdseq": "A7CF3B35-74D1-8852-E040-BB89AD435FAB"
+          }
+        ],
+        "alternateDefinitions": [
+          {
+            "name": "No occurrence of a Serious Adverse Event (SAE)",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "99BA9DC8-5952-4E69-E034-080020C9C0E0",
+        "pvMeaning": "Yes",
+        "vmPublicId": "2560453",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-B932-5C23-E044-0003BA3F9857",
+        "alternateNames": [
+          {
+            "name": "LA33-6",
+            "type": "LOINC_CODE",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "Yes",
+            "type": "LOINC_NAME",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          }
+        ],
+        "alternateDefinitions": [
+          {
+            "name": "YES",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          },
+          {
+            "name": "The affirmative response to a question.",
+            "type": "NCI",
+            "context": "NHLBI",
+            "language": "ENGLISH",
+            "conteIdseq": "EDA90DE9-80D9-1E28-E034-0003BA3F9857"
+          }
+        ]
+      }
+    ],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 2626417,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Performed Ind-2",
+      "shortName": "CYTAN_PERF_IND2",
+      "preferredQuestionText": "Cytogenetics Test",
+      "definition": "the yes/no indicator related to techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities being performed.",
+      "workflowStatus": "APPRVD FOR TRIAL USE"
+    },
+    "classificationList": [
+      {
+        "csLongName": "Disease Relapse",
+        "csDefinition": "Classification for Transplant Committee Disease Relapse forms",
+        "csiName": "Acute Leukemia Relapse",
+        "csiType": "CATEGORY_TYPE",
+        "csId": "2670694",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 2812922,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Disease Relapse",
+        "csDefinition": "Classification for Transplant Committee Disease Relapse forms",
+        "csiName": "Myelodysplastic Syndrome (MDS) Relapse",
+        "csiType": "CATEGORY_TYPE",
+        "csId": "2670694",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 2812927,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Disease Relapse",
+        "csDefinition": "Classification for Transplant Committee Disease Relapse forms",
+        "csiName": "Lymphoma Relapse",
+        "csiType": "CATEGORY_TYPE",
+        "csId": "2670694",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 2812926,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Disease Relapse",
+        "csDefinition": "Classification for Transplant Committee Disease Relapse forms",
+        "csiName": "Chronic Myelogenous Leukemia Relapse",
+        "csiType": "CATEGORY_TYPE",
+        "csId": "2670694",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 2812924,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Disease Relapse",
+        "csDefinition": "Classification for Transplant Committee Disease Relapse forms",
+        "csiName": "Fanconi Anemia Relapse",
+        "csiType": "CATEGORY_TYPE",
+        "csId": "2670694",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 2812925,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Disease Relapse",
+        "csDefinition": "Classification for Transplant Committee Disease Relapse forms",
+        "csiName": "Solid Tumor Relapse",
+        "csiType": "CATEGORY_TYPE",
+        "csId": "2670694",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 2812928,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 2626417,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Performed Ind-2",
+      "shortName": "CYTAN_PERF_IND2",
+      "preferredQuestionText": "Cytogenetics Test",
+      "definition": "the yes/no indicator related to techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities being performed.",
+      "workflowStatus": "APPRVD FOR TRIAL USE"
+    },
+    "formUsages": [
+      {
+        "protocolNumber": "N/A",
+        "leadOrg": "N/A",
+        "formName": "Acute Leukemia Relapse Form",
+        "questionName": "Cytogenetic Test",
+        "formUsageType": "TEMPLATE",
+        "publicId": 2629393,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=2E5198EE-188D-295F-E044-0003BA3F9857",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "N/A",
+        "leadOrg": "N/A",
+        "formName": "Chronic Myelogenous Leukemia Relapse Form",
+        "questionName": "Cytogenetics Test",
+        "formUsageType": "TEMPLATE",
+        "publicId": 2630023,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=2E6A5285-BC97-2F30-E044-0003BA3F9857",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "N/A",
+        "leadOrg": "N/A",
+        "formName": "Fanconi Anemia Relapse Form",
+        "questionName": "Cytogenetics Test",
+        "formUsageType": "CRF",
+        "publicId": 2632418,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=2EF4A98B-15DC-5CA6-E044-0003BA3F9857",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "N/A",
+        "leadOrg": "N/A",
+        "formName": "Lymphoma Relapse Form",
+        "questionName": "Cytogenetics Test",
+        "formUsageType": "TEMPLATE",
+        "publicId": 2631004,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=2ECEB715-04A0-594F-E044-0003BA3F9857",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "N/A",
+        "leadOrg": "N/A",
+        "formName": "Myelodysplastic Syndrome (MDS) Relapse Form",
+        "questionName": "Cytogenetics Test",
+        "formUsageType": "CRF",
+        "publicId": 2630805,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=2ECF700D-3BB6-5451-E044-0003BA3F9857",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "N/A",
+        "leadOrg": "N/A",
+        "formName": "Solid Tumor Relapse Form",
+        "questionName": "Cytogenetics Test",
+        "formUsageType": "CRF",
+        "publicId": 2626175,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=2DC687E5-6C04-01C0-E044-0003BA3F9857",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      }
+    ]
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 2626417,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Performed Ind-2",
+      "shortName": "CYTAN_PERF_IND2",
+      "preferredQuestionText": "Cytogenetics Test",
+      "definition": "the yes/no indicator related to techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities being performed.",
+      "workflowStatus": "APPRVD FOR TRIAL USE"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "ALAIS",
+    "dateCreated": "2007-04-13",
+    "modifiedBy": "TSESU",
+    "dateModified": "2018-07-02",
+    "vdCreatedBy": "PWEST",
+    "vdOwnedBy": "CTEP",
+    "vdDateCreated": "2005-09-13",
+    "vdDateModified": "2012-07-11",
+    "decCreatedBy": "ALAIS",
+    "decOwnedBy": "NHLBI",
+    "decDateCreated": "2007-04-13",
+    "decDateModified": "2017-09-05",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 2626417,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Performed Ind-2",
+      "shortName": "CYTAN_PERF_IND2",
+      "preferredQuestionText": "Cytogenetics Test",
+      "definition": "the yes/no indicator related to techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities being performed.",
+      "workflowStatus": "APPRVD FOR TRIAL USE"
+    },
+    "changeNote": null
+  }
+}

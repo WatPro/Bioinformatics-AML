@@ -1,0 +1,525 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 3151691,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "FISH Test Component Percentage Value",
+      "shortName": "2178448v1.0:2178409v1.0",
+      "preferredQuestionText": "For FISH Tested, Indicate Percent",
+      "definition": "Numeric value to describe the percentage cytogenetic abnormalities detected by fluorescence in situ hybridization (FISH).",
+      "valueDomain": "Numbers 3 Characters No Decimal",
+      "dataElementConcept": "Cytogenetics Abnormality",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "origin": "TCGA:The Cancer Genome Atlas",
+      "registrationStatus": null,
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "92D9A4B6-96D5-8EF6-E040-BB89AD43723D"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "For FISH Tested, Indicate Per",
+        "documentType": "Preferred Question Text",
+        "documentText": "For FISH Tested, Indicate Percent",
+        "context": "NCIP",
+        "url": null
+      },
+      {
+        "documentName": "CRF Text1",
+        "documentType": "Alternate Question Text",
+        "documentText": "Percent abnormal",
+        "context": "Alliance",
+        "url": null
+      },
+      {
+        "documentName": "ECOG CRF Text 1",
+        "documentType": "Alternate Question Text",
+        "documentText": "Abnormal",
+        "context": "ECOG-ACRIN",
+        "url": null
+      },
+      {
+        "documentName": "ECOG CRF Text 2",
+        "documentType": "Alternate Question Text",
+        "documentText": "% Abnormal",
+        "context": "ECOG-ACRIN",
+        "url": null
+      },
+      {
+        "documentName": "FISH Analysis",
+        "documentType": "Alternate Question Text",
+        "documentText": "Abnormal (%)",
+        "context": "ECOG-ACRIN",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [
+        {
+          "name": "DCI",
+          "type": "USED_BY",
+          "context": "DCI",
+          "language": "ENGLISH"
+        },
+        {
+          "name": "ECOG-ACRIN",
+          "type": "USED_BY",
+          "context": "ECOG-ACRIN",
+          "language": "ENGLISH"
+        },
+        {
+          "name": "Alliance",
+          "type": "USED_BY",
+          "context": "Alliance",
+          "language": "ENGLISH"
+        }
+      ],
+      "alternateNames": [
+        {
+          "name": "2178448v1.0:2178409v1.0",
+          "type": "USED_BY",
+          "context": "Alliance",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "FISH_test_component_percentage_value",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 3151691,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "FISH Test Component Percentage Value",
+      "shortName": "2178448v1.0:2178409v1.0",
+      "preferredQuestionText": "For FISH Tested, Indicate Percent",
+      "definition": "Numeric value to describe the percentage cytogenetic abnormalities detected by fluorescence in situ hybridization (FISH).",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 2178448,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetics Abnormality",
+      "shortName": "CYTOGEN_ABN",
+      "definition": "a genetic abnormality at the chromosomal level.",
+      "context": "CTEP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008556,
+      "conceptualDomainShortName": "ASSESS_RESULTS",
+      "conceptualDomainLongName": "Assessment Results",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 2177141,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetics",
+      "shortName": "Cytogenetics",
+      "context": "CTEP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Cytogenetics",
+        "conceptCode": "C16487",
+        "publicId": "2202727",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2177657,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Abnormality",
+      "shortName": "Abnormality",
+      "context": "CTEP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Abnormality",
+        "conceptCode": "C9440",
+        "publicId": "2203567",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 3151691,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "FISH Test Component Percentage Value",
+      "shortName": "2178448v1.0:2178409v1.0",
+      "preferredQuestionText": "For FISH Tested, Indicate Percent",
+      "definition": "Numeric value to describe the percentage cytogenetic abnormalities detected by fluorescence in situ hybridization (FISH).",
+      "workflowStatus": "RELEASED"
+    },
+    "valueDomainDetails": {
+      "publicId": 2178409,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Numbers 3 Characters No Decimal",
+      "shortName": "NUM_3_0",
+      "context": "CCR",
+      "definition": "Integer value expressed as numbers up to 3 characters with no decimal place.",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": null,
+      "dataType": "NUMBER",
+      "unitOfMeasure": "%",
+      "displayFormat": null,
+      "maximumLength": 3,
+      "minimumLength": 1,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "N",
+      "conceptualDomainPublicId": 2008541,
+      "conceptualDomainShortName": "NUMS",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Numbers",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 2233101,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Number",
+      "shortName": "C25337",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Number",
+        "conceptCode": "C25337",
+        "publicId": "2202701",
+        "definitionSource": "NCI ",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [],
+    "permissibleValueExtList": null,
+    "valueMeaning": [],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 3151691,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "FISH Test Component Percentage Value",
+      "shortName": "2178448v1.0:2178409v1.0",
+      "preferredQuestionText": "For FISH Tested, Indicate Percent",
+      "definition": "Numeric value to describe the percentage cytogenetic abnormalities detected by fluorescence in situ hybridization (FISH).",
+      "workflowStatus": "RELEASED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "Clinical Trial Mgmt Systems",
+        "csDefinition": "This Workspace will address the Cancer Center community need for consistent, open and comprehensive tools for clinical trials management.",
+        "csiName": "CTMS C3D Adopter Sites",
+        "csiType": "GROUP_TYPE",
+        "csId": "2183535",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 2812625,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Clinical Trial Mgmt Systems",
+        "csDefinition": "This Workspace will address the Cancer Center community need for consistent, open and comprehensive tools for clinical trials management.",
+        "csiName": "Duke University",
+        "csiType": "GROUP_TYPE",
+        "csId": "2183535",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 2811715,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 3151691,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "FISH Test Component Percentage Value",
+      "shortName": "2178448v1.0:2178409v1.0",
+      "preferredQuestionText": "For FISH Tested, Indicate Percent",
+      "definition": "Numeric value to describe the percentage cytogenetic abnormalities detected by fluorescence in situ hybridization (FISH).",
+      "workflowStatus": "RELEASED"
+    },
+    "formUsages": [
+      {
+        "protocolNumber": "A041202",
+        "leadOrg": "Alliance",
+        "formName": "On-Study",
+        "questionName": "Percent abnormal",
+        "formUsageType": "CRF",
+        "publicId": 4098180,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=F003E310-4D77-C7E5-E040-BB89AD43430B",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "E1912",
+        "leadOrg": "ECOG",
+        "formName": "E1912 FISH Analysis",
+        "questionName": "% Abnormal",
+        "formUsageType": "CRF",
+        "publicId": 4474857,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=023F5E23-7BD9-DE9A-E050-BB89AD43620F",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "E1912",
+        "leadOrg": "ECOG",
+        "formName": "E1912 FISH Analysis",
+        "questionName": "% Abnormal",
+        "formUsageType": "CRF",
+        "publicId": 4474857,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=023F5E23-7BD9-DE9A-E050-BB89AD43620F",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "E1912",
+        "leadOrg": "ECOG",
+        "formName": "E1912 FISH Analysis",
+        "questionName": "% Abnormal",
+        "formUsageType": "CRF",
+        "publicId": 4474857,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=023F5E23-7BD9-DE9A-E050-BB89AD43620F",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "E1912",
+        "leadOrg": "ECOG",
+        "formName": "E1912 FISH Analysis",
+        "questionName": "Abnormal",
+        "formUsageType": "CRF",
+        "publicId": 4474857,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=023F5E23-7BD9-DE9A-E050-BB89AD43620F",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      }
+    ]
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 3151691,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "FISH Test Component Percentage Value",
+      "shortName": "2178448v1.0:2178409v1.0",
+      "preferredQuestionText": "For FISH Tested, Indicate Percent",
+      "definition": "Numeric value to describe the percentage cytogenetic abnormalities detected by fluorescence in situ hybridization (FISH).",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "REEVESD",
+    "dateCreated": "2010-10-17",
+    "modifiedBy": "GARRIDOJ",
+    "dateModified": "2019-07-03",
+    "vdCreatedBy": "REEVESD",
+    "vdOwnedBy": "CCR",
+    "vdDateCreated": "2003-11-18",
+    "vdDateModified": "2007-01-22",
+    "decCreatedBy": "MSUPLEY",
+    "decOwnedBy": "CTEP",
+    "decDateCreated": "2003-11-19",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 3151691,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "FISH Test Component Percentage Value",
+      "shortName": "2178448v1.0:2178409v1.0",
+      "preferredQuestionText": "For FISH Tested, Indicate Percent",
+      "definition": "Numeric value to describe the percentage cytogenetic abnormalities detected by fluorescence in situ hybridization (FISH).",
+      "workflowStatus": "RELEASED"
+    },
+    "changeNote": "Curated for The Cancer Genome Atlas (TCGA) by request of T. Lichtenberg 10/2010"
+  }
+}

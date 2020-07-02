@@ -1,0 +1,550 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 3121502,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Acute Myeloid Leukemia CALGB Cytogenetics Risk Category",
+      "shortName": "3121494v1.0:3121496v1.0",
+      "preferredQuestionText": "Cytogenetic Risk Group (CALGB criteria)",
+      "definition": "Text term to classify the risk of developing acute myelogenous leukemia (AML) based on cytogenetic testing.",
+      "valueDomain": "Acute Myeloid Leukemia Cancer and Leukemia Group B Cytogenetics Risk Category",
+      "dataElementConcept": "Acute Myeloid Leukemia Cytogenetics Risk",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "origin": "TCGA:The Cancer Genome Atlas",
+      "registrationStatus": "Qualified",
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "8B5A8328-E3D1-8AD2-E040-BB89AD436AF5"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Cytogenetic Risk Group (CALGB",
+        "documentType": "Preferred Question Text",
+        "documentText": "Cytogenetic Risk Group (CALGB criteria)",
+        "context": "NCIP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [],
+      "alternateNames": [
+        {
+          "name": "acute_myeloid_leukemia_calgb_cytogenetics_risk_category",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 3121502,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Acute Myeloid Leukemia CALGB Cytogenetics Risk Category",
+      "shortName": "3121494v1.0:3121496v1.0",
+      "preferredQuestionText": "Cytogenetic Risk Group (CALGB criteria)",
+      "definition": "Text term to classify the risk of developing acute myelogenous leukemia (AML) based on cytogenetic testing.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 3121494,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Acute Myeloid Leukemia Cytogenetics Risk",
+      "shortName": "3121492v1.0:2829786v1.0",
+      "definition": "A clonal expansion of myeloid blasts in the bone marrow, blood or other tissues.  The classification of acute myeloid leukemias (AMLs) encompasses four major categories: 1) AML with recurrent genetic abnormalities 2) AML with multilineage dysplasia 3) Therapy-related AML 4) AML not otherwise categorized.  The required bone marrow or peripheral blood blast percentage for the diagnosis of AML has been recently reduced from 30% (French-American-British [FAB] classification) to 20% (WHO classification).  (WHO, 2001)_The branch of biology that studies the cellular aspects of heredity, especially the chromosomes. Includes the study of disease states caused by numerical and structural chromosome abnormalities._Risk is the potential future harm that may arise from some present action. It is often combined or confused with the probability of an event which is seen as undesirable. (from WIkipedia)",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008537,
+      "conceptualDomainShortName": "DX",
+      "conceptualDomainLongName": "Diagnosis",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 3121492,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Acute Myeloid Leukemia Cytogenetics",
+      "shortName": "C3171:C16487",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Acute Myeloid Leukemia",
+        "conceptCode": "C3171",
+        "publicId": "2320062",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Cytogenetics",
+        "conceptCode": "C16487",
+        "publicId": "2202727",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2829786,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Risk",
+      "shortName": "C17102",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Risk",
+        "conceptCode": "C17102",
+        "publicId": "2412275",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 3121502,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Acute Myeloid Leukemia CALGB Cytogenetics Risk Category",
+      "shortName": "3121494v1.0:3121496v1.0",
+      "preferredQuestionText": "Cytogenetic Risk Group (CALGB criteria)",
+      "definition": "Text term to classify the risk of developing acute myelogenous leukemia (AML) based on cytogenetic testing.",
+      "workflowStatus": "RELEASED"
+    },
+    "valueDomainDetails": {
+      "publicId": 3121496,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Acute Myeloid Leukemia Cancer and Leukemia Group B Cytogenetics Risk Category",
+      "shortName": "3121496v1.0",
+      "context": "NCIP",
+      "definition": "A clonal expansion of myeloid blasts in the bone marrow, blood or other tissues.  The classification of acute myeloid leukemias (AMLs) encompasses four major categories: 1) AML with recurrent genetic abnormalities 2) AML with multilineage dysplasia 3) Therapy-related AML 4) AML not otherwise categorized.  The required bone marrow or peripheral blood blast percentage for the diagnosis of AML has been recently reduced from 30% (French-American-British [FAB] classification) to 20% (WHO classification).  (WHO, 2001)_A national clinical research group - network of 29 university medical centers, over 185 community hospitals and more than almost 3000 physicians - sponsored by the NCI, with its Central Office headquartered at the University of Chicago, and its Statistical Center located at Duke University, founded in 1955 with a goal of bringing together clinical and laboratory research._The branch of biology that studies the cellular aspects of heredity, especially the chromosomes. Includes the study of disease states caused by numerical and structural chromosome abnormalities._Risk is the potential future harm that may arise from some present action. It is often combined or confused with the probability of an event which is seen as undesirable. (from WIkipedia)_Category; used informally to mean a class of things.",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": "Qualified",
+      "dataType": "CHARACTER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 20,
+      "minimumLength": null,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "E",
+      "conceptualDomainPublicId": 2008537,
+      "conceptualDomainShortName": "DX",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Diagnosis",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 3121495,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Acute Myeloid Leukemia Cancer and Leukemia Group B Cytogenetics Risk Category",
+      "shortName": "C3171:C25442:C16487:C17102:C25",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Acute Myeloid Leukemia",
+        "conceptCode": "C3171",
+        "publicId": "2320062",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Cancer and Leukemia Group B",
+        "conceptCode": "C25442",
+        "publicId": "2205049",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Cytogenetics",
+        "conceptCode": "C16487",
+        "publicId": "2202727",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Risk",
+        "conceptCode": "C17102",
+        "publicId": "2412275",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Category",
+        "conceptCode": "C25372",
+        "publicId": "2203876",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5A8328-E398-8AD2-E040-BB89AD436AF5",
+        "value": "Favorable",
+        "shortMeaning": "Favorable Risk",
+        "meaningDescription": "Favorable Risk",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5A8328-E389-8AD2-E040-BB89AD436AF5",
+        "conceptCode": "C102560",
+        "conceptCodeArray": [
+          "C102560"
+        ],
+        "vmDescription": "Expressing something as positive, advantageous or desired.",
+        "vmId": "3121500",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5A8328-E375-8AD2-E040-BB89AD436AF5",
+        "value": "Intermediate/Normal",
+        "shortMeaning": "Intermediate/Normal Risk",
+        "meaningDescription": "Intermediate/Normal Risk",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5A8328-E366-8AD2-E040-BB89AD436AF5",
+        "conceptCode": "C73705:C37998:C14165",
+        "conceptCodeArray": [
+          "C73705",
+          "C37998",
+          "C14165"
+        ],
+        "vmDescription": "Lying between two extremes in time or space or degree.: An article used to connect words, phrases, or clauses representing alternatives; used to connect alternative terms for the same thing; used in correlation; used to correct or rephrase what was previously said; otherwise.: Being approximately average or within certain limits; conforming with or constituting a norm or standard or level or type or social norm.",
+        "vmId": "3121499",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5A8328-E32F-8AD2-E040-BB89AD436AF5",
+        "value": "N/A - Remission",
+        "shortMeaning": "Not Applicable, in Remission",
+        "meaningDescription": "Not Applicable, in Remission",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5A8328-E320-8AD2-E040-BB89AD436AF5",
+        "conceptCode": "C48660",
+        "conceptCodeArray": [
+          "C48660"
+        ],
+        "vmDescription": "Determination of a value is not relevant in the current context.",
+        "vmId": "3121497",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "8B5A8328-E352-8AD2-E040-BB89AD436AF5",
+        "value": "Poor",
+        "shortMeaning": "Poor Risk",
+        "meaningDescription": "Poor Risk",
+        "beginDate": 1279080000000,
+        "beginDateString": "2010-07-14",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "8B5A8328-E343-8AD2-E040-BB89AD436AF5",
+        "conceptCode": "C77959",
+        "conceptCodeArray": [
+          "C77959"
+        ],
+        "vmDescription": "Of low value or worth.",
+        "vmId": "3121498",
+        "vmVersion": "1",
+        "dateCreated": 1279080000000,
+        "dateModified": null
+      }
+    ],
+    "permissibleValueExtList": null,
+    "valueMeaning": [
+      {
+        "pvIdseq": "8B5A8328-E398-8AD2-E040-BB89AD436AF5",
+        "pvMeaning": "Favorable Risk",
+        "vmPublicId": "3121500",
+        "vmVersion": "1",
+        "vmIdseq": "8B5A8328-E389-8AD2-E040-BB89AD436AF5",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Favorable Risk",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5A8328-E375-8AD2-E040-BB89AD436AF5",
+        "pvMeaning": "Intermediate/Normal Risk",
+        "vmPublicId": "3121499",
+        "vmVersion": "1",
+        "vmIdseq": "8B5A8328-E366-8AD2-E040-BB89AD436AF5",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Intermediate/Normal Risk",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5A8328-E32F-8AD2-E040-BB89AD436AF5",
+        "pvMeaning": "Not Applicable, in Remission",
+        "vmPublicId": "3121497",
+        "vmVersion": "1",
+        "vmIdseq": "8B5A8328-E320-8AD2-E040-BB89AD436AF5",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Not Applicable, in Remission",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "8B5A8328-E352-8AD2-E040-BB89AD436AF5",
+        "pvMeaning": "Poor Risk",
+        "vmPublicId": "3121498",
+        "vmVersion": "1",
+        "vmIdseq": "8B5A8328-E343-8AD2-E040-BB89AD436AF5",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Poor Risk",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      }
+    ],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 3121502,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Acute Myeloid Leukemia CALGB Cytogenetics Risk Category",
+      "shortName": "3121494v1.0:3121496v1.0",
+      "preferredQuestionText": "Cytogenetic Risk Group (CALGB criteria)",
+      "definition": "Text term to classify the risk of developing acute myelogenous leukemia (AML) based on cytogenetic testing.",
+      "workflowStatus": "RELEASED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 3121502,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Acute Myeloid Leukemia CALGB Cytogenetics Risk Category",
+      "shortName": "3121494v1.0:3121496v1.0",
+      "preferredQuestionText": "Cytogenetic Risk Group (CALGB criteria)",
+      "definition": "Text term to classify the risk of developing acute myelogenous leukemia (AML) based on cytogenetic testing.",
+      "workflowStatus": "RELEASED"
+    },
+    "formUsages": []
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 3121502,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Acute Myeloid Leukemia CALGB Cytogenetics Risk Category",
+      "shortName": "3121494v1.0:3121496v1.0",
+      "preferredQuestionText": "Cytogenetic Risk Group (CALGB criteria)",
+      "definition": "Text term to classify the risk of developing acute myelogenous leukemia (AML) based on cytogenetic testing.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "REEVESD",
+    "dateCreated": "2010-07-14",
+    "modifiedBy": "TSESU",
+    "dateModified": "2018-07-10",
+    "vdCreatedBy": "REEVESD",
+    "vdOwnedBy": "NCIP",
+    "vdDateCreated": "2010-07-14",
+    "vdDateModified": "2015-01-27",
+    "decCreatedBy": "REEVESD",
+    "decOwnedBy": "NCIP",
+    "decDateCreated": "2010-07-14",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 3121502,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Acute Myeloid Leukemia CALGB Cytogenetics Risk Category",
+      "shortName": "3121494v1.0:3121496v1.0",
+      "preferredQuestionText": "Cytogenetic Risk Group (CALGB criteria)",
+      "definition": "Text term to classify the risk of developing acute myelogenous leukemia (AML) based on cytogenetic testing.",
+      "workflowStatus": "RELEASED"
+    },
+    "changeNote": "Curated for The Cancer Genome Atlas (TCGA) by request of T. Lichtenberg 7/2010"
+  }
+}

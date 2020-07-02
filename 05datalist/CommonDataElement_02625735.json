@@ -1,0 +1,784 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 2625735,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "ATRA Agent Prior Clinical Trial Registration Administered Ind-2",
+      "shortName": "AT_AG_P_CL_RE_AD_IN",
+      "preferredQuestionText": "Did the patient receive ATRA prior to registration",
+      "definition": "the yes/no indicator whether all-trans retinoic acid, a naturally-occurring acid of retinol, was administered prior to registration or enrollement in a controlled study performed in human subjects and intended to discover, evaluate, and/or verify safety, effectiveness, clinical and pharmacological effects, and adverse reactions.",
+      "valueDomain": "Yes No Indicator",
+      "dataElementConcept": "ATRA Agent Prior Clinical Trial Registration Administered",
+      "context": "CTEP",
+      "workflowStatus": "RELEASED",
+      "origin": "SWOG CRF:Southwest Oncology Group Case Report Form",
+      "registrationStatus": "Qualified",
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "2DAFBE6A-A04C-5F8E-E044-0003BA3F9857"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Did the patient receive ATRA",
+        "documentType": "Preferred Question Text",
+        "documentText": "Did the patient receive ATRA prior to registration",
+        "context": "CTEP",
+        "url": null
+      },
+      {
+        "documentName": "COG CRF Text 1",
+        "documentType": "Alternate Question Text",
+        "documentText": "Did patient receive more than 5 days of pre-treatment with ATRA prior to administration of protocol therapy?",
+        "context": "CTEP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [],
+      "alternateNames": [
+        {
+          "name": "Atra Exposure",
+          "type": "TCGA_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "atra_exposure",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "caBIG",
+          "type": "USED_BY",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 2625735,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "ATRA Agent Prior Clinical Trial Registration Administered Ind-2",
+      "shortName": "AT_AG_P_CL_RE_AD_IN",
+      "preferredQuestionText": "Did the patient receive ATRA prior to registration",
+      "definition": "the yes/no indicator whether all-trans retinoic acid, a naturally-occurring acid of retinol, was administered prior to registration or enrollement in a controlled study performed in human subjects and intended to discover, evaluate, and/or verify safety, effectiveness, clinical and pharmacological effects, and adverse reactions.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 2625734,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "ATRA Agent Prior Clinical Trial Registration Administered",
+      "shortName": "ATR_AGT_P_CLI_RE_ADM",
+      "definition": "information related to the administration of all-trans retinoic acid, a naturally-occurring acid of retinol, prior to registration or enrollement in a controlled study performed in human subjects and intended to discover, evaluate, and/or verify safety, effectiveness, clinical and pharmacological effects, and adverse reactions.",
+      "context": "CTEP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008538,
+      "conceptualDomainShortName": "TX",
+      "conceptualDomainLongName": "Therapies",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 2415029,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "ATRA Agent",
+      "shortName": "C900:C1708",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Tretinoin",
+        "conceptCode": "C900",
+        "publicId": "2202321",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Agent",
+        "conceptCode": "C1708",
+        "publicId": "2202316",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2625732,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Prior Clinical Trial Registration Administered",
+      "shortName": "C25629:C15207:C25646:C25382",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Prior",
+        "conceptCode": "C25629",
+        "publicId": "2204016",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Clinical Trial",
+        "conceptCode": "C15207",
+        "publicId": "2202567",
+        "definitionSource": "NCI-GLOSS",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Registration",
+        "conceptCode": "C25646",
+        "publicId": "2202799",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Administered",
+        "conceptCode": "C25382",
+        "publicId": "2204029",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 2625735,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "ATRA Agent Prior Clinical Trial Registration Administered Ind-2",
+      "shortName": "AT_AG_P_CL_RE_AD_IN",
+      "preferredQuestionText": "Did the patient receive ATRA prior to registration",
+      "definition": "the yes/no indicator whether all-trans retinoic acid, a naturally-occurring acid of retinol, was administered prior to registration or enrollement in a controlled study performed in human subjects and intended to discover, evaluate, and/or verify safety, effectiveness, clinical and pharmacological effects, and adverse reactions.",
+      "workflowStatus": "RELEASED"
+    },
+    "valueDomainDetails": {
+      "publicId": 3506068,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Yes No Indicator",
+      "shortName": "YES_NO_IND",
+      "context": "NCI Standards",
+      "definition": "The preferred Value Domain to indicate a question with permissible values of yes/no.",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": "Qualified",
+      "dataType": "CHARACTER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 3,
+      "minimumLength": 2,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "E",
+      "conceptualDomainPublicId": 3502157,
+      "conceptualDomainShortName": "YES_NO_IND_VD",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Yes No Indicator Value Domains",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": "Standard"
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 2421125,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Ind-2",
+      "shortName": "C38147",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Yes or No Response",
+        "conceptCode": "C38147",
+        "publicId": "2204645",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [
+      {
+        "createdBy": "CAMPBELB",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "9E9CBBC9-DE91-A1D9-E040-BB89AD430197",
+        "value": "No",
+        "shortMeaning": "No",
+        "meaningDescription": "The non-affirmative response to a question.",
+        "beginDate": 1340769600000,
+        "beginDateString": "2012-06-27",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "9D865DE5-55AD-1AC9-E040-BB89AD436B4F",
+        "conceptCode": "C49487",
+        "conceptCodeArray": [
+          "C49487"
+        ],
+        "vmDescription": "The non-affirmative response to a question.",
+        "vmId": "3197154",
+        "vmVersion": "1",
+        "dateCreated": 1340769600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "CAMPBELB",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "A664DDFF-C37F-702B-E040-BB89AD437F69",
+        "value": "Yes",
+        "shortMeaning": "Yes",
+        "meaningDescription": "The affirmative response to a question or activity.",
+        "beginDate": 1340769600000,
+        "beginDateString": "2012-06-27",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "9D865DE5-558A-1AC9-E040-BB89AD436B4F",
+        "conceptCode": "C49488",
+        "conceptCodeArray": [
+          "C49488"
+        ],
+        "vmDescription": "The affirmative response to a question.",
+        "vmId": "3197153",
+        "vmVersion": "1",
+        "dateCreated": 1340769600000,
+        "dateModified": null
+      }
+    ],
+    "permissibleValueExtList": null,
+    "valueMeaning": [
+      {
+        "pvIdseq": "9E9CBBC9-DE91-A1D9-E040-BB89AD430197",
+        "pvMeaning": "No",
+        "vmPublicId": "3197154",
+        "vmVersion": "1",
+        "vmIdseq": "9D865DE5-55AD-1AC9-E040-BB89AD436B4F",
+        "alternateNames": [
+          {
+            "name": "LA32-8",
+            "type": "LOINC_CODE",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "No",
+            "type": "LOINC_NAME",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "No",
+            "type": "VM Alt Name",
+            "context": "NCI Standards",
+            "language": "Spanish",
+            "conteIdseq": "6BDC8E1A-E021-BC44-E040-BB89AD4365F6"
+          },
+          {
+            "name": "2",
+            "type": "VM Alt Name",
+            "context": "ABTC",
+            "language": "ENGLISH",
+            "conteIdseq": "F6117C06-C689-F9FD-E040-BB89AD432E40"
+          },
+          {
+            "name": "N",
+            "type": "VM Alt Name",
+            "context": "Theradex",
+            "language": "ENGLISH",
+            "conteIdseq": "E593F10C-3186-508C-E040-BB89AD4324A0"
+          },
+          {
+            "name": "No",
+            "type": "PCORNet Name",
+            "context": "PCORTF CDM",
+            "language": "ENGLISH",
+            "conteIdseq": "6CB969CC-DD4B-1016-E053-F662850A40C7"
+          }
+        ],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "A664DDFF-C37F-702B-E040-BB89AD437F69",
+        "pvMeaning": "Yes",
+        "vmPublicId": "3197153",
+        "vmVersion": "1",
+        "vmIdseq": "9D865DE5-558A-1AC9-E040-BB89AD436B4F",
+        "alternateNames": [
+          {
+            "name": "LA33-6",
+            "type": "LOINC_CODE",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "Yes",
+            "type": "LOINC_NAME",
+            "context": "ONC SDC Project",
+            "language": "ENGLISH",
+            "conteIdseq": "F6141DD3-5081-EC4B-E040-BB89AD435D8B"
+          },
+          {
+            "name": "S\u00ed",
+            "type": "VM Alt Name",
+            "context": "NCI Standards",
+            "language": "Spanish",
+            "conteIdseq": "6BDC8E1A-E021-BC44-E040-BB89AD4365F6"
+          },
+          {
+            "name": "Y",
+            "type": "VM Alt Name",
+            "context": "Theradex",
+            "language": "ENGLISH",
+            "conteIdseq": "E593F10C-3186-508C-E040-BB89AD4324A0"
+          },
+          {
+            "name": "1",
+            "type": "VM Alt Name",
+            "context": "ABTC",
+            "language": "ENGLISH",
+            "conteIdseq": "F6117C06-C689-F9FD-E040-BB89AD432E40"
+          },
+          {
+            "name": "Applicable ",
+            "type": "VM Alt Name",
+            "context": "DCP",
+            "language": "ENGLISH",
+            "conteIdseq": "A932C6E7-82EE-67C2-E034-0003BA12F5E7"
+          }
+        ],
+        "alternateDefinitions": []
+      }
+    ],
+    "valueDomainReferenceDocuments": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "docName": "CDISC Questionnaire BPI Short Form Test Code Terminology",
+        "docType": "VALID_VALUE_SOURCE",
+        "docIDSeq": "9A30232A-97DC-2C29-E053-F662850AE998",
+        "docText": "Test codes of questionnaire questions associated with the short-form brief pain inventory for the Clinical Data Interchange Standards Consortium (CDISC) Standard Data Tabulation Model (SDTM).",
+        "lang": "ENGLISH",
+        "url": "https://ncit.nci.nih.gov/ncitbrowser/ajax?action=create_src_vs_tree&amp;vsd_uri=http%3A//evs.nci.nih.gov/valueset/CDISC/C100164",
+        "context": {
+          "createdBy": "DWARZEL",
+          "modifiedBy": "DWARZEL",
+          "formattedVersion": "1.0",
+          "conteIdseq": "6BDC8E1A-E021-BC44-E040-BB89AD4365F6",
+          "name": "NCI Standards",
+          "palName": "All NCI Standards",
+          "llName": "UNASSIGNED",
+          "description": "NCI Preferred Standards",
+          "preferredDefinition": null,
+          "language": "ENGLISH",
+          "version": 1.0,
+          "dateCreated": 1244433600000,
+          "dateModified": 1489516527000
+        },
+        "dctlName": "VALID_VALUE_SOURCE",
+        "contextName": "NCI Standards",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ]
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 2625735,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "ATRA Agent Prior Clinical Trial Registration Administered Ind-2",
+      "shortName": "AT_AG_P_CL_RE_AD_IN",
+      "preferredQuestionText": "Did the patient receive ATRA prior to registration",
+      "definition": "the yes/no indicator whether all-trans retinoic acid, a naturally-occurring acid of retinol, was administered prior to registration or enrollement in a controlled study performed in human subjects and intended to discover, evaluate, and/or verify safety, effectiveness, clinical and pharmacological effects, and adverse reactions.",
+      "workflowStatus": "RELEASED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Children's Oncology Group (COG)",
+        "csDefinition": "Children's Oncology ",
+        "csiName": "Statistics and Data Center",
+        "csiType": "GROUP_TYPE",
+        "csId": "2961451",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 2961452,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Type of Category",
+        "csDefinition": "Type of Category",
+        "csiName": "Treatment",
+        "csiType": "CATEGORY_TYPE",
+        "csId": "2008589",
+        "csVersion": 2.0,
+        "formattedCsVersion": "2.0",
+        "csiId": 2811963,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "CRF Disease",
+        "csDefinition": "this scheme is used to classify by disease case report forms and their associated data elements.  Assignments to this scheme should not be made manually but occur through use of the CRF Loader and the CRT.",
+        "csiName": "Leukemia",
+        "csiType": "DISEASE_TYPE",
+        "csId": "2857165",
+        "csVersion": 2.31,
+        "formattedCsVersion": "2.31",
+        "csiId": 2811909,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Type of Disease",
+        "csDefinition": "Type of Disease",
+        "csiName": "Melanoma",
+        "csiType": "DISEASE_TYPE",
+        "csId": "2008587",
+        "csVersion": 2.0,
+        "formattedCsVersion": "2.0",
+        "csiId": 2811835,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Type of Disease",
+        "csDefinition": "Type of Disease",
+        "csiName": "Colorectal",
+        "csiType": "DISEASE_TYPE",
+        "csId": "2008587",
+        "csVersion": 2.0,
+        "formattedCsVersion": "2.0",
+        "csiId": 2811871,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Type of Disease",
+        "csDefinition": "Type of Disease",
+        "csiName": "Bladder",
+        "csiType": "DISEASE_TYPE",
+        "csId": "2008587",
+        "csVersion": 2.0,
+        "formattedCsVersion": "2.0",
+        "csiId": 2811907,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Type of Disease",
+        "csDefinition": "Type of Disease",
+        "csiName": "Gynecologic",
+        "csiType": "DISEASE_TYPE",
+        "csId": "2008587",
+        "csVersion": 2.0,
+        "formattedCsVersion": "2.0",
+        "csiId": 2811908,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Type of Disease",
+        "csDefinition": "Type of Disease",
+        "csiName": "Leukemia",
+        "csiType": "DISEASE_TYPE",
+        "csId": "2008587",
+        "csVersion": 2.0,
+        "formattedCsVersion": "2.0",
+        "csiId": 2811909,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Type of Disease",
+        "csDefinition": "Type of Disease",
+        "csiName": "Brain",
+        "csiType": "DISEASE_TYPE",
+        "csId": "2008587",
+        "csVersion": 2.0,
+        "formattedCsVersion": "2.0",
+        "csiId": 2811949,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Type of Disease",
+        "csDefinition": "Type of Disease",
+        "csiName": "Multiple Myeloma",
+        "csiType": "DISEASE_TYPE",
+        "csId": "2008587",
+        "csVersion": 2.0,
+        "formattedCsVersion": "2.0",
+        "csiId": 2811950,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 2625735,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "ATRA Agent Prior Clinical Trial Registration Administered Ind-2",
+      "shortName": "AT_AG_P_CL_RE_AD_IN",
+      "preferredQuestionText": "Did the patient receive ATRA prior to registration",
+      "definition": "the yes/no indicator whether all-trans retinoic acid, a naturally-occurring acid of retinol, was administered prior to registration or enrollement in a controlled study performed in human subjects and intended to discover, evaluate, and/or verify safety, effectiveness, clinical and pharmacological effects, and adverse reactions.",
+      "workflowStatus": "RELEASED"
+    },
+    "formUsages": [
+      {
+        "protocolNumber": "AAML1331",
+        "leadOrg": "COG",
+        "formName": "Eligibility",
+        "questionName": "Did patient receive more than 5 days of pre-treatment with ATRA prior to administration of protocol therapy?",
+        "formUsageType": "CRF",
+        "publicId": 4722833,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=0F8D262D-3CAE-32E3-E050-BB89AD4348CB",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "S0521",
+        "leadOrg": "SWOG",
+        "formName": "SOUTHWEST ONCOLOGY GROUP Previously Untreated Acute Promyelocytic Leukemia Prestudy Form (S0521)",
+        "questionName": "Did the patient receive ATRA prior to registration",
+        "formUsageType": "CRF",
+        "publicId": 2412866,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=01FDEB64-5CFB-0063-E044-0003BA3F9857",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      }
+    ]
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 2625735,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "ATRA Agent Prior Clinical Trial Registration Administered Ind-2",
+      "shortName": "AT_AG_P_CL_RE_AD_IN",
+      "preferredQuestionText": "Did the patient receive ATRA prior to registration",
+      "definition": "the yes/no indicator whether all-trans retinoic acid, a naturally-occurring acid of retinol, was administered prior to registration or enrollement in a controlled study performed in human subjects and intended to discover, evaluate, and/or verify safety, effectiveness, clinical and pharmacological effects, and adverse reactions.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "CAMPBELB",
+    "dateCreated": "2007-04-09",
+    "modifiedBy": "TSESU",
+    "dateModified": "2018-07-02",
+    "vdCreatedBy": "CAMPBELB",
+    "vdOwnedBy": "NCI Standards",
+    "vdDateCreated": "2012-06-27",
+    "vdDateModified": "2019-12-20",
+    "decCreatedBy": "CAMPBELB",
+    "decOwnedBy": "CTEP",
+    "decDateCreated": "2007-04-09",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 2625735,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "ATRA Agent Prior Clinical Trial Registration Administered Ind-2",
+      "shortName": "AT_AG_P_CL_RE_AD_IN",
+      "preferredQuestionText": "Did the patient receive ATRA prior to registration",
+      "definition": "the yes/no indicator whether all-trans retinoic acid, a naturally-occurring acid of retinol, was administered prior to registration or enrollement in a controlled study performed in human subjects and intended to discover, evaluate, and/or verify safety, effectiveness, clinical and pharmacological effects, and adverse reactions.",
+      "workflowStatus": "RELEASED"
+    },
+    "changeNote": "Replaced VD Therapy Ind-2 2018279v1 with VD ID#3506068 - Yes No Indicator - dbw"
+  }
+}

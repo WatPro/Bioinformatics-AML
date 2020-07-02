@@ -1,0 +1,2256 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 2975716,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Case Report Form Tissue Source Location Completion Day Number",
+      "shortName": "CRF_TISS_CO_DAY_ NUM",
+      "preferredQuestionText": "Day of form completion",
+      "definition": "Numeric value to represent the day of Case Report Form (CRF) completion at the tissue source site.",
+      "valueDomain": "Event Day Number",
+      "dataElementConcept": "Case Report Form Tissue Source Location Complete",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "origin": "TCGA:The Cancer Genome Atlas",
+      "registrationStatus": "Qualified",
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "7C25654B-A506-2CBA-E040-BB89AD436CBA"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Day of form completion",
+        "documentType": "Preferred Question Text",
+        "documentText": "Day of form completion",
+        "context": "NCIP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [
+        {
+          "name": "OCG",
+          "type": "USED_BY",
+          "context": "OCG",
+          "language": "ENGLISH"
+        }
+      ],
+      "alternateNames": [
+        {
+          "name": "CRF_TISS_CO_DAY_ NUM",
+          "type": "USED_BY",
+          "context": "CCTG",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "day_of_form_completion",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 2975716,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Case Report Form Tissue Source Location Completion Day Number",
+      "shortName": "CRF_TISS_CO_DAY_ NUM",
+      "preferredQuestionText": "Day of form completion",
+      "definition": "Numeric value to represent the day of Case Report Form (CRF) completion at the tissue source site.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 2975714,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Case Report Form Tissue Source Location Complete",
+      "shortName": "FORM_TISS_STE_COMP",
+      "definition": "the completion of data collection for the CRF._An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function._Source; where something is available._Organizational unit like a laboratory, institute or consortium.",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008528,
+      "conceptualDomainShortName": "PROT_ADM",
+      "conceptualDomainLongName": "Protocol Administration",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 2542290,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Case Report Form",
+      "shortName": "C40988",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Case Report Form",
+        "conceptCode": "C40988",
+        "publicId": "2202500",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2975712,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Tissue Source Organizational Unit Complete",
+      "shortName": "C12801:C25683:C41167:C25250",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Tissue",
+        "conceptCode": "C12801",
+        "publicId": "2202489",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Source",
+        "conceptCode": "C25683",
+        "publicId": "2202479",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Organizational Unit",
+        "conceptCode": "C41167",
+        "publicId": "2223214",
+        "definitionSource": "NCICB",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Complete",
+        "conceptCode": "C25250",
+        "publicId": "2203885",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 2975716,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Case Report Form Tissue Source Location Completion Day Number",
+      "shortName": "CRF_TISS_CO_DAY_ NUM",
+      "preferredQuestionText": "Day of form completion",
+      "definition": "Numeric value to represent the day of Case Report Form (CRF) completion at the tissue source site.",
+      "workflowStatus": "RELEASED"
+    },
+    "valueDomainDetails": {
+      "publicId": 2896868,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Event Day Number",
+      "shortName": "EVT_DAY_NUM",
+      "context": "NCIP",
+      "definition": "Event; something that happens at a given place and time._time for Earth to make a complete rotation on its axis._A numeral or string of numerals expressing value, quantity, or identification",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": "Qualified",
+      "dataType": "NUMBER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 2,
+      "minimumLength": 1,
+      "decimalPlace": 0,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "E",
+      "conceptualDomainPublicId": 2008561,
+      "conceptualDomainShortName": "OCURS",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Occurrences",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null,
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 2896867,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Event Day Number",
+      "shortName": "C25499:C0439228:C25337",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Event",
+        "conceptCode": "C25499",
+        "publicId": "2202572",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Day",
+        "conceptCode": "C0439228",
+        "publicId": "2204684",
+        "definitionSource": "NCI",
+        "evsSource": "UMLS_CUI",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Number",
+        "conceptCode": "C25337",
+        "publicId": "2202701",
+        "definitionSource": "NCI ",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-1944-4E39-E040-BB89AD43186F",
+        "value": "1",
+        "shortMeaning": "1st day of a calendar month",
+        "meaningDescription": "First day of a calendar month",
+        "beginDate": null,
+        "beginDateString": "",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B525DEE-3145-F959-E040-BB89AD4311DA",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::1: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896392",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": "REEVESD",
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-1966-4E39-E040-BB89AD43186F",
+        "value": "10",
+        "shortMeaning": "10th day of a calendar month",
+        "meaningDescription": "Tenth day of a calendar month",
+        "beginDate": 1243828800000,
+        "beginDateString": "2009-06-01",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-1957-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::10: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896879",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": 1349357591000
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-1989-4E39-E040-BB89AD43186F",
+        "value": "11",
+        "shortMeaning": "11th day of a calendar month",
+        "meaningDescription": "Eleventh day of a calendar month",
+        "beginDate": 1243828800000,
+        "beginDateString": "2009-06-01",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-197A-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::11: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896880",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-19AC-4E39-E040-BB89AD43186F",
+        "value": "12",
+        "shortMeaning": "12th day of a calendar month",
+        "meaningDescription": "Twelfth day of a calendar month",
+        "beginDate": 1243828800000,
+        "beginDateString": "2009-06-01",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-199D-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::12: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896881",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-1930-4E39-E040-BB89AD43186F",
+        "value": "13",
+        "shortMeaning": "13th day of a calendar month",
+        "meaningDescription": "Thirteenth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-1921-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::13: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896878",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-190D-4E39-E040-BB89AD43186F",
+        "value": "14",
+        "shortMeaning": "14th day of a calendar month",
+        "meaningDescription": "Fourteenth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-18FE-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::14: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896877",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-18EA-4E39-E040-BB89AD43186F",
+        "value": "15",
+        "shortMeaning": "15th day of a calendar month",
+        "meaningDescription": "Fifteenth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-18DB-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::15: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896876",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-18C7-4E39-E040-BB89AD43186F",
+        "value": "16",
+        "shortMeaning": "16th day of a calendar month",
+        "meaningDescription": "Sixteenth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-18B8-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::16: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896875",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-18A4-4E39-E040-BB89AD43186F",
+        "value": "17",
+        "shortMeaning": "17th day of a calendar month",
+        "meaningDescription": "Seventeenth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-1895-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::17: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896874",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-1881-4E39-E040-BB89AD43186F",
+        "value": "18",
+        "shortMeaning": "18th day of a calendar month",
+        "meaningDescription": "Eighteenth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-1872-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::18: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896873",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-185E-4E39-E040-BB89AD43186F",
+        "value": "19",
+        "shortMeaning": "19th day of a calendar month",
+        "meaningDescription": "Nineteenth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-184F-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::19: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896872",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-19CF-4E39-E040-BB89AD43186F",
+        "value": "2",
+        "shortMeaning": "2nd day of a calendar month",
+        "meaningDescription": "Second day of a calendar month",
+        "beginDate": 1243828800000,
+        "beginDateString": "2009-06-01",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-19C0-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::2: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896882",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-183B-4E39-E040-BB89AD43186F",
+        "value": "20",
+        "shortMeaning": "20th day of a calendar month",
+        "meaningDescription": "Twentieth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-182C-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::20: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896871",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-1818-4E39-E040-BB89AD43186F",
+        "value": "21",
+        "shortMeaning": "21st day of a calendar month",
+        "meaningDescription": "Twenty-first day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-1809-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::21: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896870",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-17F5-4E39-E040-BB89AD43186F",
+        "value": "22",
+        "shortMeaning": "22nd day of a calendar month",
+        "meaningDescription": "Twenty-second day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-17E6-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::22: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896869",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B61CDFC-65E8-243E-E040-BB89AD43472E",
+        "value": "23",
+        "shortMeaning": "23rd day of a calendar month",
+        "meaningDescription": "Twenty-third day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B61CDFC-65D9-243E-E040-BB89AD43472E",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::23: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896898",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B61CDFC-65C5-243E-E040-BB89AD43472E",
+        "value": "24",
+        "shortMeaning": "24th day of a calendar month",
+        "meaningDescription": "Twenty-fourth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B61CDFC-65B6-243E-E040-BB89AD43472E",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::24: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896897",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B61CDFC-65A2-243E-E040-BB89AD43472E",
+        "value": "25",
+        "shortMeaning": "25th day of a calendar month",
+        "meaningDescription": "Twenty-fifth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B61CDFC-6593-243E-E040-BB89AD43472E",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::25: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896896",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B61CDFC-657F-243E-E040-BB89AD43472E",
+        "value": "26",
+        "shortMeaning": "26th day of a calendar month",
+        "meaningDescription": "Twenty-sixth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B61CDFC-6570-243E-E040-BB89AD43472E",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::26: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896895",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B61CDFC-655C-243E-E040-BB89AD43472E",
+        "value": "27",
+        "shortMeaning": "27th day of a calendar month",
+        "meaningDescription": "Twenty-seventh day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B61CDFC-654D-243E-E040-BB89AD43472E",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::27: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896894",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B61CDFC-6539-243E-E040-BB89AD43472E",
+        "value": "28",
+        "shortMeaning": "28th day of a calendar month",
+        "meaningDescription": "Twenty-eighth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B61CDFC-652A-243E-E040-BB89AD43472E",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::28: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896893",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B61CDFC-6516-243E-E040-BB89AD43472E",
+        "value": "29",
+        "shortMeaning": "29th day of a calendar month",
+        "meaningDescription": "Twenty-ninth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B61CDFC-6507-243E-E040-BB89AD43472E",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::29: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896892",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-19F2-4E39-E040-BB89AD43186F",
+        "value": "3",
+        "shortMeaning": "3rd day of a calendar month",
+        "meaningDescription": "Third day of a calendar month",
+        "beginDate": 1243828800000,
+        "beginDateString": "2009-06-01",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-19E3-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::3: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896883",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B61CDFC-64F3-243E-E040-BB89AD43472E",
+        "value": "30",
+        "shortMeaning": "30th day of a calendar month",
+        "meaningDescription": "Thirtieth day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B61CDFC-64E4-243E-E040-BB89AD43472E",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::30: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896891",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B61CDFC-64D0-243E-E040-BB89AD43472E",
+        "value": "31",
+        "shortMeaning": "31st day of a calendar month",
+        "meaningDescription": "Thirty-first day of a calendar month",
+        "beginDate": 1243915200000,
+        "beginDateString": "2009-06-02",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B61CDFC-64C1-243E-E040-BB89AD43472E",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::31: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896890",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-1A15-4E39-E040-BB89AD43186F",
+        "value": "4",
+        "shortMeaning": "4th day of a calendar month",
+        "meaningDescription": "Fourth day of a calendar month",
+        "beginDate": 1243828800000,
+        "beginDateString": "2009-06-01",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-1A06-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::4: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896884",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-1A38-4E39-E040-BB89AD43186F",
+        "value": "5",
+        "shortMeaning": "5th day of a calendar month",
+        "meaningDescription": "Fifth day of a calendar month",
+        "beginDate": 1243828800000,
+        "beginDateString": "2009-06-01",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-1A29-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::5: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896885",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-1A5B-4E39-E040-BB89AD43186F",
+        "value": "6",
+        "shortMeaning": "6th day of a calendar month",
+        "meaningDescription": "Sixth day of a calendar month",
+        "beginDate": 1243828800000,
+        "beginDateString": "2009-06-01",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-1A4C-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::6: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896886",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-1A7E-4E39-E040-BB89AD43186F",
+        "value": "7",
+        "shortMeaning": "7th day of a calendar month",
+        "meaningDescription": "Seventh day of a calendar month",
+        "beginDate": 1243828800000,
+        "beginDateString": "2009-06-01",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-1A6F-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::7: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896887",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-1AA1-4E39-E040-BB89AD43186F",
+        "value": "8",
+        "shortMeaning": "8th day of a calendar month",
+        "meaningDescription": "Eighth day of a calendar month",
+        "beginDate": 1243828800000,
+        "beginDateString": "2009-06-01",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-1A92-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::8: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896888",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "6B616F09-1AC4-4E39-E040-BB89AD43186F",
+        "value": "9",
+        "shortMeaning": "9th day of a calendar month",
+        "meaningDescription": "Ninth day of a calendar month",
+        "beginDate": 1243828800000,
+        "beginDateString": "2009-06-01",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "6B616F09-1AB5-4E39-E040-BB89AD43186F",
+        "conceptCode": "C45255:C19459:C29846:C25301",
+        "conceptCodeArray": [
+          "C45255",
+          "C19459",
+          "C29846",
+          "C25301"
+        ],
+        "vmDescription": "A number with no fractional part, including the negative and positive numbers as well as zero.::9: A list or register of events; a tabular array of the days.: One of the 12 divisions of a year as determined by a calendar.  It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.: The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours, equal to 86 400 seconds. This also refers to a specific day.       ",
+        "vmId": "2896889",
+        "vmVersion": "1",
+        "dateCreated": 1243915200000,
+        "dateModified": null
+      }
+    ],
+    "permissibleValueExtList": null,
+    "valueMeaning": [
+      {
+        "pvIdseq": "6B616F09-1944-4E39-E040-BB89AD43186F",
+        "pvMeaning": "1st day of a calendar month",
+        "vmPublicId": "2896392",
+        "vmVersion": "1",
+        "vmIdseq": "6B525DEE-3145-F959-E040-BB89AD4311DA",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "First day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-1966-4E39-E040-BB89AD43186F",
+        "pvMeaning": "10th day of a calendar month",
+        "vmPublicId": "2896879",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-1957-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Tenth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-1989-4E39-E040-BB89AD43186F",
+        "pvMeaning": "11th day of a calendar month",
+        "vmPublicId": "2896880",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-197A-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Eleventh day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-19AC-4E39-E040-BB89AD43186F",
+        "pvMeaning": "12th day of a calendar month",
+        "vmPublicId": "2896881",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-199D-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Twelfth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-1930-4E39-E040-BB89AD43186F",
+        "pvMeaning": "13th day of a calendar month",
+        "vmPublicId": "2896878",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-1921-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Thirteenth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-190D-4E39-E040-BB89AD43186F",
+        "pvMeaning": "14th day of a calendar month",
+        "vmPublicId": "2896877",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-18FE-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Fourteenth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-18EA-4E39-E040-BB89AD43186F",
+        "pvMeaning": "15th day of a calendar month",
+        "vmPublicId": "2896876",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-18DB-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Fifteenth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-18C7-4E39-E040-BB89AD43186F",
+        "pvMeaning": "16th day of a calendar month",
+        "vmPublicId": "2896875",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-18B8-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Sixteenth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-18A4-4E39-E040-BB89AD43186F",
+        "pvMeaning": "17th day of a calendar month",
+        "vmPublicId": "2896874",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-1895-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Seventeenth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-1881-4E39-E040-BB89AD43186F",
+        "pvMeaning": "18th day of a calendar month",
+        "vmPublicId": "2896873",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-1872-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Eighteenth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-185E-4E39-E040-BB89AD43186F",
+        "pvMeaning": "19th day of a calendar month",
+        "vmPublicId": "2896872",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-184F-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Nineteenth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-19CF-4E39-E040-BB89AD43186F",
+        "pvMeaning": "2nd day of a calendar month",
+        "vmPublicId": "2896882",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-19C0-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Second day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-183B-4E39-E040-BB89AD43186F",
+        "pvMeaning": "20th day of a calendar month",
+        "vmPublicId": "2896871",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-182C-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Twentieth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-1818-4E39-E040-BB89AD43186F",
+        "pvMeaning": "21st day of a calendar month",
+        "vmPublicId": "2896870",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-1809-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Twenty-first day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-17F5-4E39-E040-BB89AD43186F",
+        "pvMeaning": "22nd day of a calendar month",
+        "vmPublicId": "2896869",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-17E6-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Twenty-second day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B61CDFC-65E8-243E-E040-BB89AD43472E",
+        "pvMeaning": "23rd day of a calendar month",
+        "vmPublicId": "2896898",
+        "vmVersion": "1",
+        "vmIdseq": "6B61CDFC-65D9-243E-E040-BB89AD43472E",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Twenty-third day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B61CDFC-65C5-243E-E040-BB89AD43472E",
+        "pvMeaning": "24th day of a calendar month",
+        "vmPublicId": "2896897",
+        "vmVersion": "1",
+        "vmIdseq": "6B61CDFC-65B6-243E-E040-BB89AD43472E",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Twenty-fourth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B61CDFC-65A2-243E-E040-BB89AD43472E",
+        "pvMeaning": "25th day of a calendar month",
+        "vmPublicId": "2896896",
+        "vmVersion": "1",
+        "vmIdseq": "6B61CDFC-6593-243E-E040-BB89AD43472E",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Twenty-fifth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B61CDFC-657F-243E-E040-BB89AD43472E",
+        "pvMeaning": "26th day of a calendar month",
+        "vmPublicId": "2896895",
+        "vmVersion": "1",
+        "vmIdseq": "6B61CDFC-6570-243E-E040-BB89AD43472E",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Twenty-sixth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B61CDFC-655C-243E-E040-BB89AD43472E",
+        "pvMeaning": "27th day of a calendar month",
+        "vmPublicId": "2896894",
+        "vmVersion": "1",
+        "vmIdseq": "6B61CDFC-654D-243E-E040-BB89AD43472E",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Twenty-seventh day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B61CDFC-6539-243E-E040-BB89AD43472E",
+        "pvMeaning": "28th day of a calendar month",
+        "vmPublicId": "2896893",
+        "vmVersion": "1",
+        "vmIdseq": "6B61CDFC-652A-243E-E040-BB89AD43472E",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Twenty-eighth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B61CDFC-6516-243E-E040-BB89AD43472E",
+        "pvMeaning": "29th day of a calendar month",
+        "vmPublicId": "2896892",
+        "vmVersion": "1",
+        "vmIdseq": "6B61CDFC-6507-243E-E040-BB89AD43472E",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Twenty-ninth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-19F2-4E39-E040-BB89AD43186F",
+        "pvMeaning": "3rd day of a calendar month",
+        "vmPublicId": "2896883",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-19E3-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Third day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B61CDFC-64F3-243E-E040-BB89AD43472E",
+        "pvMeaning": "30th day of a calendar month",
+        "vmPublicId": "2896891",
+        "vmVersion": "1",
+        "vmIdseq": "6B61CDFC-64E4-243E-E040-BB89AD43472E",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Thirtieth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B61CDFC-64D0-243E-E040-BB89AD43472E",
+        "pvMeaning": "31st day of a calendar month",
+        "vmPublicId": "2896890",
+        "vmVersion": "1",
+        "vmIdseq": "6B61CDFC-64C1-243E-E040-BB89AD43472E",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Thirty-first day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-1A15-4E39-E040-BB89AD43186F",
+        "pvMeaning": "4th day of a calendar month",
+        "vmPublicId": "2896884",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-1A06-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Fourth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-1A38-4E39-E040-BB89AD43186F",
+        "pvMeaning": "5th day of a calendar month",
+        "vmPublicId": "2896885",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-1A29-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Fifth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-1A5B-4E39-E040-BB89AD43186F",
+        "pvMeaning": "6th day of a calendar month",
+        "vmPublicId": "2896886",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-1A4C-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Sixth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-1A7E-4E39-E040-BB89AD43186F",
+        "pvMeaning": "7th day of a calendar month",
+        "vmPublicId": "2896887",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-1A6F-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Seventh day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-1AA1-4E39-E040-BB89AD43186F",
+        "pvMeaning": "8th day of a calendar month",
+        "vmPublicId": "2896888",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-1A92-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Eighth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      },
+      {
+        "pvIdseq": "6B616F09-1AC4-4E39-E040-BB89AD43186F",
+        "pvMeaning": "9th day of a calendar month",
+        "vmPublicId": "2896889",
+        "vmVersion": "1",
+        "vmIdseq": "6B616F09-1AB5-4E39-E040-BB89AD43186F",
+        "alternateNames": [],
+        "alternateDefinitions": [
+          {
+            "name": "Ninth day of a calendar month",
+            "type": "Manually-curated",
+            "context": "NCIP",
+            "language": null,
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
+          }
+        ]
+      }
+    ],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 2975716,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Case Report Form Tissue Source Location Completion Day Number",
+      "shortName": "CRF_TISS_CO_DAY_ NUM",
+      "preferredQuestionText": "Day of form completion",
+      "definition": "Numeric value to represent the day of Case Report Form (CRF) completion at the tissue source site.",
+      "workflowStatus": "RELEASED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "BLGSP (Burkitt Lymphoma Genome Sequencing Project)",
+        "csDefinition": "Collection of CDEs related to Burkitt Lymphoma Genome Sequencing Project.",
+        "csiName": "Enrollment Form",
+        "csiType": "GROUP_TYPE",
+        "csId": "5655939",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3590030,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "BLGSP (Burkitt Lymphoma Genome Sequencing Project)",
+        "csDefinition": "Collection of CDEs related to Burkitt Lymphoma Genome Sequencing Project.",
+        "csiName": "Initial Treatment and Followup Form",
+        "csiType": "GROUP_TYPE",
+        "csId": "5655939",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3590029,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "BLGSP (Burkitt Lymphoma Genome Sequencing Project)",
+        "csDefinition": "Burkitt Lymphoma Genome Sequencing Project",
+        "csiName": "Initial Treatment and Followup Form",
+        "csiType": "GROUP_TYPE",
+        "csId": "3590028",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3590029,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "BLGSP (Burkitt Lymphoma Genome Sequencing Project)",
+        "csDefinition": "Burkitt Lymphoma Genome Sequencing Project",
+        "csiName": "Enrollment Form",
+        "csiType": "GROUP_TYPE",
+        "csId": "3590028",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3590030,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "HNSC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787505,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "BLCA",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787499,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "BRCA",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787500,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "CESC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787502,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "COAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787503,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "GBM",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787504,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LUSC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787513,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "KICH",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787506,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "KIRC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787507,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "KIRP",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787508,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "SKCM",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787519,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LGG",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787510,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical shared",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787543,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LIHC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787511,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LUAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787512,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "SARC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787518,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "OV",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787514,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "THCA",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787521,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "PRAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787516,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "READ",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787517,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "UCEC",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787522,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "STAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787520,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "PAAD",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787515,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 2975716,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Case Report Form Tissue Source Location Completion Day Number",
+      "shortName": "CRF_TISS_CO_DAY_ NUM",
+      "preferredQuestionText": "Day of form completion",
+      "definition": "Numeric value to represent the day of Case Report Form (CRF) completion at the tissue source site.",
+      "workflowStatus": "RELEASED"
+    },
+    "formUsages": [
+      {
+        "protocolNumber": "N/A",
+        "leadOrg": "N/A",
+        "formName": "Testing groups",
+        "questionName": "Day of form completion",
+        "formUsageType": "CRF",
+        "publicId": 3586313,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=C90C2C09-3E38-965C-E040-BB89AD432A55",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "N/A",
+        "leadOrg": "N/A",
+        "formName": "caTissue TCGA Lung CQCF",
+        "questionName": "Day of form completion",
+        "formUsageType": "CRF",
+        "publicId": 3473096,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=C1A825D1-E309-1B2D-E040-BB89AD43421D",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      }
+    ]
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 2975716,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Case Report Form Tissue Source Location Completion Day Number",
+      "shortName": "CRF_TISS_CO_DAY_ NUM",
+      "preferredQuestionText": "Day of form completion",
+      "definition": "Numeric value to represent the day of Case Report Form (CRF) completion at the tissue source site.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "REEVESD",
+    "dateCreated": "2010-01-01",
+    "modifiedBy": "FORMBUILDER",
+    "dateModified": "2018-07-11",
+    "vdCreatedBy": "REEVESD",
+    "vdOwnedBy": "NCIP",
+    "vdDateCreated": "2009-06-02",
+    "vdDateModified": "2012-10-04",
+    "decCreatedBy": "REEVESD",
+    "decOwnedBy": "NCIP",
+    "decDateCreated": "2010-01-01",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 2975716,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Case Report Form Tissue Source Location Completion Day Number",
+      "shortName": "CRF_TISS_CO_DAY_ NUM",
+      "preferredQuestionText": "Day of form completion",
+      "definition": "Numeric value to represent the day of Case Report Form (CRF) completion at the tissue source site.",
+      "workflowStatus": "RELEASED"
+    },
+    "changeNote": "Curated to support The Cancer Genome Atlas (TCGA). Approved by TCGA team for Release."
+  }
+}

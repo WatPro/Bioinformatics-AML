@@ -1,0 +1,377 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 2957553,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Abnormality Type Specify Text",
+      "shortName": "CYTO_ANL_AB_TP_SP_TX",
+      "preferredQuestionText": "Specify abnormality:",
+      "definition": "Techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities._A condition that differs from the usual physical or mental state._Something distinguishable as an identifiable class based on common qualities._Be specific about something; define clearly._Text; the words of something written.",
+      "valueDomain": "Specify Text",
+      "dataElementConcept": "Cytogenetic Analysis Abnormality Type",
+      "context": "NHLBI",
+      "workflowStatus": "RETIRED WITHDRAWN",
+      "origin": "NMDP:National Marrow Donor Program",
+      "registrationStatus": null,
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "77292C36-75D9-CC7D-E040-BB89AD4374BB"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Specify abnormality:",
+        "documentType": "Preferred Question Text",
+        "documentText": "Specify abnormality:",
+        "context": "NHLBI",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [
+      {
+        "documentName": "BRIDG mapping path for CDE:2957553",
+        "documentType": "BRIDG Mapping Path",
+        "documentText": "PerformedClinicalResult.Value(ANY=>ST) WHERE PerformedObservation.Value(ANY=>??) = \"Cytogenetic Analysis Abnormality Type\"",
+        "context": "NHLBI",
+        "url": null
+      }
+    ],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [],
+      "alternateNames": [
+        {
+          "name": "caBIG",
+          "type": "USED_BY",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "cytogenetic_abnormality_other",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "PerformedClinicalResult:value",
+          "type": "HCT_BRIDG",
+          "context": "NHLBI",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 2957553,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Abnormality Type Specify Text",
+      "shortName": "CYTO_ANL_AB_TP_SP_TX",
+      "preferredQuestionText": "Specify abnormality:",
+      "definition": "Techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities._A condition that differs from the usual physical or mental state._Something distinguishable as an identifiable class based on common qualities._Be specific about something; define clearly._Text; the words of something written.",
+      "workflowStatus": "RETIRED WITHDRAWN"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 2762259,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Abnormality Type",
+      "shortName": "CYTO_ANL_ABN_TYP",
+      "definition": "Techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities._A condition that differs from the usual physical or mental state._Something distinguishable as an identifiable class based on common qualities.",
+      "context": "NHLBI",
+      "workflowStatus": "RETIRED WITHDRAWN",
+      "conceptualDomainPublicId": 2008557,
+      "conceptualDomainShortName": "LAB_RESULTS",
+      "conceptualDomainLongName": "Lab Results",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": "NMDP:National Marrow Donor Program"
+    },
+    "objectClass": {
+      "publicId": 2762257,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Abnormality",
+      "shortName": "C18280:C9440",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Cytogenetic Analysis",
+        "conceptCode": "C18280",
+        "publicId": "2528326",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Abnormality",
+        "conceptCode": "C9440",
+        "publicId": "2203567",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2223243,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Type",
+      "shortName": "C25284",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Type",
+        "conceptCode": "C25284",
+        "publicId": "2202431",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 2957553,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Abnormality Type Specify Text",
+      "shortName": "CYTO_ANL_AB_TP_SP_TX",
+      "preferredQuestionText": "Specify abnormality:",
+      "definition": "Techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities._A condition that differs from the usual physical or mental state._Something distinguishable as an identifiable class based on common qualities._Be specific about something; define clearly._Text; the words of something written.",
+      "workflowStatus": "RETIRED WITHDRAWN"
+    },
+    "valueDomainDetails": {
+      "publicId": 2799057,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Specify Text",
+      "shortName": "SPC_TXT",
+      "context": "NHLBI",
+      "definition": "Be specific about something; define clearly._Text; the words of something written.",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": null,
+      "dataType": "CHARACTER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 100,
+      "minimumLength": null,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "N",
+      "conceptualDomainPublicId": 2008551,
+      "conceptualDomainShortName": "ASSESS",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Assessments",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": "NMDP:National Marrow Donor Program",
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 2799056,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Specify Text",
+      "shortName": "C25685:C25704",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Specify",
+        "conceptCode": "C25685",
+        "publicId": "2203800",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Text",
+        "conceptCode": "C25704",
+        "publicId": "2203863",
+        "definitionSource": "NCI ",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [],
+    "permissibleValueExtList": null,
+    "valueMeaning": [],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 2957553,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Abnormality Type Specify Text",
+      "shortName": "CYTO_ANL_AB_TP_SP_TX",
+      "preferredQuestionText": "Specify abnormality:",
+      "definition": "Techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities._A condition that differs from the usual physical or mental state._Something distinguishable as an identifiable class based on common qualities._Be specific about something; define clearly._Text; the words of something written.",
+      "workflowStatus": "RETIRED WITHDRAWN"
+    },
+    "classificationList": [
+      {
+        "csLongName": "NMDP: CDEs to review",
+        "csDefinition": "NMDP CDEs to be reviewed",
+        "csiName": "2014r1: MDS Pre-HSCT Data",
+        "csiType": "Case Report Form",
+        "csId": "2695319",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 2964931,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Artificial Neural Network Algorithm for BRIDG Mapping",
+        "csDefinition": "Artificial Neural Network Algorithm for BRIDG Mapping",
+        "csiName": "Testing Set \u2013 Semantically Similar",
+        "csiType": "GROUP_TYPE",
+        "csId": "6685474",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6685477,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 2957553,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Abnormality Type Specify Text",
+      "shortName": "CYTO_ANL_AB_TP_SP_TX",
+      "preferredQuestionText": "Specify abnormality:",
+      "definition": "Techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities._A condition that differs from the usual physical or mental state._Something distinguishable as an identifiable class based on common qualities._Be specific about something; define clearly._Text; the words of something written.",
+      "workflowStatus": "RETIRED WITHDRAWN"
+    },
+    "formUsages": []
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 2957553,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Abnormality Type Specify Text",
+      "shortName": "CYTO_ANL_AB_TP_SP_TX",
+      "preferredQuestionText": "Specify abnormality:",
+      "definition": "Techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities._A condition that differs from the usual physical or mental state._Something distinguishable as an identifiable class based on common qualities._Be specific about something; define clearly._Text; the words of something written.",
+      "workflowStatus": "RETIRED WITHDRAWN"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "SCOTTLO",
+    "dateCreated": "2009-10-30",
+    "modifiedBy": "ALEYR",
+    "dateModified": "2019-04-13",
+    "vdCreatedBy": "NYCHM",
+    "vdOwnedBy": "NHLBI",
+    "vdDateCreated": "2008-11-11",
+    "vdDateModified": "2010-03-19",
+    "decCreatedBy": "STURGILLJ",
+    "decOwnedBy": "NHLBI",
+    "decDateCreated": "2008-07-02",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 2957553,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Cytogenetic Analysis Abnormality Type Specify Text",
+      "shortName": "CYTO_ANL_AB_TP_SP_TX",
+      "preferredQuestionText": "Specify abnormality:",
+      "definition": "Techniques for analysis of chromosomal and subchromosomal properties and structures, such as those to diagnose, classify, screen for, or manage genetic diseases and abnormalities._A condition that differs from the usual physical or mental state._Something distinguishable as an identifiable class based on common qualities._Be specific about something; define clearly._Text; the words of something written.",
+      "workflowStatus": "RETIRED WITHDRAWN"
+    },
+    "changeNote": "Retired due to reusing CDE 2760473. AK  7/27/12 Alt names removed. AK 5/31/16"
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 3008233,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person Birth Date Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "DOB_DX_CAL_DAY_VAL",
+      "preferredQuestionText": "Days to Birth",
+      "definition": "Time interval from a person's date of birth to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "valueDomain": "Day Calculation Value",
+      "dataElementConcept": "Person Birth Date Subtract Diagnosis Time Duration",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "origin": "TCGA:The Cancer Genome Atlas",
+      "registrationStatus": null,
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "7F1B950C-94EE-3010-E040-BB89AD4368F7"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Days to Birth",
+        "documentType": "Preferred Question Text",
+        "documentText": "Days to Birth",
+        "context": "NCIP",
+        "url": null
+      },
+      {
+        "documentName": "Number of Days from Date of Initial Pathologic Diagnosis to Date of Birth",
+        "documentType": "Alternate Question Text",
+        "documentText": "Number of Days from Date of Initial Pathologic Diagnosis to Date of Birth",
+        "context": "NCIP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [
+        {
+          "name": "GDC",
+          "type": "USED_BY",
+          "context": "GDC",
+          "language": "ENGLISH"
+        }
+      ],
+      "alternateNames": [
+        {
+          "name": "Days To Birth",
+          "type": "GDC_Name",
+          "context": "GDC",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "days_from_date_of_initial_pathologic_diagnosis_to_date_of_birth",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "days_to_birth",
+          "type": "GDC_Name",
+          "context": "GDC",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 3008233,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person Birth Date Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "DOB_DX_CAL_DAY_VAL",
+      "preferredQuestionText": "Days to Birth",
+      "definition": "Time interval from a person's date of birth to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 2867345,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person Birth Date Subtract Diagnosis Time Duration",
+      "shortName": "DOB_DX_DURN",
+      "definition": "A human being._The calendar date on which a person was born._No Value Exists_The investigation, analysis and recognition of the presence and nature of disease, condition, or injury from expressed signs and symptoms; also, the scientific determination of any kind; the concise results of such an investigation._the continuum of experience in which events pass from the future through the present to the past._The period of time during which something continues.",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008561,
+      "conceptualDomainShortName": "OCURS",
+      "conceptualDomainLongName": "Occurrences",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 2867342,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person Birth Date Subtract Diagnosis Time",
+      "shortName": "C25190:C68615:C65116:C15220:C2",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Person",
+        "conceptCode": "C25190",
+        "publicId": "2202486",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Birth Date",
+        "conceptCode": "C68615",
+        "publicId": "2714967",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Subtract",
+        "conceptCode": "C65116",
+        "publicId": "2859277",
+        "definitionSource": null,
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Diagnosis",
+        "conceptCode": "C15220",
+        "publicId": "2202734",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Time",
+        "conceptCode": "C25207",
+        "publicId": "2202306",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2234809,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Duration",
+      "shortName": "C25330",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Duration",
+        "conceptCode": "C25330",
+        "publicId": "2202512",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 3008233,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person Birth Date Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "DOB_DX_CAL_DAY_VAL",
+      "preferredQuestionText": "Days to Birth",
+      "definition": "Time interval from a person's date of birth to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "workflowStatus": "RELEASED"
+    },
+    "valueDomainDetails": {
+      "publicId": 3008213,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Day Calculation Value",
+      "shortName": "DAY_CALC_VAL",
+      "context": "NCIP",
+      "definition": "The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours._The procedure or activity of determining something by mathematical or logical methods._A numerical quantity measured or assigned or computed.",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": null,
+      "dataType": "NUMBER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 8,
+      "minimumLength": null,
+      "decimalPlace": 0,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "N",
+      "conceptualDomainPublicId": 2008541,
+      "conceptualDomainShortName": "NUMS",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Numbers",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": "TCGA:The Cancer Genome Atlas",
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 3008212,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Day Calculation Value",
+      "shortName": "C25301:C54125:C25712",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Day",
+        "conceptCode": "C25301",
+        "publicId": "2202680",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Calculation",
+        "conceptCode": "C54125",
+        "publicId": "2654477",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Value",
+        "conceptCode": "C25712",
+        "publicId": "2203990",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [],
+    "permissibleValueExtList": null,
+    "valueMeaning": [],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 3008233,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person Birth Date Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "DOB_DX_CAL_DAY_VAL",
+      "preferredQuestionText": "Days to Birth",
+      "definition": "Time interval from a person's date of birth to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "workflowStatus": "RELEASED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "Clinical",
+        "csDefinition": "The collection of CDEs related to demographics, diagnosis, exposure, family history or treatment of a patient.",
+        "csiName": "Diagnosis",
+        "csiType": "GROUP_TYPE",
+        "csId": "5428034",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3070842,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "KICH",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787506,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical kich",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787538,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 3008233,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person Birth Date Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "DOB_DX_CAL_DAY_VAL",
+      "preferredQuestionText": "Days to Birth",
+      "definition": "Time interval from a person's date of birth to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "workflowStatus": "RELEASED"
+    },
+    "formUsages": []
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 3008233,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person Birth Date Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "DOB_DX_CAL_DAY_VAL",
+      "preferredQuestionText": "Days to Birth",
+      "definition": "Time interval from a person's date of birth to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementDerivationDetails": {
+      "createdBy": "CHILLIJ",
+      "modifiedBy": "REEVESD",
+      "formattedVersion": null,
+      "derivationType": "CALCULATED",
+      "rule": "Calculation is as follows\r\n1.  CDEs 1,2,3 are concatenated to create one calendar date for the event referenced (Date1).\r\n2.  CDEs 4,5,6 are concatenated to create one calendar date for initial pathologic diagnosis (Date2).\r\n3.  Values of both dates are converted to milliseconds since the epoch (January 1, 1970)\r\n4.  The values of date Date2 are subtracted from the values of date Date1.\r\n5.  The remainder of the subtraction will be divided by the number of milliseconds in a day (86,400,000).",
+      "method": "Date 1 is the concatenation of the component CDE1 to CDE2 to CDE3 to form a date in the format of DDMMYYYY.\r\nDate 2 is the concatenation of the component CDE4 to CDE5 to CDE6 to form a date in the format of DDMMYYYY.",
+      "concatenationCharacter": null,
+      "dateCreated": 1266555600000,
+      "dateModified": 1372687982000
+    },
+    "dataElementDerivationComponentModels": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "cdrIdseq": "7FFAA1FD-3EE8-8FD9-E040-BB89AD4362FD",
+        "displayOrder": "1",
+        "longName": "Day Birth Date Number",
+        "context": "NCIP",
+        "workflowStatus": "RELEASED",
+        "publicId": "2896952",
+        "version": "1",
+        "deIdseq": "6B62FB1E-9209-24D7-E040-BB89AD432DEE",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "cdrIdseq": "7FFAA1FD-3EF1-8FD9-E040-BB89AD4362FD",
+        "displayOrder": "2",
+        "longName": "Month Birth Date Number",
+        "context": "NCIP",
+        "workflowStatus": "RELEASED",
+        "publicId": "2896950",
+        "version": "1",
+        "deIdseq": "6B62FB1E-91EA-24D7-E040-BB89AD432DEE",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "cdrIdseq": "7FFAA1FD-3EFB-8FD9-E040-BB89AD4362FD",
+        "displayOrder": "3",
+        "longName": "Year Birth Date Number",
+        "context": "NCIP",
+        "workflowStatus": "RELEASED",
+        "publicId": "2896954",
+        "version": "1",
+        "deIdseq": "6B62FB1E-9228-24D7-E040-BB89AD432DEE",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "cdrIdseq": "7FFAA1FD-3F04-8FD9-E040-BB89AD4362FD",
+        "displayOrder": "4",
+        "longName": "Day Cancer Initial Diagnosis Number",
+        "context": "NCIP",
+        "workflowStatus": "RELEASED",
+        "publicId": "2896958",
+        "version": "1",
+        "deIdseq": "6B636F75-4899-CEBD-E040-BB89AD435D8C",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "cdrIdseq": "7FFAA1FD-3F0D-8FD9-E040-BB89AD4362FD",
+        "displayOrder": "5",
+        "longName": "Month Cancer Initial Diagnosis Number",
+        "context": "NCIP",
+        "workflowStatus": "RELEASED",
+        "publicId": "2896956",
+        "version": "1",
+        "deIdseq": "6B62FB1E-9247-24D7-E040-BB89AD432DEE",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "cdrIdseq": "7FFAA1FD-3F16-8FD9-E040-BB89AD4362FD",
+        "displayOrder": "6",
+        "longName": "Year Cancer Initial Diagnosis Number",
+        "context": "NCIP",
+        "workflowStatus": "RELEASED",
+        "publicId": "2896960",
+        "version": "1",
+        "deIdseq": "6B636F75-48B8-CEBD-E040-BB89AD435D8C",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ]
+  },
+  "adminInfo": {
+    "createdBy": "REEVESD",
+    "dateCreated": "2010-02-08",
+    "modifiedBy": "TSESU",
+    "dateModified": "2018-07-10",
+    "vdCreatedBy": "REEVESD",
+    "vdOwnedBy": "NCIP",
+    "vdDateCreated": "2010-02-08",
+    "vdDateModified": "2017-09-13",
+    "decCreatedBy": "REEVESD",
+    "decOwnedBy": "NCIP",
+    "decDateCreated": "2009-05-05",
+    "decDateModified": "2017-09-13",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 3008233,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Person Birth Date Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "DOB_DX_CAL_DAY_VAL",
+      "preferredQuestionText": "Days to Birth",
+      "definition": "Time interval from a person's date of birth to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "workflowStatus": "RELEASED"
+    },
+    "changeNote": "2/19/2010 added derivation rule and component CDEs.  Curated to support TCGA project. Added alternate question text per TCGA request. mc 2/29/12"
+  }
+}

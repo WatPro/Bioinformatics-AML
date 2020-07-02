@@ -1,0 +1,452 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 3131740,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Last Alive Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "3131739v1.0:3008213v1.0",
+      "preferredQuestionText": "Number of days from initial diagnosis to date last known alive",
+      "definition": "Time interval from the last day on which a person is known to be alive to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "valueDomain": "Day Calculation Value",
+      "dataElementConcept": "Last Alive Subtract Diagnosis Time Duration",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "origin": "TCGA:The Cancer Genome Atlas",
+      "registrationStatus": null,
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "8E8417A4-1F25-8F7D-E040-BB89AD431C3C"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Number of days from initial d",
+        "documentType": "Preferred Question Text",
+        "documentText": "Number of days from initial diagnosis to date last known alive",
+        "context": "NCIP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [],
+      "alternateNames": [],
+      "alternateDefinitions": []
+    },
+    "otherVersions": []
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 3131740,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Last Alive Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "3131739v1.0:3008213v1.0",
+      "preferredQuestionText": "Number of days from initial diagnosis to date last known alive",
+      "definition": "Time interval from the last day on which a person is known to be alive to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 3131739,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Last Alive Subtract Diagnosis Time Duration",
+      "shortName": "3131737v1.0:2234809v1.0",
+      "definition": "Coming after all others in time or space or degree or being the only one remaining._The organic phenomenon that distinguishes living organisms from nonliving ones; showing characteristics of life_The point or place at which something terminates in time, space, or extent._The investigation, analysis and recognition of the presence and nature of disease, condition, or injury from expressed signs and symptoms; also, the scientific determination of any kind; the concise results of such an investigation._the continuum of experience in which events pass from the future through the present to the past._The period of time during which something continues._._No Value Exists_The investigation, analysis and recognition of the presence and nature of disease, condition, or injury from expressed signs and symptoms; also, the scientific determination of any kind; the concise results of such an investigation.",
+      "context": "NCIP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008561,
+      "conceptualDomainShortName": "OCURS",
+      "conceptualDomainLongName": "Occurrences",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 3131737,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Last Life Subtract Diagnosis Time",
+      "shortName": "3131737v1.0",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Last",
+        "conceptCode": "C25551",
+        "publicId": "2206286",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Alive",
+        "conceptCode": "C37987",
+        "publicId": "2210813",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Subtract",
+        "conceptCode": "C65116",
+        "publicId": "2859277",
+        "definitionSource": null,
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Diagnosis",
+        "conceptCode": "C15220",
+        "publicId": "2202734",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Time",
+        "conceptCode": "C25207",
+        "publicId": "2202306",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2234809,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Duration",
+      "shortName": "C25330",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Duration",
+        "conceptCode": "C25330",
+        "publicId": "2202512",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 3131740,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Last Alive Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "3131739v1.0:3008213v1.0",
+      "preferredQuestionText": "Number of days from initial diagnosis to date last known alive",
+      "definition": "Time interval from the last day on which a person is known to be alive to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "workflowStatus": "RELEASED"
+    },
+    "valueDomainDetails": {
+      "publicId": 3008213,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Day Calculation Value",
+      "shortName": "DAY_CALC_VAL",
+      "context": "NCIP",
+      "definition": "The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours._The procedure or activity of determining something by mathematical or logical methods._A numerical quantity measured or assigned or computed.",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": null,
+      "dataType": "NUMBER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 8,
+      "minimumLength": null,
+      "decimalPlace": 0,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "N",
+      "conceptualDomainPublicId": 2008541,
+      "conceptualDomainShortName": "NUMS",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Numbers",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": "TCGA:The Cancer Genome Atlas",
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 3008212,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Day Calculation Value",
+      "shortName": "C25301:C54125:C25712",
+      "context": "NCIP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Day",
+        "conceptCode": "C25301",
+        "publicId": "2202680",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Calculation",
+        "conceptCode": "C54125",
+        "publicId": "2654477",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Value",
+        "conceptCode": "C25712",
+        "publicId": "2203990",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [],
+    "permissibleValueExtList": null,
+    "valueMeaning": [],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 3131740,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Last Alive Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "3131739v1.0:3008213v1.0",
+      "preferredQuestionText": "Number of days from initial diagnosis to date last known alive",
+      "definition": "Time interval from the last day on which a person is known to be alive to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "workflowStatus": "RELEASED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 3131740,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Last Alive Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "3131739v1.0:3008213v1.0",
+      "preferredQuestionText": "Number of days from initial diagnosis to date last known alive",
+      "definition": "Time interval from the last day on which a person is known to be alive to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "workflowStatus": "RELEASED"
+    },
+    "formUsages": []
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 3131740,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Last Alive Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "3131739v1.0:3008213v1.0",
+      "preferredQuestionText": "Number of days from initial diagnosis to date last known alive",
+      "definition": "Time interval from the last day on which a person is known to be alive to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementDerivationDetails": {
+      "createdBy": "REEVESD",
+      "modifiedBy": "REEVESD",
+      "formattedVersion": null,
+      "derivationType": "CALCULATED",
+      "rule": "Calculation is as follows\r\n1.  CDEs 1,2,3 are concatenated to create one calendar date for the event referenced (Date1).\r\n2.  CDEs 4,5,6 are concatenated to create one calendar date for initial pathologic diagnosis (Date2).\r\n3.  Values of both dates are converted to milliseconds since the epoch (January 1, 1970)\r\n4.  The values of date Date2 are subtracted from the values of date Date1.\r\n5.  The remainder of the subtraction will be divided by the number of milliseconds in a day (86,400,000).",
+      "method": "Date 1 is the concatenation of the component CDE1 to CDE2 to CDE3 to form a date in the format of DDMMYYYY.\r\nDate 2 is the concatenation of the component CDE4 to CDE5 to CDE6 to form a date in the format of DDMMYYYY.",
+      "concatenationCharacter": null,
+      "dateCreated": 1282536000000,
+      "dateModified": 1282678195000
+    },
+    "dataElementDerivationComponentModels": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "cdrIdseq": "8E8417A4-1F5A-8F7D-E040-BB89AD431C3C",
+        "displayOrder": "1",
+        "longName": "Last Known Alive Date Day Number",
+        "context": "NCIP",
+        "workflowStatus": "RELEASED",
+        "publicId": "2975724",
+        "version": "1",
+        "deIdseq": "7C25654B-A582-2CBA-E040-BB89AD436CBA",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "cdrIdseq": "8E8417A4-1F63-8F7D-E040-BB89AD431C3C",
+        "displayOrder": "2",
+        "longName": "Last Known Alive Date Month Number",
+        "context": "NCIP",
+        "workflowStatus": "RELEASED",
+        "publicId": "2975722",
+        "version": "1",
+        "deIdseq": "7C25654B-A563-2CBA-E040-BB89AD436CBA",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "cdrIdseq": "8E8417A4-1F6C-8F7D-E040-BB89AD431C3C",
+        "displayOrder": "3",
+        "longName": "Last Known Alive Date Year Number",
+        "context": "NCIP",
+        "workflowStatus": "RELEASED",
+        "publicId": "2975726",
+        "version": "1",
+        "deIdseq": "7C25654B-A5A1-2CBA-E040-BB89AD436CBA",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "cdrIdseq": "8E8417A4-1F75-8F7D-E040-BB89AD431C3C",
+        "displayOrder": "4",
+        "longName": "Day Cancer Initial Diagnosis Number",
+        "context": "NCIP",
+        "workflowStatus": "RELEASED",
+        "publicId": "2896958",
+        "version": "1",
+        "deIdseq": "6B636F75-4899-CEBD-E040-BB89AD435D8C",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "cdrIdseq": "8E8417A4-1F7E-8F7D-E040-BB89AD431C3C",
+        "displayOrder": "5",
+        "longName": "Month Cancer Initial Diagnosis Number",
+        "context": "NCIP",
+        "workflowStatus": "RELEASED",
+        "publicId": "2896956",
+        "version": "1",
+        "deIdseq": "6B62FB1E-9247-24D7-E040-BB89AD432DEE",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "cdrIdseq": "8E8417A4-1F87-8F7D-E040-BB89AD431C3C",
+        "displayOrder": "6",
+        "longName": "Year Cancer Initial Diagnosis Number",
+        "context": "NCIP",
+        "workflowStatus": "RELEASED",
+        "publicId": "2896960",
+        "version": "1",
+        "deIdseq": "6B636F75-48B8-CEBD-E040-BB89AD435D8C",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ]
+  },
+  "adminInfo": {
+    "createdBy": "REEVESD",
+    "dateCreated": "2010-08-23",
+    "modifiedBy": "TSESU",
+    "dateModified": "2018-07-12",
+    "vdCreatedBy": "REEVESD",
+    "vdOwnedBy": "NCIP",
+    "vdDateCreated": "2010-02-08",
+    "vdDateModified": "2017-09-13",
+    "decCreatedBy": "REEVESD",
+    "decOwnedBy": "NCIP",
+    "decDateCreated": "2010-08-23",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 3131740,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Last Alive Less Initial Pathologic Diagnosis Date Calculated Day Value",
+      "shortName": "3131739v1.0:3008213v1.0",
+      "preferredQuestionText": "Number of days from initial diagnosis to date last known alive",
+      "definition": "Time interval from the last day on which a person is known to be alive to the date of initial pathologic diagnosis, represented as a calculated number of days.",
+      "workflowStatus": "RELEASED"
+    },
+    "changeNote": "Curated for The Cancer Genome Atlas (TCGA) by request of T. Lichtenberg 8/2010"
+  }
+}

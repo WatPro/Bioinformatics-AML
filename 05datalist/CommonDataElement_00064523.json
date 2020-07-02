@@ -1,0 +1,691 @@
+{
+  "dataElement": {
+    "dataElementDetails": {
+      "publicId": 64523,
+      "version": 4.0,
+      "formattedVersion": "4.0",
+      "longName": "Fluorescence in situ Hybridization Cytogenetics Metaphase Nucleus Result Count",
+      "shortName": "FIS_CYT_MPNUC_RES_CT",
+      "preferredQuestionText": "Total Number of Metaphases",
+      "definition": "a numeric value counting cell nuclei (organelles) captured in the second phase of mitosis as an outcome from a lab procedure to map chromosomes using fluorescent tags and detect abnormalities.",
+      "valueDomain": "Fluorescence in situ Hybridization Cytogenetics Nucleus Result Count",
+      "dataElementConcept": "Fluorescence in situ Hybridization Cytogenetics Metaphase Nucleus Result",
+      "context": "CTEP",
+      "workflowStatus": "RELEASED",
+      "origin": "Leukemia CDE Disease Committee",
+      "registrationStatus": "Qualified",
+      "directLink": "STILL NEED TO Create rest service and Link",
+      "id": "1909ADC0-1865-3E98-E044-0003BA3F9857"
+    },
+    "questionTextReferenceDocuments": [
+      {
+        "documentName": "Total Number of Metaphases",
+        "documentType": "Preferred Question Text",
+        "documentText": "Total Number of Metaphases",
+        "context": "CTEP",
+        "url": null
+      },
+      {
+        "documentName": "CRF Text",
+        "documentType": "Alternate Question Text",
+        "documentText": "FISH Metaphases Total",
+        "context": "CTEP",
+        "url": null
+      }
+    ],
+    "otherReferenceDocuments": [
+      {
+        "documentName": "1-COMMENT",
+        "documentType": "COMMENT",
+        "documentText": "updated to make association to correct EVS terms",
+        "context": "CTEP",
+        "url": null
+      }
+    ],
+    "referenceDocuments": [],
+    "csCsis": [],
+    "csCsisCdeDetails": {
+      "hide": true,
+      "usedByAlternateNames": [],
+      "alternateNames": [
+        {
+          "name": "2004375",
+          "type": "HISTORICAL_CDE_ID",
+          "context": "CTEP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "caBIG",
+          "type": "USED_BY",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "Fluorescence In Situ Hybrid Cytogenetics Metaphase Nucleus Result Count",
+          "type": "TCGA_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        },
+        {
+          "name": "fluorescence_in_situ_hybrid_cytogenetics_metaphase_nucleus_result_count",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
+      "alternateDefinitions": []
+    },
+    "otherVersions": [
+      {
+        "version": 2.31,
+        "formattedVersion": "2.31",
+        "longName": "FISH Metaphases, Total",
+        "workFlowStatus": "RETIRED ARCHIVED",
+        "registrationStatus": "Standard",
+        "context": "CTEP",
+        "csCsis": [
+          {
+            "csLongName": "Type of Category",
+            "csDefinition": "Type of Category",
+            "csiName": "Cytogenetics",
+            "csiType": "CATEGORY_TYPE",
+            "csId": "2008589",
+            "csVersion": 2.0,
+            "formattedCsVersion": "2.0",
+            "csiId": 2811952,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "TYPE OF USAGE",
+            "csDefinition": "Type of Usage",
+            "csiName": "CLINICAL TRIALS",
+            "csiType": "USAGE_TYPE",
+            "csId": "2008588",
+            "csVersion": 2.0,
+            "formattedCsVersion": "2.0",
+            "csiId": 2811782,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "Type of Disease",
+            "csDefinition": "Type of Disease",
+            "csiName": "Leukemia",
+            "csiType": "DISEASE_TYPE",
+            "csId": "2008587",
+            "csVersion": 2.0,
+            "formattedCsVersion": "2.0",
+            "csiId": 2811909,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "Trial Type Usages (CDE Disease Committees)",
+            "csDefinition": "Trial Type Usages (CDE Disease Committees)",
+            "csiName": "Pathology Leukemia",
+            "csiType": "TRIAL_TYPE_USAGE",
+            "csId": "2008594",
+            "csVersion": 2.31,
+            "formattedCsVersion": "2.31",
+            "csiId": 2811935,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          }
+        ]
+      },
+      {
+        "version": 3.0,
+        "formattedVersion": "3.0",
+        "longName": "FISH Assessment Total Result Metaphase Number",
+        "workFlowStatus": "RETIRED ARCHIVED",
+        "registrationStatus": "Standard",
+        "context": "CTEP",
+        "csCsis": [
+          {
+            "csLongName": "Type of Category",
+            "csDefinition": "Type of Category",
+            "csiName": "Cytogenetics",
+            "csiType": "CATEGORY_TYPE",
+            "csId": "2008589",
+            "csVersion": 2.0,
+            "formattedCsVersion": "2.0",
+            "csiId": 2811952,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "TYPE OF USAGE",
+            "csDefinition": "Type of Usage",
+            "csiName": "CLINICAL TRIALS",
+            "csiType": "USAGE_TYPE",
+            "csId": "2008588",
+            "csVersion": 2.0,
+            "formattedCsVersion": "2.0",
+            "csiId": 2811782,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "CRF Disease",
+            "csDefinition": "this scheme is used to classify by disease case report forms and their associated data elements.  Assignments to this scheme should not be made manually but occur through use of the CRF Loader and the CRT.",
+            "csiName": "Leukemia",
+            "csiType": "DISEASE_TYPE",
+            "csId": "2857165",
+            "csVersion": 2.31,
+            "formattedCsVersion": "2.31",
+            "csiId": 2811909,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "Type of Disease",
+            "csDefinition": "Type of Disease",
+            "csiName": "Leukemia",
+            "csiType": "DISEASE_TYPE",
+            "csId": "2008587",
+            "csVersion": 2.0,
+            "formattedCsVersion": "2.0",
+            "csiId": 2811909,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "Trial Type Usages (CDE Disease Committees)",
+            "csDefinition": "Trial Type Usages (CDE Disease Committees)",
+            "csiName": "Pathology Leukemia",
+            "csiType": "TRIAL_TYPE_USAGE",
+            "csId": "2008594",
+            "csVersion": 2.31,
+            "formattedCsVersion": "2.31",
+            "csiId": 2811935,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          },
+          {
+            "csLongName": "CRF Trial Type Usage",
+            "csDefinition": "this scheme is used to classify by trial type usage case report forms and their associated data elements.  Assignments to this scheme should not be made manually but occur through use of the CRF Loader and the CRT.",
+            "csiName": "AML Relapse/Refract",
+            "csiType": "TRIAL_TYPE_USAGE",
+            "csId": "2857166",
+            "csVersion": 2.31,
+            "formattedCsVersion": "2.31",
+            "csiId": 2811922,
+            "csiVersion": 1.0,
+            "formattedCsiVersion": "1.0",
+            "hide": null,
+            "usedByAlternateNames": null,
+            "alternateNames": null,
+            "alternateDefinitions": null
+          }
+        ]
+      }
+    ]
+  },
+  "dataElementConcept": {
+    "selectedDataElement": {
+      "publicId": 64523,
+      "version": 4.0,
+      "formattedVersion": "4.0",
+      "longName": "Fluorescence in situ Hybridization Cytogenetics Metaphase Nucleus Result Count",
+      "shortName": "FIS_CYT_MPNUC_RES_CT",
+      "preferredQuestionText": "Total Number of Metaphases",
+      "definition": "a numeric value counting cell nuclei (organelles) captured in the second phase of mitosis as an outcome from a lab procedure to map chromosomes using fluorescent tags and detect abnormalities.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementConceptDetails": {
+      "publicId": 2191352,
+      "version": 2.0,
+      "formattedVersion": "2.0",
+      "longName": "Fluorescence in situ Hybridization Cytogenetics Metaphase Nucleus Result",
+      "shortName": "FISH_CYTO_MP_NUC_RES",
+      "definition": "related to cell nuclei (organelles) seen in the second phase of mitosis as the outcome from a lab procedure to map chromosomes using fluorescent tags and detect abnormalities.",
+      "context": "CTEP",
+      "workflowStatus": "RELEASED",
+      "conceptualDomainPublicId": 2008557,
+      "conceptualDomainShortName": "LAB_RESULTS",
+      "conceptualDomainLongName": "Lab Results",
+      "conceptualDomainRegStatus": null,
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainVersion": "1.0",
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": null
+    },
+    "objectClass": {
+      "publicId": 2497514,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Fluorescence in situ Hybridization Cytogenetics",
+      "shortName": "C17563:C16487",
+      "context": "NCIP",
+      "qualifier": "Fluorescence in situ Hybridiza"
+    },
+    "objectClassConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Fluorescence in Situ Hybridization",
+        "conceptCode": "C17563",
+        "publicId": "2221360",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Cytogenetics",
+        "conceptCode": "C16487",
+        "publicId": "2202727",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "property": {
+      "publicId": 2497519,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Metaphase Nucleus Result",
+      "shortName": "C16846:C13197:C20200",
+      "context": "NCIP",
+      "qualifier": null
+    },
+    "propertyConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Metaphase Process",
+        "conceptCode": "C16846",
+        "publicId": "2466367",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Nucleus",
+        "conceptCode": "C13197",
+        "publicId": "2205292",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "No",
+        "dateCreated": null,
+        "dateModified": null
+      },
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Outcome",
+        "conceptCode": "C20200",
+        "publicId": "2203785",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "alternateNames": [],
+    "alternateDefinitions": []
+  },
+  "valueDomain": {
+    "selectedDataElement": {
+      "publicId": 64523,
+      "version": 4.0,
+      "formattedVersion": "4.0",
+      "longName": "Fluorescence in situ Hybridization Cytogenetics Metaphase Nucleus Result Count",
+      "shortName": "FIS_CYT_MPNUC_RES_CT",
+      "preferredQuestionText": "Total Number of Metaphases",
+      "definition": "a numeric value counting cell nuclei (organelles) captured in the second phase of mitosis as an outcome from a lab procedure to map chromosomes using fluorescent tags and detect abnormalities.",
+      "workflowStatus": "RELEASED"
+    },
+    "valueDomainDetails": {
+      "publicId": 2191351,
+      "version": 2.0,
+      "formattedVersion": "2.0",
+      "longName": "Fluorescence in situ Hybridization Cytogenetics Nucleus Result Count",
+      "shortName": "FISH_CYTO_NUC_RES_CT",
+      "context": "CTEP",
+      "definition": "a numeric value counting the organelles within cells that contain genetic material as an outcome from a laboratory procedure which maps chromosomes using fluorescent tags to detect abnormalities.",
+      "workflowStatus": "RELEASED",
+      "registrationStatus": "Qualified",
+      "dataType": "NUMBER",
+      "unitOfMeasure": null,
+      "displayFormat": null,
+      "maximumLength": 5,
+      "minimumLength": 1,
+      "decimalPlace": null,
+      "highValue": null,
+      "lowValue": null,
+      "valueDomainType": "N",
+      "conceptualDomainPublicId": 2008557,
+      "conceptualDomainShortName": "LAB_RESULTS",
+      "conceptualDomainContextName": "CTEP",
+      "conceptualDomainLongName": "Lab Results",
+      "conceptualDomainVersion": 1.0,
+      "formattedConceptualDomainVersion": "1.0",
+      "origin": "CTEP CDE Committee",
+      "vdRegistrationStatus": null
+    },
+    "valueDomainConcepts": null,
+    "representation": {
+      "publicId": 2184284,
+      "version": 1.0,
+      "formattedVersion": "1.0",
+      "longName": "Count",
+      "shortName": "Count",
+      "context": "CTEP"
+    },
+    "representationConcepts": [
+      {
+        "createdBy": null,
+        "modifiedBy": null,
+        "formattedVersion": null,
+        "conceptName": "Count",
+        "conceptCode": "C25463",
+        "publicId": "2202368",
+        "definitionSource": "NCI",
+        "evsSource": "NCI_CONCEPT_CODE",
+        "primary": "Yes",
+        "dateCreated": null,
+        "dateModified": null
+      }
+    ],
+    "permissibleValues": [],
+    "permissibleValueExtList": null,
+    "valueMeaning": [],
+    "valueDomainReferenceDocuments": []
+  },
+  "classifications": {
+    "selectedDataElement": {
+      "publicId": 64523,
+      "version": 4.0,
+      "formattedVersion": "4.0",
+      "longName": "Fluorescence in situ Hybridization Cytogenetics Metaphase Nucleus Result Count",
+      "shortName": "FIS_CYT_MPNUC_RES_CT",
+      "preferredQuestionText": "Total Number of Metaphases",
+      "definition": "a numeric value counting cell nuclei (organelles) captured in the second phase of mitosis as an outcome from a lab procedure to map chromosomes using fluorescent tags and detect abnormalities.",
+      "workflowStatus": "RELEASED"
+    },
+    "classificationList": [
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Type of Category",
+        "csDefinition": "Type of Category",
+        "csiName": "Cytogenetics",
+        "csiType": "CATEGORY_TYPE",
+        "csId": "2008589",
+        "csVersion": 2.0,
+        "formattedCsVersion": "2.0",
+        "csiId": 2811952,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TYPE OF USAGE",
+        "csDefinition": "Type of Usage",
+        "csiName": "CLINICAL TRIALS",
+        "csiType": "USAGE_TYPE",
+        "csId": "2008588",
+        "csVersion": 2.0,
+        "formattedCsVersion": "2.0",
+        "csiId": 2811782,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "CRF Disease",
+        "csDefinition": "this scheme is used to classify by disease case report forms and their associated data elements.  Assignments to this scheme should not be made manually but occur through use of the CRF Loader and the CRT.",
+        "csiName": "Leukemia",
+        "csiType": "DISEASE_TYPE",
+        "csId": "2857165",
+        "csVersion": 2.31,
+        "formattedCsVersion": "2.31",
+        "csiId": 2811909,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Type of Disease",
+        "csDefinition": "Type of Disease",
+        "csiName": "Leukemia",
+        "csiType": "DISEASE_TYPE",
+        "csId": "2008587",
+        "csVersion": 2.0,
+        "formattedCsVersion": "2.0",
+        "csiId": 2811909,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Trial Type Usages (CDE Disease Committees)",
+        "csDefinition": "Trial Type Usages (CDE Disease Committees)",
+        "csiName": "Pathology Leukemia",
+        "csiType": "TRIAL_TYPE_USAGE",
+        "csId": "2008594",
+        "csVersion": 2.31,
+        "formattedCsVersion": "2.31",
+        "csiId": 2811935,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "CRF Trial Type Usage",
+        "csDefinition": "this scheme is used to classify by trial type usage case report forms and their associated data elements.  Assignments to this scheme should not be made manually but occur through use of the CRF Loader and the CRT.",
+        "csiName": "AML Relapse/Refract",
+        "csiType": "TRIAL_TYPE_USAGE",
+        "csId": "2857166",
+        "csVersion": 2.31,
+        "formattedCsVersion": "2.31",
+        "csiId": 2811922,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      }
+    ],
+    "classificationsSchemeReferenceDocuments": [],
+    "classificationsSchemeItemReferenceDocuments": []
+  },
+  "usage": {
+    "selectedDataElement": {
+      "publicId": 64523,
+      "version": 4.0,
+      "formattedVersion": "4.0",
+      "longName": "Fluorescence in situ Hybridization Cytogenetics Metaphase Nucleus Result Count",
+      "shortName": "FIS_CYT_MPNUC_RES_CT",
+      "preferredQuestionText": "Total Number of Metaphases",
+      "definition": "a numeric value counting cell nuclei (organelles) captured in the second phase of mitosis as an outcome from a lab procedure to map chromosomes using fluorescent tags and detect abnormalities.",
+      "workflowStatus": "RELEASED"
+    },
+    "formUsages": [
+      {
+        "protocolNumber": "N/A",
+        "leadOrg": "N/A",
+        "formName": "Leukemia Pathology Form - Cytogenetics",
+        "questionName": "Total Number of Metaphases",
+        "formUsageType": "TEMPLATE",
+        "publicId": 2019350,
+        "version": 3.0,
+        "formattedVersion": "3.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=1B4D83AE-8665-6A50-E044-0003BA3F9857",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      }
+    ]
+  },
+  "dataElementDerivation": {
+    "selectedDataElement": {
+      "publicId": 64523,
+      "version": 4.0,
+      "formattedVersion": "4.0",
+      "longName": "Fluorescence in situ Hybridization Cytogenetics Metaphase Nucleus Result Count",
+      "shortName": "FIS_CYT_MPNUC_RES_CT",
+      "preferredQuestionText": "Total Number of Metaphases",
+      "definition": "a numeric value counting cell nuclei (organelles) captured in the second phase of mitosis as an outcome from a lab procedure to map chromosomes using fluorescent tags and detect abnormalities.",
+      "workflowStatus": "RELEASED"
+    },
+    "dataElementDerivationDetails": null,
+    "dataElementDerivationComponentModels": null
+  },
+  "adminInfo": {
+    "createdBy": "PWEST",
+    "dateCreated": "2006-07-20",
+    "modifiedBy": "TSESU",
+    "dateModified": "2018-07-02",
+    "vdCreatedBy": "PWEST",
+    "vdOwnedBy": "CTEP",
+    "vdDateCreated": "2006-07-20",
+    "vdDateModified": "2006-07-20",
+    "decCreatedBy": "PWEST",
+    "decOwnedBy": "CTEP",
+    "decDateCreated": "2006-07-20",
+    "decDateModified": "2016-06-06",
+    "organization": null,
+    "selectedDataElement": {
+      "publicId": 64523,
+      "version": 4.0,
+      "formattedVersion": "4.0",
+      "longName": "Fluorescence in situ Hybridization Cytogenetics Metaphase Nucleus Result Count",
+      "shortName": "FIS_CYT_MPNUC_RES_CT",
+      "preferredQuestionText": "Total Number of Metaphases",
+      "definition": "a numeric value counting cell nuclei (organelles) captured in the second phase of mitosis as an outcome from a lab procedure to map chromosomes using fluorescent tags and detect abnormalities.",
+      "workflowStatus": "RELEASED"
+    },
+    "changeNote": "updated to make association to correct EVS terms"
+  }
+}
