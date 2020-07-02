@@ -19,8 +19,9 @@ if ( __name__ == '__main__' ):
       perferred=data['dataElementConcept']['selectedDataElement']['preferredQuestionText']
       elementDefinition=data['dataElementConcept']['selectedDataElement']['definition']
       conceptDefinition=data['dataElementConcept']['dataElementConceptDetails']['definition']
-      print(publicId,perferred,elementDefinition,conceptDefinition,sep='\t')
+      
     except TypeError: 
-        continue
-
+      continue
+    
+    print(publicId,perferred,elementDefinition,conceptDefinition,sep='\t')
 
