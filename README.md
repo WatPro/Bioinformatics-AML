@@ -22,7 +22,7 @@ tar --extract --file="${folder_working}${download_filename}" --directory="${fold
 
 ```
 
-## Get CDE Dictionary
+## Common Data Element Dictionary
 
 ```bash
 folder_data='03clinicalData/'
@@ -80,7 +80,7 @@ cat "${folder_processed}list_cde_id.tsv" |
   while read -r line 
   do
     api_query="${api_cdelink/__cde__/$line}"
-    jsonpath="${folder_processed}publicId_${line}.json"
+    jsonpath="${folder_processed}publicId_${line}_1.json"
     curl --output "${jsonpath}" "${api_query}"
   done 
 
@@ -102,7 +102,6 @@ ls ${folder_processed}*.json |
     filename="CommonDataElement_${cde}.json"
     python3 "${folder_processed}script_get_pretty_json.py" "${line}" > "${folder_processed}${filename}"
   done
-
 
 ```
 
