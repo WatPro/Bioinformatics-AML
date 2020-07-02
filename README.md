@@ -103,5 +103,9 @@ ls ${folder_processed}*.json |
     python3 "${folder_processed}script_get_pretty_json.py" "${line}" > "${folder_processed}${filename}"
   done
 
+ls ${folder_processed}CommonDataElement_*.json |
+  python3 "${folder_processed}script_get_definition.py" > "${folder_processed}list_dictionary.tsv"
+
+
 ```
 
