@@ -1,0 +1,26 @@
+{
+    "filters":{
+        "op":"and",
+        "content":[
+            {
+                "op":"=",
+                "content":{
+                    "field":"cases.project.project_id",
+                    "value":"TCGA-LAML"
+                }
+            },
+            {
+                "op":"=",
+                "content":{
+                    "field":"files.data_category",
+                    "value":"clinical"
+                }
+            }
+        ]
+    },
+    "format":"json",
+    "pretty":"true",
+    "size":"1000",
+    "from":"0",
+    "sort":"file_name:asc"
+}
