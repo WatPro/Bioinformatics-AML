@@ -25,7 +25,7 @@ class ContentHandler( xml.sax.ContentHandler ):
     if 'cde' in attributes: 
       self.CommonDataElement = attributes['cde']
     if 'cde_ver' in attributes: 
-      self.CommonDataElement = attributes['cde_ver']
+      self.CDE_version       = attributes['cde_ver']
     if tag == 'laml:patient':
       self.isBody = True 
   
