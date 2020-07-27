@@ -2,20 +2,20 @@
   "dataElement": {
     "dataElementDetails": {
       "publicId": 3121575,
-      "version": 1.0,
-      "formattedVersion": "1.0",
+      "version": 2.0,
+      "formattedVersion": "2.0",
       "longName": "Disease Detection Molecular Analysis Method Type",
-      "shortName": "2770350v1.0:3121569v1.0",
+      "shortName": "DZ_DET_ANLY_METH_TP",
       "preferredQuestionText": "Type of analysis",
-      "definition": "Text descriptor of a molecular analysis method used for an individual.",
+      "definition": "Classification of a molecular analysis method used for an analysis.",
       "valueDomain": "Molecular Analysis Type",
       "dataElementConcept": "Disease Detection Molecular Analysis Method",
       "context": "NCIP",
-      "workflowStatus": "RETIRED ARCHIVED",
-      "origin": null,
-      "registrationStatus": null,
+      "workflowStatus": "RELEASED",
+      "origin": "TCGA:The Cancer Genome Atlas",
+      "registrationStatus": "Qualified",
       "directLink": "STILL NEED TO Create rest service and Link",
-      "id": "8B5C8518-EA0F-522C-E040-BB89AD43153D"
+      "id": "CEDC4530-11E2-941F-E040-BB89AD4362A6"
     },
     "questionTextReferenceDocuments": [
       {
@@ -26,10 +26,59 @@
         "url": null
       },
       {
+        "documentName": "COG CRF Text 1",
+        "documentType": "Alternate Question Text",
+        "documentText": "If yes, what type of testing was performed?",
+        "context": "COG",
+        "url": null
+      },
+      {
+        "documentName": "COG CRF TEXT 2",
+        "documentType": "Alternate Question Text",
+        "documentText": "What type of testing was performed?",
+        "context": "COG",
+        "url": null
+      },
+      {
+        "documentName": "If yes, what type of method is used to generate data?",
+        "documentType": "Alternate Question Text",
+        "documentText": "If yes, what type of method is used to generate data?",
+        "context": "Theradex",
+        "url": null
+      },
+      {
         "documentName": "Method",
         "documentType": "Alternate Question Text",
         "documentText": "Method",
         "context": "DCP",
+        "url": null
+      },
+      {
+        "documentName": "NRG_CRF_TEXT1",
+        "documentType": "Alternate Question Text",
+        "documentText": "Positive ALK rearrangement method used",
+        "context": "NRG",
+        "url": null
+      },
+      {
+        "documentName": "Princess Marg-1",
+        "documentType": "Alternate Question Text",
+        "documentText": "Molecular test",
+        "context": "NCIP",
+        "url": null
+      },
+      {
+        "documentName": "Theradex - 1",
+        "documentType": "Alternate Question Text",
+        "documentText": "Method of Detection",
+        "context": "Theradex",
+        "url": null
+      },
+      {
+        "documentName": "Theradex - 2",
+        "documentType": "Alternate Question Text",
+        "documentText": "Test performed",
+        "context": "Theradex",
         "url": null
       }
     ],
@@ -40,72 +89,50 @@
       "hide": true,
       "usedByAlternateNames": [
         {
+          "name": "NRG",
+          "type": "USED_BY",
+          "context": "NRG",
+          "language": "ENGLISH"
+        },
+        {
           "name": "DCP",
           "type": "USED_BY",
           "context": "DCP",
           "language": "ENGLISH"
+        },
+        {
+          "name": "Theradex",
+          "type": "USED_BY",
+          "context": "Theradex",
+          "language": "ENGLISH"
+        },
+        {
+          "name": "COG",
+          "type": "USED_BY",
+          "context": "COG",
+          "language": "ENGLISH"
         }
       ],
-      "alternateNames": [],
+      "alternateNames": [
+        {
+          "name": "disease_detection_molecular_analysis_method_type",
+          "type": "TCGA_XML_Name",
+          "context": "NCIP",
+          "language": "ENGLISH",
+          "csCsi": null
+        }
+      ],
       "alternateDefinitions": []
     },
     "otherVersions": [
       {
-        "version": 2.0,
-        "formattedVersion": "2.0",
+        "version": 1.0,
+        "formattedVersion": "1.0",
         "longName": "Disease Detection Molecular Analysis Method Type",
-        "workFlowStatus": "RELEASED",
-        "registrationStatus": "Qualified",
+        "workFlowStatus": "RETIRED ARCHIVED",
+        "registrationStatus": "Standard",
         "context": "NCIP",
         "csCsis": [
-          {
-            "csLongName": "Consortia 2012 Studies",
-            "csDefinition": "CDEs for the new consortia 2012-2013 studies.",
-            "csiName": "MDA2014-04-02",
-            "csiType": "TRIAL_TYPE_USAGE",
-            "csId": "3896529",
-            "csVersion": 1.0,
-            "formattedCsVersion": "1.0",
-            "csiId": 5441476,
-            "csiVersion": 1.0,
-            "formattedCsiVersion": "1.0",
-            "hide": null,
-            "usedByAlternateNames": null,
-            "alternateNames": null,
-            "alternateDefinitions": null
-          },
-          {
-            "csLongName": "Consortia 2012 Studies",
-            "csDefinition": "CDEs for the new consortia 2012-2013 studies.",
-            "csiName": "MDA2014-04-01",
-            "csiType": "TRIAL_TYPE_USAGE",
-            "csId": "3896529",
-            "csVersion": 1.0,
-            "formattedCsVersion": "1.0",
-            "csiId": 5598962,
-            "csiVersion": 1.0,
-            "formattedCsiVersion": "1.0",
-            "hide": null,
-            "usedByAlternateNames": null,
-            "alternateNames": null,
-            "alternateDefinitions": null
-          },
-          {
-            "csLongName": "TCGA (The Cancer Genome Atlas)",
-            "csDefinition": "Collection of CDEs related to TCGA.",
-            "csiName": "Active CDEs as of March 2017",
-            "csiType": "GROUP_TYPE",
-            "csId": "2756809",
-            "csVersion": 1.0,
-            "formattedCsVersion": "1.0",
-            "csiId": 6044923,
-            "csiVersion": 1.0,
-            "formattedCsiVersion": "1.0",
-            "hide": null,
-            "usedByAlternateNames": null,
-            "alternateNames": null,
-            "alternateDefinitions": null
-          },
           {
             "csLongName": "Type of Condition",
             "csDefinition": "Type of Condition",
@@ -121,38 +148,6 @@
             "usedByAlternateNames": null,
             "alternateNames": null,
             "alternateDefinitions": null
-          },
-          {
-            "csLongName": "TCGA 2.6 by Namespace",
-            "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
-            "csiName": "clinical laml",
-            "csiType": "GROUP_TYPE",
-            "csId": "3787524",
-            "csVersion": 1.0,
-            "formattedCsVersion": "1.0",
-            "csiId": 3787540,
-            "csiVersion": 1.0,
-            "formattedCsiVersion": "1.0",
-            "hide": null,
-            "usedByAlternateNames": null,
-            "alternateNames": null,
-            "alternateDefinitions": null
-          },
-          {
-            "csLongName": "TCGA 2.6 by Disease",
-            "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
-            "csiName": "LAML",
-            "csiType": "DISEASE_TYPE",
-            "csId": "3787498",
-            "csVersion": 1.0,
-            "formattedCsVersion": "1.0",
-            "csiId": 3787509,
-            "csiVersion": 1.0,
-            "formattedCsiVersion": "1.0",
-            "hide": null,
-            "usedByAlternateNames": null,
-            "alternateNames": null,
-            "alternateDefinitions": null
           }
         ]
       }
@@ -161,13 +156,13 @@
   "dataElementConcept": {
     "selectedDataElement": {
       "publicId": 3121575,
-      "version": 1.0,
-      "formattedVersion": "1.0",
+      "version": 2.0,
+      "formattedVersion": "2.0",
       "longName": "Disease Detection Molecular Analysis Method Type",
-      "shortName": "2770350v1.0:3121569v1.0",
+      "shortName": "DZ_DET_ANLY_METH_TP",
       "preferredQuestionText": "Type of analysis",
-      "definition": "Text descriptor of a molecular analysis method used for an individual.",
-      "workflowStatus": "RETIRED ARCHIVED"
+      "definition": "Classification of a molecular analysis method used for an analysis.",
+      "workflowStatus": "RELEASED"
     },
     "dataElementConceptDetails": {
       "publicId": 2770350,
@@ -275,28 +270,28 @@
   "valueDomain": {
     "selectedDataElement": {
       "publicId": 3121575,
-      "version": 1.0,
-      "formattedVersion": "1.0",
+      "version": 2.0,
+      "formattedVersion": "2.0",
       "longName": "Disease Detection Molecular Analysis Method Type",
-      "shortName": "2770350v1.0:3121569v1.0",
+      "shortName": "DZ_DET_ANLY_METH_TP",
       "preferredQuestionText": "Type of analysis",
-      "definition": "Text descriptor of a molecular analysis method used for an individual.",
-      "workflowStatus": "RETIRED ARCHIVED"
+      "definition": "Classification of a molecular analysis method used for an analysis.",
+      "workflowStatus": "RELEASED"
     },
     "valueDomainDetails": {
       "publicId": 3121569,
-      "version": 1.0,
-      "formattedVersion": "1.0",
+      "version": 2.0,
+      "formattedVersion": "2.0",
       "longName": "Molecular Analysis Type",
-      "shortName": "3121569v1.0",
+      "shortName": "MOL_ANLY_TP",
       "context": "NCIP",
       "definition": "A laboratory procedure that involves the study of tissues, cells, and fluids using DNA/RNA analysis techniques for the identification of characteristics and abnormalities at the molecular level._Type; a subdivision of a particular kind of thing.",
-      "workflowStatus": "RETIRED ARCHIVED",
-      "registrationStatus": null,
+      "workflowStatus": "RELEASED",
+      "registrationStatus": "Qualified",
       "dataType": "CHARACTER",
       "unitOfMeasure": null,
       "displayFormat": null,
-      "maximumLength": 8,
+      "maximumLength": 20,
       "minimumLength": null,
       "decimalPlace": null,
       "highValue": null,
@@ -350,7 +345,32 @@
     ],
     "permissibleValues": [
       {
-        "createdBy": "WHITES",
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "3292EEC4-49C6-D1A2-E050-BB89AD437087",
+        "value": "Cytogenetics",
+        "shortMeaning": "Cytogenetics",
+        "meaningDescription": "The branch of biology that studies the cellular aspects of heredity, especially the chromosomes. Includes the study of disease states caused by numerical and structural chromosome abnormalities.",
+        "beginDate": 1462939200000,
+        "beginDateString": "2016-05-11",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "3292EEC4-49B7-D1A2-E050-BB89AD437087",
+        "conceptCode": "C16487",
+        "conceptCodeArray": [
+          "C16487"
+        ],
+        "vmDescription": "The branch of biology that studies the cellular aspects of heredity, especially the chromosomes. Includes the study of disease states caused by numerical and structural chromosome abnormalities.",
+        "vmId": "5255755",
+        "vmVersion": "1",
+        "dateCreated": 1462939200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
         "modifiedBy": null,
         "formattedVersion": "1.0",
         "pvIdseq": "21206903-D754-5F67-E044-0003BA3F9857",
@@ -371,11 +391,36 @@
         "vmDescription": "A type of IN SITU HYBRIDIZATION in which target sequences are stained with fluorescent dye so their location and size can be determined using fluorescence microscopy. This staining is sufficiently distinct that the hybridization signal can be seen both in metaphase spreads and in interphase nuclei.",
         "vmId": "2581337",
         "vmVersion": "1",
-        "dateCreated": 1284955200000,
+        "dateCreated": 1353342712000,
         "dateModified": null
       },
       {
-        "createdBy": "WHITES",
+        "createdBy": "MAESKEB",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "7F6AE9B9-9579-559F-E040-BB89AD437EAB",
+        "value": "Flow cytometry",
+        "shortMeaning": "Flow Cytometry",
+        "meaningDescription": "A technique for counting, examining and sorting microscopic particles suspended in a stream of fluid.",
+        "beginDate": 1556078400000,
+        "beginDateString": "2019-04-24",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "7BCD2B56-10AD-3667-E040-BB89AD436539",
+        "conceptCode": "C16585",
+        "conceptCodeArray": [
+          "C16585"
+        ],
+        "vmDescription": "A technique for counting, examining and sorting microscopic particles suspended in a stream of fluid.",
+        "vmId": "2974014",
+        "vmVersion": "1",
+        "dateCreated": 1556078400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
         "modifiedBy": null,
         "formattedVersion": "1.0",
         "pvIdseq": "82F6B5AD-39A3-79F8-E040-BB89AD430E7D",
@@ -396,7 +441,108 @@
         "vmDescription": "Immunohistochemical staining techniques allow for the visualization of antigens via the sequential application of a specific antibody to the antigen (primary antibody), a secondary antibody to the primary antibody and an enzyme complex with a chromogenic substrate. The enzymatic activation of the chromogen results in a visible reaction product at the antigen site. The specimen may then be counterstained and coverslipped. Results are interpreted using a light microscope and aid in the differential diagnosis of pathophysiological processes, which may or may not be associated with a particular antigen.",
         "vmId": "3031358",
         "vmVersion": "1",
-        "dateCreated": 1284955200000,
+        "dateCreated": 1353342712000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "3292EEC4-49E9-D1A2-E050-BB89AD437087",
+        "value": "Karyotype",
+        "shortMeaning": "Karyotype",
+        "meaningDescription": "The assessment of the chromosomal morphology and number in somatic cells of an individual.",
+        "beginDate": 1462939200000,
+        "beginDateString": "2016-05-11",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "3292EEC4-49DA-D1A2-E050-BB89AD437087",
+        "conceptCode": "C25215",
+        "conceptCodeArray": [
+          "C25215"
+        ],
+        "vmDescription": "The assessment of the chromosomal morphology and number in somatic cells of an individual.",
+        "vmId": "5255756",
+        "vmVersion": "1",
+        "dateCreated": 1462939200000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "SOKKERL",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "CFC6E87F-3945-6F4D-E034-0003BA12F5E7",
+        "value": "Molecular",
+        "shortMeaning": "Molecular",
+        "meaningDescription": "relating to or produced by or consisting of molecules.",
+        "beginDate": 1569902400000,
+        "beginDateString": "2019-10-01",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "2509CE87-D6EE-5C23-E044-0003BA3F9857",
+        "conceptCode": "C25574",
+        "conceptCodeArray": [
+          "C25574"
+        ],
+        "vmDescription": "relating to or produced by or consisting of molecules.",
+        "vmId": "2568065",
+        "vmVersion": "1",
+        "dateCreated": 1569902400000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "00760948-0C2C-42C2-E050-BB89AD434284",
+        "value": "NGS",
+        "shortMeaning": "Next Generation Sequencing",
+        "meaningDescription": "Technologies that facilitate the rapid determination of the DNA sequence of large numbers of strands or segments of DNA.",
+        "beginDate": 1407816000000,
+        "beginDateString": "2014-08-12",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "00760948-0C1D-42C2-E050-BB89AD434284",
+        "conceptCode": "C101293",
+        "conceptCodeArray": [
+          "C101293"
+        ],
+        "vmDescription": "Technologies that facilitate the rapid determination of the DNA sequence of large numbers of strands or segments of DNA.",
+        "vmId": "4448577",
+        "vmVersion": "1",
+        "dateCreated": 1407816000000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "REEVESD",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "CEDC4530-11CA-941F-E040-BB89AD4362A6",
+        "value": "Nuclear Staining",
+        "shortMeaning": "Nuclear Staining",
+        "meaningDescription": "Pertaining to the nucleus.: Discoloration of patient tissue(s) produced by absorption of, or contact with, foreign matter, such as with medical dyes.",
+        "beginDate": 1353301200000,
+        "beginDateString": "2012-11-19",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "CEDC4530-11BB-941F-E040-BB89AD4362A6",
+        "conceptCode": "C13361:C50753",
+        "conceptCodeArray": [
+          "C13361",
+          "C50753"
+        ],
+        "vmDescription": "Pertaining to the nucleus.: Discoloration of patient tissue(s) produced by absorption of, or contact with, foreign matter, such as with medical dyes.",
+        "vmId": "3628758",
+        "vmVersion": "1",
+        "dateCreated": 1353301200000,
         "dateModified": null
       },
       {
@@ -421,7 +567,58 @@
         "vmDescription": "Different than the one(s) previously specified or mentioned.",
         "vmId": "2946060",
         "vmVersion": "1",
-        "dateCreated": 1279080000000,
+        "dateCreated": 1353342712000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "COOPERM",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "648DAFC3-B41E-7875-E053-F662850A9289",
+        "value": "Other (specify)",
+        "shortMeaning": "Specify Other",
+        "meaningDescription": "Specify; be specific about something; define clearly.: Not otherwise specified.",
+        "beginDate": 1519275600000,
+        "beginDateString": "2018-02-22",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "53F45DBF-5E42-1D6F-E044-0003BA3F9857",
+        "conceptCode": "C25685:C17649",
+        "conceptCodeArray": [
+          "C25685",
+          "C17649"
+        ],
+        "vmDescription": "Be specific about something; define clearly.: Different than the one(s) previously specified or mentioned.",
+        "vmId": "2770998",
+        "vmVersion": "1",
+        "dateCreated": 1519275600000,
+        "dateModified": null
+      },
+      {
+        "createdBy": "MAESKEB",
+        "modifiedBy": null,
+        "formattedVersion": "1.0",
+        "pvIdseq": "874BA85D-C161-6E6A-E053-F662850ACEC5",
+        "value": "Polymerase chain reaction (PCR)",
+        "shortMeaning": "Polymerase Chain Reaction",
+        "meaningDescription": "method for reproducing specific DNA sequences based on elongation of complementary primers by DNA polymerase; primarily used to increase quantities for analytical detection of, e.g., virus genome.",
+        "beginDate": 1556078400000,
+        "beginDateString": "2019-04-24",
+        "endDate": null,
+        "endDateString": "",
+        "highValueNum": null,
+        "lowValueNum": null,
+        "vmIdseq": "A3158B0D-1572-9FBA-E040-BB89AD431012",
+        "conceptCode": "C17003",
+        "conceptCodeArray": [
+          "C17003"
+        ],
+        "vmDescription": "A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase.  This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample.",
+        "vmId": "3234683",
+        "vmVersion": "1",
+        "dateCreated": 1556078400000,
         "dateModified": null
       },
       {
@@ -446,7 +643,7 @@
         "vmDescription": "RT-PCR is short for reverse transcriptase-polymerase chain reaction. It is a technique in which an RNA strand is first transcribed into a DNA complement and then subjected to PCR amplification. Transcribing an RNA strand into a DNA complement is termed reverse transcription and is done by the enzyme reverse transcriptase. (from Wikipedia)",
         "vmId": "3121570",
         "vmVersion": "1",
-        "dateCreated": 1279080000000,
+        "dateCreated": 1353342712000,
         "dateModified": null
       },
       {
@@ -471,12 +668,21 @@
         "vmDescription": "A technique for the detection of specific DNA fragments that have been separated by polyacrylamide-gel electrophoresis, transferred to a nitrocellulose or other type of paper or nylon membrane, and detected by hybridization and visualization with a labeled probe.",
         "vmId": "3121572",
         "vmVersion": "1",
-        "dateCreated": 1279080000000,
+        "dateCreated": 1353342712000,
         "dateModified": null
       }
     ],
     "permissibleValueExtList": null,
     "valueMeaning": [
+      {
+        "pvIdseq": "3292EEC4-49C6-D1A2-E050-BB89AD437087",
+        "pvMeaning": "Cytogenetics",
+        "vmPublicId": "5255755",
+        "vmVersion": "1",
+        "vmIdseq": "3292EEC4-49B7-D1A2-E050-BB89AD437087",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
       {
         "pvIdseq": "21206903-D754-5F67-E044-0003BA3F9857",
         "pvMeaning": "Fluorescence in situ Hybridization",
@@ -492,6 +698,15 @@
             "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
           }
         ],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "7F6AE9B9-9579-559F-E040-BB89AD437EAB",
+        "pvMeaning": "Flow Cytometry",
+        "vmPublicId": "2974014",
+        "vmVersion": "1",
+        "vmIdseq": "7BCD2B56-10AD-3667-E040-BB89AD436539",
+        "alternateNames": [],
         "alternateDefinitions": []
       },
       {
@@ -516,6 +731,42 @@
             "conteIdseq": "46CABA5D-DAFF-6D24-E053-F662850A8A74"
           }
         ],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "3292EEC4-49E9-D1A2-E050-BB89AD437087",
+        "pvMeaning": "Karyotype",
+        "vmPublicId": "5255756",
+        "vmVersion": "1",
+        "vmIdseq": "3292EEC4-49DA-D1A2-E050-BB89AD437087",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "CFC6E87F-3945-6F4D-E034-0003BA12F5E7",
+        "pvMeaning": "Molecular",
+        "vmPublicId": "2568065",
+        "vmVersion": "1",
+        "vmIdseq": "2509CE87-D6EE-5C23-E044-0003BA3F9857",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "00760948-0C2C-42C2-E050-BB89AD434284",
+        "pvMeaning": "Next Generation Sequencing",
+        "vmPublicId": "4448577",
+        "vmVersion": "1",
+        "vmIdseq": "00760948-0C1D-42C2-E050-BB89AD434284",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "CEDC4530-11CA-941F-E040-BB89AD4362A6",
+        "pvMeaning": "Nuclear Staining",
+        "vmPublicId": "3628758",
+        "vmVersion": "1",
+        "vmIdseq": "CEDC4530-11BB-941F-E040-BB89AD4362A6",
+        "alternateNames": [],
         "alternateDefinitions": []
       },
       {
@@ -563,28 +814,28 @@
           {
             "name": "OTHER",
             "type": "OMOP Name",
-            "context": "PCORTF CDM",
+            "context": "CDMH Phase I",
             "language": "ENGLISH",
             "conteIdseq": "6CB969CC-DD4B-1016-E053-F662850A40C7"
           },
           {
             "name": "8521",
             "type": "OMOP Concept Id",
-            "context": "PCORTF CDM",
+            "context": "CDMH Phase I",
             "language": "ENGLISH",
             "conteIdseq": "6CB969CC-DD4B-1016-E053-F662850A40C7"
           },
           {
             "name": "Other",
             "type": "Sentinel Name",
-            "context": "PCORTF CDM",
+            "context": "CDMH Phase I",
             "language": "ENGLISH",
             "conteIdseq": "6CB969CC-DD4B-1016-E053-F662850A40C7"
           },
           {
             "name": "Other",
             "type": "PCORNet Name",
-            "context": "PCORTF CDM",
+            "context": "CDMH Phase I",
             "language": "ENGLISH",
             "conteIdseq": "6CB969CC-DD4B-1016-E053-F662850A40C7"
           },
@@ -601,6 +852,13 @@
             "context": "DCP",
             "language": "ENGLISH",
             "conteIdseq": "A932C6E7-82EE-67C2-E034-0003BA12F5E7"
+          },
+          {
+            "name": "Other, specify",
+            "type": "VM Alt Name",
+            "context": "NCIP",
+            "language": "ENGLISH",
+            "conteIdseq": "D9344734-8CAF-4378-E034-0003BA12F5E7"
           }
         ],
         "alternateDefinitions": [
@@ -612,6 +870,39 @@
             "conteIdseq": "C70EECD5-9998-2C9B-E034-0003BA12F5E7"
           }
         ]
+      },
+      {
+        "pvIdseq": "648DAFC3-B41E-7875-E053-F662850A9289",
+        "pvMeaning": "Specify Other",
+        "vmPublicId": "2770998",
+        "vmVersion": "1",
+        "vmIdseq": "53F45DBF-5E42-1D6F-E044-0003BA3F9857",
+        "alternateNames": [],
+        "alternateDefinitions": []
+      },
+      {
+        "pvIdseq": "874BA85D-C161-6E6A-E053-F662850ACEC5",
+        "pvMeaning": "Polymerase Chain Reaction",
+        "vmPublicId": "3234683",
+        "vmVersion": "1",
+        "vmIdseq": "A3158B0D-1572-9FBA-E040-BB89AD431012",
+        "alternateNames": [
+          {
+            "name": "PCR",
+            "type": "VM Alt Name",
+            "context": "CTEP",
+            "language": "ENGLISH",
+            "conteIdseq": "99BA9DC8-2095-4E69-E034-080020C9C0E0"
+          },
+          {
+            "name": "probe and target amplification",
+            "type": "Sentinel Name",
+            "context": "CDMH Phase I",
+            "language": "ENGLISH",
+            "conteIdseq": "6CB969CC-DD4B-1016-E053-F662850A40C7"
+          }
+        ],
+        "alternateDefinitions": []
       },
       {
         "pvIdseq": "8B5C8518-E9C2-522C-E040-BB89AD43153D",
@@ -645,13 +936,13 @@
   "classifications": {
     "selectedDataElement": {
       "publicId": 3121575,
-      "version": 1.0,
-      "formattedVersion": "1.0",
+      "version": 2.0,
+      "formattedVersion": "2.0",
       "longName": "Disease Detection Molecular Analysis Method Type",
-      "shortName": "2770350v1.0:3121569v1.0",
+      "shortName": "DZ_DET_ANLY_METH_TP",
       "preferredQuestionText": "Type of analysis",
-      "definition": "Text descriptor of a molecular analysis method used for an individual.",
-      "workflowStatus": "RETIRED ARCHIVED"
+      "definition": "Classification of a molecular analysis method used for an analysis.",
+      "workflowStatus": "RELEASED"
     },
     "classificationList": [
       {
@@ -669,6 +960,86 @@
         "usedByAlternateNames": null,
         "alternateNames": null,
         "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA (The Cancer Genome Atlas)",
+        "csDefinition": "Collection of CDEs related to TCGA.",
+        "csiName": "Active CDEs as of March 2017",
+        "csiType": "GROUP_TYPE",
+        "csId": "2756809",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 6044923,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Disease",
+        "csDefinition": "CDEs in TCGA Data files 2.6 listed by Disease-study area, includes the breast specific and the common TCGA CDEs.",
+        "csiName": "LAML",
+        "csiType": "DISEASE_TYPE",
+        "csId": "3787498",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787509,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "TCGA 2.6 by Namespace",
+        "csDefinition": "The nodes in this classification contain only the CDEs that are used within each specific TCGA namespace (xsd). ",
+        "csiName": "clinical laml",
+        "csiType": "GROUP_TYPE",
+        "csId": "3787524",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 3787540,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Consortia 2012 Studies",
+        "csDefinition": "CDEs for the new consortia 2012-2013 studies.",
+        "csiName": "MDA2014-04-02",
+        "csiType": "TRIAL_TYPE_USAGE",
+        "csId": "3896529",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 5441476,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
+      },
+      {
+        "csLongName": "Consortia 2012 Studies",
+        "csDefinition": "CDEs for the new consortia 2012-2013 studies.",
+        "csiName": "MDA2014-04-01",
+        "csiType": "TRIAL_TYPE_USAGE",
+        "csId": "3896529",
+        "csVersion": 1.0,
+        "formattedCsVersion": "1.0",
+        "csiId": 5598962,
+        "csiVersion": 1.0,
+        "formattedCsiVersion": "1.0",
+        "hide": null,
+        "usedByAlternateNames": null,
+        "alternateNames": null,
+        "alternateDefinitions": null
       }
     ],
     "classificationsSchemeReferenceDocuments": [],
@@ -677,39 +1048,265 @@
   "usage": {
     "selectedDataElement": {
       "publicId": 3121575,
-      "version": 1.0,
-      "formattedVersion": "1.0",
+      "version": 2.0,
+      "formattedVersion": "2.0",
       "longName": "Disease Detection Molecular Analysis Method Type",
-      "shortName": "2770350v1.0:3121569v1.0",
+      "shortName": "DZ_DET_ANLY_METH_TP",
       "preferredQuestionText": "Type of analysis",
-      "definition": "Text descriptor of a molecular analysis method used for an individual.",
-      "workflowStatus": "RETIRED ARCHIVED"
+      "definition": "Classification of a molecular analysis method used for an analysis.",
+      "workflowStatus": "RELEASED"
     },
-    "formUsages": []
+    "formUsages": [
+      {
+        "protocolNumber": "10264",
+        "leadOrg": "N/A",
+        "formName": "Cytogenetic Markers\t",
+        "questionName": "If yes, what type of method is used to generate data?",
+        "formUsageType": "CRF",
+        "publicId": 6973888,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=9463B44D-50B0-5829-E053-F662850A4C59",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "10273",
+        "leadOrg": "N/A",
+        "formName": " Cytogenetics including FISH and Molecular Mutation",
+        "questionName": "Test performed",
+        "formUsageType": "CRF",
+        "publicId": 6951361,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=93CB0347-8B86-3854-E053-F662850A92C9",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "10317",
+        "leadOrg": "N/A",
+        "formName": " Cytogenetics",
+        "questionName": "Test performed",
+        "formUsageType": "CRF",
+        "publicId": 7150571,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=9D25CFDD-3EE4-5F3A-E053-F662850A2640",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "AEWS1221",
+        "leadOrg": "COG",
+        "formName": "Translocation Testing",
+        "questionName": "If yes, what type of testing was performed?",
+        "formUsageType": "CRF",
+        "publicId": 5259444,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=329A709E-5C9E-28A0-E050-BB89AD4338CF",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "AEWS1221",
+        "leadOrg": "COG",
+        "formName": "Translocation Testing",
+        "questionName": "If yes, what type of testing was performed?",
+        "formUsageType": "CRF",
+        "publicId": 5259444,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=329A709E-5C9E-28A0-E050-BB89AD4338CF",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "N/A",
+        "leadOrg": "N/A",
+        "formName": " Cytogenetics including FISH and Molecular Mutation-1",
+        "questionName": "Test performed",
+        "formUsageType": "CRF",
+        "publicId": 7119262,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=9B3FADA2-C4CE-5F6D-E053-F662850A8080",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "N/A",
+        "leadOrg": "N/A",
+        "formName": " Cytogenetics including FISH and Molecular Mutation-2",
+        "questionName": "Test performed",
+        "formUsageType": "CRF",
+        "publicId": 7119231,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=9B3EE431-3719-3FD9-E053-F662850A3218",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "N/A",
+        "leadOrg": "N/A",
+        "formName": " Cytogenetics including FISH and Molecular Mutation-3",
+        "questionName": "Test performed",
+        "formUsageType": "CRF",
+        "publicId": 7119289,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=9B3FADA2-C512-5F6D-E053-F662850A8080",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      },
+      {
+        "protocolNumber": "NRG-LU003",
+        "leadOrg": "NRG",
+        "formName": "Eligibility Checklist",
+        "questionName": "Positive ALK rearrangement method used",
+        "formUsageType": "CRF",
+        "publicId": 6078593,
+        "version": 1.0,
+        "formattedVersion": "1.0",
+        "url": "https://formbuilder.nci.nih.gov/FormBuilder/formDetailsAction.do?method=getFormDetails&formIdSeq=65E3331A-4ED0-736B-E053-F662850A4280",
+        "formBuilderOptionsModel": {
+          "createdBy": "FORMBUILDER",
+          "modifiedBy": null,
+          "formattedVersion": null,
+          "toolIdseq": "5D8FEE68-5ACD-F0EA-E040-BB89A6433476",
+          "toolName": "FormBuilder",
+          "property": "URL",
+          "value": "https://formbuilder.nci.nih.gov",
+          "uaName": null,
+          "description": "The URL for the Form Builder Tool connected this caDSR database.",
+          "locale": "US",
+          "dateCreated": 1228768373000,
+          "dateModified": null
+        }
+      }
+    ]
   },
   "dataElementDerivation": {
     "selectedDataElement": {
       "publicId": 3121575,
-      "version": 1.0,
-      "formattedVersion": "1.0",
+      "version": 2.0,
+      "formattedVersion": "2.0",
       "longName": "Disease Detection Molecular Analysis Method Type",
-      "shortName": "2770350v1.0:3121569v1.0",
+      "shortName": "DZ_DET_ANLY_METH_TP",
       "preferredQuestionText": "Type of analysis",
-      "definition": "Text descriptor of a molecular analysis method used for an individual.",
-      "workflowStatus": "RETIRED ARCHIVED"
+      "definition": "Classification of a molecular analysis method used for an analysis.",
+      "workflowStatus": "RELEASED"
     },
     "dataElementDerivationDetails": null,
     "dataElementDerivationComponentModels": null
   },
   "adminInfo": {
     "createdBy": "REEVESD",
-    "dateCreated": "2010-07-14",
-    "modifiedBy": "REEVESD",
-    "dateModified": "2012-11-19",
+    "dateCreated": "2012-11-19",
+    "modifiedBy": "SOKKERL",
+    "dateModified": "2020-04-27",
     "vdCreatedBy": "REEVESD",
     "vdOwnedBy": "NCIP",
-    "vdDateCreated": "2010-07-14",
-    "vdDateModified": "2012-11-19",
+    "vdDateCreated": "2012-11-19",
+    "vdDateModified": "2019-10-01",
     "decCreatedBy": "COOPERM",
     "decOwnedBy": "NHLBI",
     "decDateCreated": "2008-08-06",
@@ -717,14 +1314,14 @@
     "organization": null,
     "selectedDataElement": {
       "publicId": 3121575,
-      "version": 1.0,
-      "formattedVersion": "1.0",
+      "version": 2.0,
+      "formattedVersion": "2.0",
       "longName": "Disease Detection Molecular Analysis Method Type",
-      "shortName": "2770350v1.0:3121569v1.0",
+      "shortName": "DZ_DET_ANLY_METH_TP",
       "preferredQuestionText": "Type of analysis",
-      "definition": "Text descriptor of a molecular analysis method used for an individual.",
-      "workflowStatus": "RETIRED ARCHIVED"
+      "definition": "Classification of a molecular analysis method used for an analysis.",
+      "workflowStatus": "RELEASED"
     },
-    "changeNote": "Curated for The Cancer Genome Atlas (TCGA) by request of T. Lichtenberg 7/2010. Retired and replaced by v2.0 that uses a versioned VD to increase the maximum field length from 8 to 20 characters."
+    "changeNote": "Curated for The Cancer Genome Atlas (TCGA) by request of T. Lichtenberg 7/2010. v2.0 replaces v1.0 with a version VD that extends the maximum field length from 8 to 20 characters."
   }
 }
